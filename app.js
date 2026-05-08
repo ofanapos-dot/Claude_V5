@@ -15,7 +15,7 @@
 
 // ===== KONFIGURASI =====
 const CONFIG = {
-  DATA_URL: './output/latest.json',
+  DATA_URL: 'https://raw.githubusercontent.com/ofanapos-dot/Claude_v5/main/output/latest.json',
   USE_DUMMY_ON_FAIL: true,
   MAP_CENTER: [-0.7399, 100.8000],
   MAP_ZOOM: 8,
