@@ -199,8 +199,9 @@ function updateStats(data) {
   setText('update-time', `Update: ${m.waktu_generate || '—'}`);
 
   // Info header
-  setText('metaInfo', `${m.total_pos} Pos · ${m.pos_aktif_hari_ini || 0} aktif hari ini · ${m.pos_terlambat || 0} terlambat`);
-
+  const tgl = new Date(m.tanggal_analisis + 'T00:00:00').toLocaleDateString('id-ID', { day: 'numeric', month: 'short', year: 'numeric' });
+setText('metaInfo', `Update: ${tgl} | ${m.total_pos} Pos · ${m.pos_aktif_hari_ini || 0} Aktif`);
+  
   // Bar suspect
   if (m.pos_suspect > 0) {
     show('suspect-bar');
