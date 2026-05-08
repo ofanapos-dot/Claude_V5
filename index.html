@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SIMOPHI — Monitoring Pos Hujan Sumatera Barat</title>
+  <link rel="stylesheet" href="style.css"/>
+  <!-- Leaflet (peta) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <!-- Chart.js (grafik histori) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+</head>
+<body>
+
+<!-- ── HEADER ─────────────────────────────────────────────── -->
+<header class="header">
+  <div class="header-inner">
+    <div class="header-brand">
+      <span class="header-icon">🌧️</span>
+      <div>
+        <div class="header-title">SIMOPHI</div>
+        <div class="header-sub">Sistem Monitoring Pos Hujan · Sumatera Barat</div>
+      </div>
+    </div>
+    <div class="header-meta" id="metaInfo">Memuat data…</div>
+  </div>
+</header>
+
+<!-- ── NAVIGASI TAB ───────────────────────────────────────── -->
+<nav class="tab-nav">
+  <button class="tab-btn active" onclick="ganti('peta')">🗺️ Peta</button>
+  <button class="tab-btn"        onclick="ganti('histori')">📋 Histori Pos</button>
+  <button class="tab-btn"        onclick="ganti('suspect')">⚠️ Suspect</button>
+</nav>
+
+<!-- ── TAB: PETA ──────────────────────────────────────────── -->
+<div id="tab-peta" class="tab-content aktif">
+  <div class="peta-wrap">
+    <div id="map"></div>
+    <div class="legenda">
+      <div class="legenda-judul">Intensitas Hujan</div>
+      <div class="legenda-item"><span style="background:#94a3b8"></span>Tidak Hujan (0 mm)</div>
+      <div class="legenda-item"><span style="background:#bae6fd"></span>Sangat Ringan (&lt;5)</div>
+      <div class="legenda-item"><span style="background:#60a5fa"></span>Ringan (5–20)</div>
+      <div class="legenda-item"><span style="background:#3b82f6"></span>Sedang (20–50)</div>
+      <div class="legenda-item"><span style="background:#f59e0b"></span>Lebat (50–100)</div>
+      <div class="legenda-item"><span style="background:#ef4444"></span>Sangat Lebat (100–150)</div>
+      <div class="legenda-item"><span style="background:#7f1d1d"></span>Ekstrem (&gt;150)</div>
+      <hr/>
+      <div class="legenda-item"><span class="legenda-suspect"></span>Suspect</div>
+    </div>
+  </div>
+</div>
+
+<!-- ── TAB: HISTORI POS ───────────────────────────────────── -->
+<div id="tab-histori" class="tab-content">
+  <div class="container">
+
+    <!-- Kartu ringkasan -->
+    <div class="card-grid" id="cardRingkasan"></div>
+
+    <!-- Tabel histori -->
+    <div class="section-title">Status Kiriman Data — Semua Pos</div>
+    <div class="tabel-wrap">
+      <table class="tabel-histori" id="tabelHistori">
+        <thead>
+          <tr>
+            <th>ID Pos</th>
+            <th>Nama Pos</th>
+            <th>Kabupaten</th>
+            <th>Terakhir Kirim</th>
+            <th>Hari Lalu</th>
+            <th>Aktif 30 Hari</th>
+            <th>Keaktifan</th>
+          </tr>
+        </thead>
+        <tbody id="tbodyHistori"></tbody>
+      </table>
+    </div>
+
+    <!-- Grafik keaktifan (bar chart) -->
+    <div class="section-title" style="margin-top:2rem">
+      Grafik Keaktifan Pos — 30 Hari Terakhir
+    </div>
+    <div class="chart-wrap">
+      <canvas id="chartKeaktifan"></canvas>
+    </div>
+
+    <!-- Kalender keaktifan per pos (klik baris tabel) -->
+    <div id="detailPos" class="detail-pos" style="display:none">
+      <div class="detail-header">
+        <span id="detailJudul"></span>
+        <button onclick="tutupDetail()">✕</button>
+      </div>
+      <div class="section-title" style="font-size:.85rem;margin:.5rem 0">
+        Kalender Keaktifan 30 Hari Terakhir
+      </div>
+      <div id="kalenderGrid" class="kalender-grid"></div>
+      <div class="section-title" style="font-size:.85rem;margin:1rem 0 .5rem">
+        Riwayat 7 Hari Terakhir
+      </div>
+      <table class="tabel-riwayat">
+        <thead><tr><th>Tanggal</th><th>CH (mm)</th><th>Kategori</th><th>Status</th></tr></thead>
+        <tbody id="tbodyRiwayat"></tbody>
+      </table>
+    </div>
+
+  </div>
+</div>
+
+<!-- ── TAB: SUSPECT ───────────────────────────────────────── -->
+<div id="tab-suspect" class="tab-content">
+  <div class="container">
+    <div class="section-title">Daftar Pos Suspect / Perlu Diteliti</div>
+    <div id="listSuspect"></div>
+  </div>
+</div>
+
+<!-- ── MODAL POPUP PETA ───────────────────────────────────── -->
+<div id="modalOverlay" class="modal-overlay" onclick="tutupModal()"></div>
+<div id="modal" class="modal">
+  <div class="modal-header">
+    <span id="modalJudul"></span>
+    <button onclick="tutupModal()">✕</button>
+  </div>
+  <div id="modalIsi"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
