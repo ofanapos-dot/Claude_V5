@@ -493,7 +493,10 @@ async function loadData() {
   try {
     const res = await fetch(CONFIG.DATA_URL + '?t=' + Date.now());
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    data = await res.json();
+const textData = await res.text();
+    const cleanText = textData.replace(/:\s*NaN\b/g, ': null'); // Ubah NaN jadi null
+    data = JSON.parse(cleanText);
+    
     console.info('✅ Data loaded:', CONFIG.DATA_URL);
   } catch (err) {
     console.warn('⚠️ Fetch gagal:', err.message);
