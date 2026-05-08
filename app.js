@@ -15,7 +15,7 @@
 
 // ===== KONFIGURASI =====
 const CONFIG = {
-  DATA_URL: '/output/latest.json',
+  DATA_URL: 'output/latest.json',
   USE_DUMMY_ON_FAIL: false,
   MAP_CENTER: [-0.7399, 100.8000],
   MAP_ZOOM: 8,
