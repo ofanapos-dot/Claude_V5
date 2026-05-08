@@ -15,7 +15,7 @@
 
 // ===== KONFIGURASI =====
 const CONFIG = {
-  DATA_URL: 'https://drive.google.com/uc?export=download&id=1-5p2b-78I6N64QnZuYsdmTww3FiMHhuy',
+  DATA_URL: './output/latest.json',
   USE_DUMMY_ON_FAIL: true,
   MAP_CENTER: [-0.7399, 100.8000],
   MAP_ZOOM: 8,
