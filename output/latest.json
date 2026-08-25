@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "waktu_analisis": "2026-08-25 18:20:21",
+    "waktu_analisis": "2026-08-25 18:24:47",
     "window_mulai": "2026-02-05",
     "window_akhir": "2026-08-23",
     "total_pos_dicek": 128,
@@ -17,7 +17,7 @@
       "alasan": "Muara Panas (jarak 9.43km, korelasi=0.13)",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH076",
@@ -28,7 +28,7 @@
       "alasan": "X Koto Singkarak (jarak 1.11km, korelasi=0.08)",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH077",
@@ -39,7 +39,7 @@
       "alasan": "X Koto Singkarak (jarak 1.11km, korelasi=0.03)",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH101",
@@ -50,7 +50,7 @@
       "alasan": "Galo Gandang (jarak 7.86km, korelasi=0.15)",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH105",
@@ -61,7 +61,7 @@
       "alasan": "Bpp Sei Tarab (jarak 7.86km, korelasi=0.15)",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH032",
@@ -72,7 +72,7 @@
       "alasan": "Staklim Padang Pariaman (REF BMKG) (jarak 7.12km, korelasi=0.12); Stageof PPI (REF BMKG) (jarak 9.5km, korelasi=-0.06)",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH128",
@@ -83,7 +83,7 @@
       "alasan": "X Koto Singkarak (jarak 6.76km, korelasi=0.13)",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH087",
@@ -94,7 +94,7 @@
       "alasan": "BPK IX Koto Seilasi (jarak 9.43km, korelasi=0.13)",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH088",
@@ -105,7 +105,7 @@
       "alasan": "X Koto Singkarak (jarak 5.56km, korelasi=-0.02)",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH129",
@@ -116,7 +116,7 @@
       "alasan": "X Koto Singkarak (jarak 7.86km, korelasi=0.15)",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH092",
@@ -127,7 +127,7 @@
       "alasan": "Balitbu Aripan (jarak 1.11km, korelasi=0.08); Balitbu Sumani (jarak 1.11km, korelasi=0.03); Muaro Pingai (jarak 5.56km, korelasi=-0.02); Lubuk Sikarah (jarak 6.76km, korelasi=0.13); Tanjung Harapan (jarak 7.86km, korelasi=0.15); AAWS Sumani (jarak 1.41km, korelasi=0.03)",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH055",
@@ -138,7 +138,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH018",
@@ -149,7 +149,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH078",
@@ -160,7 +160,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH029",
@@ -171,7 +171,7 @@
       "alasan": "Referensi Utama BMKG",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH019",
@@ -182,7 +182,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH113",
@@ -193,7 +193,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH056",
@@ -204,7 +204,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH057",
@@ -215,7 +215,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH058",
@@ -226,7 +226,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH079",
@@ -237,7 +237,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH081",
@@ -248,7 +248,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH059",
@@ -259,7 +259,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH060",
@@ -270,7 +270,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH065",
@@ -281,7 +281,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH066",
@@ -292,7 +292,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH082",
@@ -303,7 +303,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH099",
@@ -314,7 +314,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH067",
@@ -325,7 +325,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH127",
@@ -336,7 +336,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH011",
@@ -347,7 +347,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH012",
@@ -358,7 +358,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH100",
@@ -369,7 +369,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH030",
@@ -380,7 +380,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH093",
@@ -391,7 +391,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH031",
@@ -402,7 +402,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH102",
@@ -413,7 +413,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH020",
@@ -424,7 +424,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH114",
@@ -435,7 +435,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH001",
@@ -446,7 +446,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH098",
@@ -457,7 +457,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH041",
@@ -468,7 +468,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH103",
@@ -479,7 +479,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH083",
@@ -490,7 +490,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH104",
@@ -501,7 +501,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH002",
@@ -512,7 +512,7 @@
       "alasan": "Referensi Utama BMKG",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH003",
@@ -523,7 +523,7 @@
       "alasan": "Referensi Utama BMKG",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH021",
@@ -534,7 +534,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH084",
@@ -545,7 +545,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH047",
@@ -556,7 +556,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH004",
@@ -567,7 +567,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH061",
@@ -578,7 +578,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH048",
@@ -589,7 +589,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH005",
@@ -600,7 +600,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH085",
@@ -611,7 +611,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH033",
@@ -622,7 +622,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH068",
@@ -633,7 +633,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH069",
@@ -644,7 +644,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH086",
@@ -655,7 +655,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH115",
@@ -666,7 +666,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH034",
@@ -677,7 +677,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH006",
@@ -688,7 +688,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH094",
@@ -699,7 +699,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH116",
@@ -710,7 +710,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH042",
@@ -721,7 +721,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH070",
@@ -732,7 +732,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH022",
@@ -743,7 +743,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH062",
@@ -754,7 +754,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH106",
@@ -765,7 +765,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH007",
@@ -776,7 +776,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH023",
@@ -787,7 +787,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH117",
@@ -798,7 +798,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH016",
@@ -809,7 +809,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH071",
@@ -820,7 +820,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH017",
@@ -831,7 +831,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH118",
@@ -842,7 +842,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH107",
@@ -853,7 +853,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH063",
@@ -864,7 +864,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH122",
@@ -875,7 +875,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH108",
@@ -886,7 +886,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH035",
@@ -897,7 +897,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH024",
@@ -908,7 +908,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH095",
@@ -919,7 +919,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH008",
@@ -930,7 +930,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH025",
@@ -941,7 +941,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH124",
@@ -952,7 +952,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH049",
@@ -963,7 +963,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH125",
@@ -974,7 +974,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH126",
@@ -985,7 +985,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH089",
@@ -996,7 +996,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH096",
@@ -1007,7 +1007,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH043",
@@ -1018,7 +1018,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH026",
@@ -1029,7 +1029,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH110",
@@ -1040,7 +1040,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH044",
@@ -1051,7 +1051,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH111",
@@ -1062,7 +1062,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH097",
@@ -1073,7 +1073,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH112",
@@ -1084,7 +1084,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH050",
@@ -1095,7 +1095,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH051",
@@ -1106,7 +1106,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH013",
@@ -1117,7 +1117,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH036",
@@ -1128,7 +1128,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH072",
@@ -1139,7 +1139,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH052",
@@ -1150,7 +1150,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH045",
@@ -1161,7 +1161,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH014",
@@ -1172,7 +1172,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH027",
@@ -1183,7 +1183,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH123",
@@ -1194,7 +1194,7 @@
       "alasan": "Referensi Utama BMKG",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH037",
@@ -1205,7 +1205,7 @@
       "alasan": "Referensi Utama BMKG",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH053",
@@ -1216,7 +1216,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH028",
@@ -1227,7 +1227,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH073",
@@ -1238,7 +1238,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH038",
@@ -1249,7 +1249,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH119",
@@ -1260,7 +1260,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH039",
@@ -1271,7 +1271,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH074",
@@ -1282,7 +1282,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH075",
@@ -1293,7 +1293,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH009",
@@ -1304,7 +1304,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH064",
@@ -1315,7 +1315,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH120",
@@ -1326,7 +1326,7 @@
       "alasan": "Referensi Utama BMKG",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH090",
@@ -1337,7 +1337,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH010",
@@ -1348,7 +1348,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH015",
@@ -1359,7 +1359,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH046",
@@ -1370,7 +1370,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH054",
@@ -1381,7 +1381,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH091",
@@ -1392,7 +1392,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH040",
@@ -1403,7 +1403,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     },
     {
       "id_pos": "PH121",
@@ -1414,7 +1414,7 @@
       "alasan": "",
       "window_mulai": "2026-02-05",
       "window_akhir": "2026-08-23",
-      "waktu_analisis": "2026-08-25T18:10:46"
+      "waktu_analisis": "2026-08-25T18:24:44"
     }
   ]
 }
