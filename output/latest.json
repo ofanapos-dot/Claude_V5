@@ -1,7 +1,7 @@
 {
   "metadata": {
     "tanggal_analisis": "2026-08-23",
-    "waktu_generate": "2026-08-26 04:33:53",
+    "waktu_generate": "2026-08-26 04:49:11",
     "total_pos": 128,
     "pos_normal": 126,
     "pos_suspect": 2,
@@ -296,7 +296,11 @@
           "kat": "Tidak Hujan",
           "status": "SUSPECT"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "Staklim Padang Pariaman (REF BMKG, jarak 7.12km, beda 0.0m, corr=0.14, hari_selisih>20mm=67); Stageof PPI (REF BMKG, jarak 9.5km, beda 0.0m, corr=-0.05, hari_selisih>20mm=59); AAWS Staklim Padang Pariaman (REF OTOMATIS, jarak 6.88km, beda 0.0m, corr=0.14, hari_selisih>20mm=70)",
+      "n_tetangga_dicek_ekstrem": 3,
+      "n_tetangga_flag_ekstrem": 3
     },
     {
       "id_pos": "PH092",
@@ -585,7 +589,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "AAWS Sumani (REF OTOMATIS, jarak 1.41km, beda 0.0m, corr=0.04, hari_selisih>20mm=12)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH055",
@@ -874,7 +882,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH018",
@@ -1163,7 +1175,11 @@
           "kat": "Lebat",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH078",
@@ -1452,7 +1468,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH029",
@@ -1741,7 +1761,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Referensi Utama BMKG",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH019",
@@ -2030,7 +2054,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH113",
@@ -2319,7 +2347,11 @@
           "kat": "Sangat Ringan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 2,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH056",
@@ -2608,7 +2640,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH057",
@@ -2897,7 +2933,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH058",
@@ -3186,7 +3226,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH079",
@@ -3475,7 +3519,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH080",
@@ -3764,7 +3812,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Muara Panas (Pos Kerjasama, jarak 9.43km, beda 0.0m, corr=0.15, hari_selisih>20mm=10)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH081",
@@ -4053,7 +4105,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH059",
@@ -4342,7 +4398,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH060",
@@ -4631,7 +4691,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH065",
@@ -4920,7 +4984,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH066",
@@ -5209,7 +5277,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "ARG Sijunjung (REF OTOMATIS, jarak 7.74km, beda 0.0m, corr=0.31, hari_selisih>20mm=23)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH082",
@@ -5498,7 +5570,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH099",
@@ -5787,7 +5863,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "Stageof PPI (REF BMKG, jarak 3.34km, beda 0.0m, corr=0.34, hari_selisih>20mm=24)",
+      "n_tetangga_dicek_ekstrem": 2,
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH067",
@@ -6076,7 +6156,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 2,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH127",
@@ -6365,7 +6449,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH011",
@@ -6654,7 +6742,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Sitiung (Pos Kerjasama, jarak 9.5km, beda 0.0m, corr=0.28, hari_selisih>20mm=22)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH012",
@@ -6943,7 +7035,11 @@
           "kat": "Ringan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH100",
@@ -7232,7 +7328,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH030",
@@ -7521,7 +7621,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH093",
@@ -7810,7 +7914,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH031",
@@ -8099,7 +8207,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Bonjol (Pos Kerjasama, jarak 5.67km, beda 0.0m, corr=0.29, hari_selisih>20mm=34)",
+      "n_tetangga_dicek_ekstrem": 3,
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH102",
@@ -8388,7 +8500,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH020",
@@ -8677,7 +8793,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH076",
@@ -8966,7 +9086,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH077",
@@ -9255,7 +9379,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH114",
@@ -9544,7 +9672,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 2,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH001",
@@ -9833,7 +9965,11 @@
           "kat": "Sangat Ringan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH098",
@@ -10122,7 +10258,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "Stageof PPI (REF BMKG, jarak 4.45km, beda 0.0m, corr=0.38, hari_selisih>20mm=24)",
+      "n_tetangga_dicek_ekstrem": 2,
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH041",
@@ -10411,7 +10551,11 @@
           "kat": "Ringan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "Ulakan Tapakis (Pos Kerjasama, jarak 3.34km, beda 0.0m, corr=0.37, hari_selisih>20mm=37); BPP Sintuk (Pos Kerjasama, jarak 5.67km, beda 0.0m, corr=0.29, hari_selisih>20mm=34); Kuliek (Pos Kerjasama, jarak 9.94km, beda 0.0m, corr=0.35, hari_selisih>20mm=51)",
+      "n_tetangga_dicek_ekstrem": 4,
+      "n_tetangga_flag_ekstrem": 3
     },
     {
       "id_pos": "PH101",
@@ -10700,7 +10844,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 2,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH103",
@@ -10989,7 +11137,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 2,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH083",
@@ -11278,7 +11430,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH104",
@@ -11567,7 +11723,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 2,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH002",
@@ -11856,7 +12016,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Referensi Utama BMKG",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH003",
@@ -12145,7 +12309,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Referensi Utama BMKG",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH105",
@@ -12434,7 +12602,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "ARG Sungai Tarab (REF OTOMATIS, jarak 8.65km, beda 0.0m, corr=0.33, hari_selisih>20mm=17)",
+      "n_tetangga_dicek_ekstrem": 2,
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH021",
@@ -12723,7 +12895,11 @@
           "kat": "Sedang",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH084",
@@ -13012,7 +13188,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH047",
@@ -13301,7 +13481,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH004",
@@ -13590,7 +13774,11 @@
           "kat": "Sangat Ringan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 2,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH061",
@@ -13879,7 +14067,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH048",
@@ -14168,7 +14360,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH005",
@@ -14457,7 +14653,11 @@
           "kat": "Ringan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH085",
@@ -14746,7 +14946,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Tanjung Harapan (Pos Kerjasama, jarak 8.96km, beda 0.0m, corr=0.34, hari_selisih>20mm=20)",
+      "n_tetangga_dicek_ekstrem": 3,
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH033",
@@ -15035,7 +15239,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "BIM-Bandara Internasional Minangkabau (REF BMKG, jarak 7.12km, beda 0.0m, corr=0.31, hari_selisih>20mm=39); AWS Bandara Minangkabau (REF OTOMATIS, jarak 7.22km, beda 0.0m, corr=0.25, hari_selisih>20mm=46)",
+      "n_tetangga_dicek_ekstrem": 2,
+      "n_tetangga_flag_ekstrem": 2
     },
     {
       "id_pos": "PH068",
@@ -15324,7 +15532,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH069",
@@ -15613,7 +15825,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH086",
@@ -15902,7 +16118,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Payung Sekaki (Pos Kerjasama, jarak 9.43km, beda 0.0m, corr=0.26, hari_selisih>20mm=22)",
+      "n_tetangga_dicek_ekstrem": 2,
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH115",
@@ -16191,7 +16411,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 5,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH034",
@@ -16480,7 +16704,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH006",
@@ -16769,7 +16997,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH094",
@@ -17058,7 +17290,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH116",
@@ -17347,7 +17583,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH042",
@@ -17636,7 +17876,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH128",
@@ -17925,7 +18169,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH070",
@@ -18214,7 +18462,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH022",
@@ -18503,7 +18755,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Padang Mangatas (Pos Kerjasama, jarak 1.11km, beda 0.0m, corr=0.38, hari_selisih>20mm=21)",
+      "n_tetangga_dicek_ekstrem": 4,
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH062",
@@ -18792,7 +19048,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH106",
@@ -19081,7 +19341,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH007",
@@ -19370,7 +19634,11 @@
           "kat": "Sedang",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH023",
@@ -19659,7 +19927,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH117",
@@ -19948,7 +20220,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH087",
@@ -20237,7 +20513,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "BPK IX Koto Seilasi (Pos Kerjasama, jarak 9.43km, beda 0.0m, corr=0.15, hari_selisih>20mm=10)",
+      "n_tetangga_dicek_ekstrem": 2,
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH016",
@@ -20526,7 +20806,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH071",
@@ -20815,7 +21099,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH017",
@@ -21104,7 +21392,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH088",
@@ -21393,7 +21685,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH118",
@@ -21682,7 +21978,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH107",
@@ -21971,7 +22271,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH063",
@@ -22260,7 +22564,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH122",
@@ -22549,7 +22857,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "ARG X Koto (REF OTOMATIS, jarak 6.95km, beda 0.0m, corr=0.32, hari_selisih>20mm=19)",
+      "n_tetangga_dicek_ekstrem": 2,
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH108",
@@ -22838,7 +23150,11 @@
           "kat": "Ringan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "ARG Berangin (REF OTOMATIS, jarak 9.58km, beda 0.0m, corr=0.27, hari_selisih>20mm=24)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH035",
@@ -23127,7 +23443,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Tanjung Raya - Maninjau (Pos Kerjasama, jarak 8.68km, beda 0.0m, corr=0.23, hari_selisih>20mm=70)",
+      "n_tetangga_dicek_ekstrem": 2,
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH024",
@@ -23416,7 +23736,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "Luhak (Pos Kerjasama, jarak 1.11km, beda 0.0m, corr=0.38, hari_selisih>20mm=21); Situjuah (Pos Kerjasama, jarak 4.97km, beda 0.0m, corr=0.22, hari_selisih>20mm=21); Payakumbuh Barat (Pos Kerjasama, jarak 7.03km, beda 0.0m, corr=0.34, hari_selisih>20mm=19)",
+      "n_tetangga_dicek_ekstrem": 4,
+      "n_tetangga_flag_ekstrem": 3
     },
     {
       "id_pos": "PH095",
@@ -23705,7 +24029,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH008",
@@ -23994,7 +24322,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH025",
@@ -24283,7 +24615,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH124",
@@ -24572,7 +24908,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH049",
@@ -24861,7 +25201,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH125",
@@ -25150,7 +25494,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Padang Mangatas (Pos Kerjasama, jarak 7.03km, beda 0.0m, corr=0.34, hari_selisih>20mm=19)",
+      "n_tetangga_dicek_ekstrem": 6,
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH126",
@@ -25439,7 +25787,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH089",
@@ -25728,7 +26080,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Lembang Jaya (Pos Kerjasama, jarak 9.43km, beda 0.0m, corr=0.26, hari_selisih>20mm=22)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH096",
@@ -26017,7 +26373,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH043",
@@ -26306,7 +26666,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH026",
@@ -26595,7 +26959,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH110",
@@ -26884,7 +27252,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH044",
@@ -27173,7 +27545,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH111",
@@ -27462,7 +27838,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH097",
@@ -27751,7 +28131,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH112",
@@ -28040,7 +28424,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH050",
@@ -28329,7 +28717,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH051",
@@ -28618,7 +29010,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH013",
@@ -28907,7 +29303,11 @@
           "kat": "Lebat",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH036",
@@ -29196,7 +29596,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH072",
@@ -29485,7 +29889,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH052",
@@ -29774,7 +30182,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Sukamenanti (Pos Kerjasama, jarak 9.17km, beda 0.0m, corr=0.31, hari_selisih>20mm=33)",
+      "n_tetangga_dicek_ekstrem": 2,
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH045",
@@ -30063,7 +30475,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH014",
@@ -30352,7 +30768,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "BPP Koto Baru (Pos Kerjasama, jarak 9.5km, beda 0.0m, corr=0.28, hari_selisih>20mm=22)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH027",
@@ -30641,7 +31061,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Padang Mangatas (Pos Kerjasama, jarak 4.97km, beda 0.0m, corr=0.22, hari_selisih>20mm=21)",
+      "n_tetangga_dicek_ekstrem": 5,
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH123",
@@ -30930,7 +31354,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Referensi Utama BMKG",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH037",
@@ -31219,7 +31647,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Referensi Utama BMKG",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH053",
@@ -31508,7 +31940,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH028",
@@ -31797,7 +32233,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH073",
@@ -32086,7 +32526,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH038",
@@ -32375,7 +32819,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 3,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH119",
@@ -32664,7 +33112,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 3,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH039",
@@ -32953,7 +33405,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 2,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH074",
@@ -33242,7 +33698,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH129",
@@ -33531,7 +33991,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH075",
@@ -33820,7 +34284,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH009",
@@ -34109,7 +34577,11 @@
           "kat": "Sedang",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Padang Laring (Pos Kerjasama, jarak 8.68km, beda 0.0m, corr=0.23, hari_selisih>20mm=70)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH064",
@@ -34398,7 +34870,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 2,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH120",
@@ -34687,7 +35163,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Referensi Utama BMKG",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH090",
@@ -34976,7 +35456,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH010",
@@ -35265,7 +35749,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH015",
@@ -35554,7 +36042,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH046",
@@ -35843,7 +36335,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH054",
@@ -36132,7 +36628,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH091",
@@ -36421,7 +36921,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0
     },
     {
       "id_pos": "PH040",
@@ -36710,7 +37214,11 @@
           "kat": "Tidak Hujan",
           "status": "NORMAL"
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Bonjol (Pos Kerjasama, jarak 3.34km, beda 0.0m, corr=0.37, hari_selisih>20mm=37)",
+      "n_tetangga_dicek_ekstrem": 3,
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH121",
@@ -36999,7 +37507,11 @@
           "kat": null,
           "status": null
         }
-      ]
+      ],
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 3,
+      "n_tetangga_flag_ekstrem": 0
     }
   ]
 }
