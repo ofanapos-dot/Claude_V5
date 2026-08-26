@@ -1,7 +1,7 @@
 {
   "metadata": {
     "tanggal_analisis": "2026-08-23",
-    "waktu_generate": "2026-08-26 04:49:11",
+    "waktu_generate": "2026-08-26 05:00:42",
     "total_pos": 128,
     "pos_normal": 126,
     "pos_suspect": 2,
@@ -298,7 +298,7 @@
         }
       ],
       "status_ekstrem_harian": "SUSPECT",
-      "alasan_ekstrem_harian": "Staklim Padang Pariaman (REF BMKG, jarak 7.12km, beda 0.0m, corr=0.14, hari_selisih>20mm=67); Stageof PPI (REF BMKG, jarak 9.5km, beda 0.0m, corr=-0.05, hari_selisih>20mm=59); AAWS Staklim Padang Pariaman (REF OTOMATIS, jarak 6.88km, beda 0.0m, corr=0.14, hari_selisih>20mm=70)",
+      "alasan_ekstrem_harian": "Staklim Padang Pariaman (REF BMKG, jarak 7.12km, beda 0.0m, corr=0.14, hari_selisih>25mm=54); Stageof PPI (REF BMKG, jarak 9.5km, beda 0.0m, corr=-0.05, hari_selisih>25mm=47); AAWS Staklim Padang Pariaman (REF OTOMATIS, jarak 6.88km, beda 0.0m, corr=0.14, hari_selisih>25mm=53)",
       "n_tetangga_dicek_ekstrem": 3,
       "n_tetangga_flag_ekstrem": 3
     },
@@ -591,7 +591,7 @@
         }
       ],
       "status_ekstrem_harian": "SUSPECT",
-      "alasan_ekstrem_harian": "AAWS Sumani (REF OTOMATIS, jarak 1.41km, beda 0.0m, corr=0.04, hari_selisih>20mm=12)",
+      "alasan_ekstrem_harian": "AAWS Sumani (REF OTOMATIS, jarak 1.41km, beda 0.0m, corr=0.04, hari_selisih>25mm=8)",
       "n_tetangga_dicek_ekstrem": 1,
       "n_tetangga_flag_ekstrem": 1
     },
@@ -2056,9 +2056,9 @@
         }
       ],
       "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "",
+      "alasan_ekstrem_harian": "Suliki (Pos Kerjasama, jarak 4.97km, beda 0.0m, corr=0.40, hari_selisih>25mm=15)",
       "n_tetangga_dicek_ekstrem": 1,
-      "n_tetangga_flag_ekstrem": 0
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH113",
@@ -3814,7 +3814,7 @@
         }
       ],
       "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "Muara Panas (Pos Kerjasama, jarak 9.43km, beda 0.0m, corr=0.15, hari_selisih>20mm=10)",
+      "alasan_ekstrem_harian": "Muara Panas (Pos Kerjasama, jarak 9.43km, beda 0.0m, corr=0.15, hari_selisih>25mm=6)",
       "n_tetangga_dicek_ekstrem": 1,
       "n_tetangga_flag_ekstrem": 1
     },
@@ -5279,7 +5279,7 @@
         }
       ],
       "status_ekstrem_harian": "SUSPECT",
-      "alasan_ekstrem_harian": "ARG Sijunjung (REF OTOMATIS, jarak 7.74km, beda 0.0m, corr=0.31, hari_selisih>20mm=23)",
+      "alasan_ekstrem_harian": "ARG Sijunjung (REF OTOMATIS, jarak 7.74km, beda 0.0m, corr=0.31, hari_selisih>25mm=17)",
       "n_tetangga_dicek_ekstrem": 1,
       "n_tetangga_flag_ekstrem": 1
     },
@@ -5865,7 +5865,7 @@
         }
       ],
       "status_ekstrem_harian": "SUSPECT",
-      "alasan_ekstrem_harian": "Stageof PPI (REF BMKG, jarak 3.34km, beda 0.0m, corr=0.34, hari_selisih>20mm=24)",
+      "alasan_ekstrem_harian": "Stageof PPI (REF BMKG, jarak 3.34km, beda 0.0m, corr=0.34, hari_selisih>25mm=20)",
       "n_tetangga_dicek_ekstrem": 2,
       "n_tetangga_flag_ekstrem": 1
     },
@@ -6158,9 +6158,9 @@
         }
       ],
       "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "",
+      "alasan_ekstrem_harian": "BPK Tanjung Ampalu (Pos Kerjasama, jarak 9.5km, beda 0.0m, corr=0.48, hari_selisih>25mm=13)",
       "n_tetangga_dicek_ekstrem": 2,
-      "n_tetangga_flag_ekstrem": 0
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH127",
@@ -6744,7 +6744,7 @@
         }
       ],
       "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "Sitiung (Pos Kerjasama, jarak 9.5km, beda 0.0m, corr=0.28, hari_selisih>20mm=22)",
+      "alasan_ekstrem_harian": "Sitiung (Pos Kerjasama, jarak 9.5km, beda 0.0m, corr=0.28, hari_selisih>25mm=14)",
       "n_tetangga_dicek_ekstrem": 1,
       "n_tetangga_flag_ekstrem": 1
     },
@@ -7330,9 +7330,9 @@
         }
       ],
       "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "",
+      "alasan_ekstrem_harian": "Padang Ganting (Pos Kerjasama, jarak 4.97km, beda 0.0m, corr=0.47, hari_selisih>25mm=8)",
       "n_tetangga_dicek_ekstrem": 1,
-      "n_tetangga_flag_ekstrem": 0
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH030",
@@ -8209,7 +8209,7 @@
         }
       ],
       "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "Bonjol (Pos Kerjasama, jarak 5.67km, beda 0.0m, corr=0.29, hari_selisih>20mm=34)",
+      "alasan_ekstrem_harian": "Bonjol (Pos Kerjasama, jarak 5.67km, beda 0.0m, corr=0.29, hari_selisih>25mm=28)",
       "n_tetangga_dicek_ekstrem": 3,
       "n_tetangga_flag_ekstrem": 1
     },
@@ -10260,9 +10260,9 @@
         }
       ],
       "status_ekstrem_harian": "SUSPECT",
-      "alasan_ekstrem_harian": "Stageof PPI (REF BMKG, jarak 4.45km, beda 0.0m, corr=0.38, hari_selisih>20mm=24)",
+      "alasan_ekstrem_harian": "Stageof PPI (REF BMKG, jarak 4.45km, beda 0.0m, corr=0.38, hari_selisih>25mm=17); ARG X Koto (REF OTOMATIS, jarak 9.97km, beda 0.0m, corr=0.45, hari_selisih>25mm=13)",
       "n_tetangga_dicek_ekstrem": 2,
-      "n_tetangga_flag_ekstrem": 1
+      "n_tetangga_flag_ekstrem": 2
     },
     {
       "id_pos": "PH041",
@@ -10553,9 +10553,9 @@
         }
       ],
       "status_ekstrem_harian": "SUSPECT",
-      "alasan_ekstrem_harian": "Ulakan Tapakis (Pos Kerjasama, jarak 3.34km, beda 0.0m, corr=0.37, hari_selisih>20mm=37); BPP Sintuk (Pos Kerjasama, jarak 5.67km, beda 0.0m, corr=0.29, hari_selisih>20mm=34); Kuliek (Pos Kerjasama, jarak 9.94km, beda 0.0m, corr=0.35, hari_selisih>20mm=51)",
+      "alasan_ekstrem_harian": "Ulakan Tapakis (Pos Kerjasama, jarak 3.34km, beda 0.0m, corr=0.37, hari_selisih>25mm=27); BPP Sintuk (Pos Kerjasama, jarak 5.67km, beda 0.0m, corr=0.29, hari_selisih>25mm=28); Sunur (Pos Kerjasama, jarak 7.46km, beda 0.0m, corr=0.45, hari_selisih>25mm=28); Kuliek (Pos Kerjasama, jarak 9.94km, beda 0.0m, corr=0.35, hari_selisih>25mm=41)",
       "n_tetangga_dicek_ekstrem": 4,
-      "n_tetangga_flag_ekstrem": 3
+      "n_tetangga_flag_ekstrem": 4
     },
     {
       "id_pos": "PH101",
@@ -12604,7 +12604,7 @@
         }
       ],
       "status_ekstrem_harian": "SUSPECT",
-      "alasan_ekstrem_harian": "ARG Sungai Tarab (REF OTOMATIS, jarak 8.65km, beda 0.0m, corr=0.33, hari_selisih>20mm=17)",
+      "alasan_ekstrem_harian": "ARG Sungai Tarab (REF OTOMATIS, jarak 8.65km, beda 0.0m, corr=0.33, hari_selisih>25mm=14)",
       "n_tetangga_dicek_ekstrem": 2,
       "n_tetangga_flag_ekstrem": 1
     },
@@ -13189,10 +13189,10 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "ARG Solok (REF OTOMATIS, jarak 8.82km, beda 0.0m, corr=0.44, hari_selisih>25mm=14)",
       "n_tetangga_dicek_ekstrem": 1,
-      "n_tetangga_flag_ekstrem": 0
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH047",
@@ -13775,10 +13775,10 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "GAW Palupuh (REF BMKG, jarak 8.47km, beda 0.0m, corr=0.44, hari_selisih>25mm=19)",
       "n_tetangga_dicek_ekstrem": 2,
-      "n_tetangga_flag_ekstrem": 0
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH061",
@@ -14655,9 +14655,9 @@
         }
       ],
       "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "",
+      "alasan_ekstrem_harian": "Matur (Pos Kerjasama, jarak 8.68km, beda 0.0m, corr=0.46, hari_selisih>25mm=14)",
       "n_tetangga_dicek_ekstrem": 1,
-      "n_tetangga_flag_ekstrem": 0
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH085",
@@ -14947,10 +14947,10 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "Tanjung Harapan (Pos Kerjasama, jarak 8.96km, beda 0.0m, corr=0.34, hari_selisih>20mm=20)",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "Tanjung Harapan (Pos Kerjasama, jarak 8.96km, beda 0.0m, corr=0.34, hari_selisih>25mm=13); Muara Panas (Pos Kerjasama, jarak 9.17km, beda 0.0m, corr=0.48, hari_selisih>25mm=11)",
       "n_tetangga_dicek_ekstrem": 3,
-      "n_tetangga_flag_ekstrem": 1
+      "n_tetangga_flag_ekstrem": 2
     },
     {
       "id_pos": "PH033",
@@ -15241,7 +15241,7 @@
         }
       ],
       "status_ekstrem_harian": "SUSPECT",
-      "alasan_ekstrem_harian": "BIM-Bandara Internasional Minangkabau (REF BMKG, jarak 7.12km, beda 0.0m, corr=0.31, hari_selisih>20mm=39); AWS Bandara Minangkabau (REF OTOMATIS, jarak 7.22km, beda 0.0m, corr=0.25, hari_selisih>20mm=46)",
+      "alasan_ekstrem_harian": "BIM-Bandara Internasional Minangkabau (REF BMKG, jarak 7.12km, beda 0.0m, corr=0.31, hari_selisih>25mm=33); AWS Bandara Minangkabau (REF OTOMATIS, jarak 7.22km, beda 0.0m, corr=0.25, hari_selisih>25mm=36)",
       "n_tetangga_dicek_ekstrem": 2,
       "n_tetangga_flag_ekstrem": 2
     },
@@ -16119,10 +16119,10 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "Payung Sekaki (Pos Kerjasama, jarak 9.43km, beda 0.0m, corr=0.26, hari_selisih>20mm=22)",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "Danau Kembar (Pos Kerjasama, jarak 8.1km, beda 0.0m, corr=0.45, hari_selisih>25mm=9); Payung Sekaki (Pos Kerjasama, jarak 9.43km, beda 0.0m, corr=0.26, hari_selisih>25mm=16)",
       "n_tetangga_dicek_ekstrem": 2,
-      "n_tetangga_flag_ekstrem": 1
+      "n_tetangga_flag_ekstrem": 2
     },
     {
       "id_pos": "PH115",
@@ -16999,9 +16999,9 @@
         }
       ],
       "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "",
+      "alasan_ekstrem_harian": "Tiku (Pos Kerjasama, jarak 9.95km, beda 0.0m, corr=0.49, hari_selisih>25mm=28)",
       "n_tetangga_dicek_ekstrem": 1,
-      "n_tetangga_flag_ekstrem": 0
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH094",
@@ -18756,10 +18756,10 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "Padang Mangatas (Pos Kerjasama, jarak 1.11km, beda 0.0m, corr=0.38, hari_selisih>20mm=21)",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "Padang Mangatas (Pos Kerjasama, jarak 1.11km, beda 0.0m, corr=0.38, hari_selisih>25mm=14); Situjuah (Pos Kerjasama, jarak 4.58km, beda 0.0m, corr=0.41, hari_selisih>25mm=14)",
       "n_tetangga_dicek_ekstrem": 4,
-      "n_tetangga_flag_ekstrem": 1
+      "n_tetangga_flag_ekstrem": 2
     },
     {
       "id_pos": "PH062",
@@ -19636,9 +19636,9 @@
         }
       ],
       "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "",
+      "alasan_ekstrem_harian": "Koto Tuo (Pos Kerjasama, jarak 8.68km, beda 0.0m, corr=0.46, hari_selisih>25mm=14)",
       "n_tetangga_dicek_ekstrem": 1,
-      "n_tetangga_flag_ekstrem": 0
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH023",
@@ -20514,10 +20514,10 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "BPK IX Koto Seilasi (Pos Kerjasama, jarak 9.43km, beda 0.0m, corr=0.15, hari_selisih>20mm=10)",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "Kubung (Pos Kerjasama, jarak 9.17km, beda 0.0m, corr=0.48, hari_selisih>25mm=11); BPK IX Koto Seilasi (Pos Kerjasama, jarak 9.43km, beda 0.0m, corr=0.15, hari_selisih>25mm=6)",
       "n_tetangga_dicek_ekstrem": 2,
-      "n_tetangga_flag_ekstrem": 1
+      "n_tetangga_flag_ekstrem": 2
     },
     {
       "id_pos": "PH016",
@@ -21101,9 +21101,9 @@
         }
       ],
       "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "",
+      "alasan_ekstrem_harian": "BPK Tanjung Ampalu (Pos Kerjasama, jarak 5.56km, beda 0.0m, corr=0.42, hari_selisih>25mm=19)",
       "n_tetangga_dicek_ekstrem": 1,
-      "n_tetangga_flag_ekstrem": 0
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH017",
@@ -22859,9 +22859,9 @@
         }
       ],
       "status_ekstrem_harian": "SUSPECT",
-      "alasan_ekstrem_harian": "ARG X Koto (REF OTOMATIS, jarak 6.95km, beda 0.0m, corr=0.32, hari_selisih>20mm=19)",
+      "alasan_ekstrem_harian": "Stageof PPI (REF BMKG, jarak 3.15km, beda 0.0m, corr=0.42, hari_selisih>25mm=18); ARG X Koto (REF OTOMATIS, jarak 6.95km, beda 0.0m, corr=0.32, hari_selisih>25mm=15)",
       "n_tetangga_dicek_ekstrem": 2,
-      "n_tetangga_flag_ekstrem": 1
+      "n_tetangga_flag_ekstrem": 2
     },
     {
       "id_pos": "PH108",
@@ -23152,7 +23152,7 @@
         }
       ],
       "status_ekstrem_harian": "SUSPECT",
-      "alasan_ekstrem_harian": "ARG Berangin (REF OTOMATIS, jarak 9.58km, beda 0.0m, corr=0.27, hari_selisih>20mm=24)",
+      "alasan_ekstrem_harian": "ARG Berangin (REF OTOMATIS, jarak 9.58km, beda 0.0m, corr=0.27, hari_selisih>25mm=19)",
       "n_tetangga_dicek_ekstrem": 1,
       "n_tetangga_flag_ekstrem": 1
     },
@@ -23444,10 +23444,10 @@
           "status": null
         }
       ],
-      "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "Tanjung Raya - Maninjau (Pos Kerjasama, jarak 8.68km, beda 0.0m, corr=0.23, hari_selisih>20mm=70)",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "Tanjung Raya - Maninjau (Pos Kerjasama, jarak 8.68km, beda 0.0m, corr=0.23, hari_selisih>25mm=47); Sei Geringging (Pos Kerjasama, jarak 8.96km, beda 0.0m, corr=0.50, hari_selisih>25mm=49)",
       "n_tetangga_dicek_ekstrem": 2,
-      "n_tetangga_flag_ekstrem": 1
+      "n_tetangga_flag_ekstrem": 2
     },
     {
       "id_pos": "PH024",
@@ -23738,9 +23738,9 @@
         }
       ],
       "status_ekstrem_harian": "SUSPECT",
-      "alasan_ekstrem_harian": "Luhak (Pos Kerjasama, jarak 1.11km, beda 0.0m, corr=0.38, hari_selisih>20mm=21); Situjuah (Pos Kerjasama, jarak 4.97km, beda 0.0m, corr=0.22, hari_selisih>20mm=21); Payakumbuh Barat (Pos Kerjasama, jarak 7.03km, beda 0.0m, corr=0.34, hari_selisih>20mm=19)",
+      "alasan_ekstrem_harian": "Luhak (Pos Kerjasama, jarak 1.11km, beda 0.0m, corr=0.38, hari_selisih>25mm=14); Situjuah (Pos Kerjasama, jarak 4.97km, beda 0.0m, corr=0.22, hari_selisih>25mm=12); Payakumbuh Selatan (Pos Kerjasama, jarak 5.99km, beda 0.0m, corr=0.44, hari_selisih>25mm=16); Payakumbuh Barat (Pos Kerjasama, jarak 7.03km, beda 0.0m, corr=0.34, hari_selisih>25mm=13)",
       "n_tetangga_dicek_ekstrem": 4,
-      "n_tetangga_flag_ekstrem": 3
+      "n_tetangga_flag_ekstrem": 4
     },
     {
       "id_pos": "PH095",
@@ -25495,10 +25495,10 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "Padang Mangatas (Pos Kerjasama, jarak 7.03km, beda 0.0m, corr=0.34, hari_selisih>20mm=19)",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "Padang Mangatas (Pos Kerjasama, jarak 7.03km, beda 0.0m, corr=0.34, hari_selisih>25mm=13); BPP Tanjung Pati (Pos Kerjasama, jarak 9.95km, beda 0.0m, corr=0.41, hari_selisih>25mm=14)",
       "n_tetangga_dicek_ekstrem": 6,
-      "n_tetangga_flag_ekstrem": 1
+      "n_tetangga_flag_ekstrem": 2
     },
     {
       "id_pos": "PH126",
@@ -26082,7 +26082,7 @@
         }
       ],
       "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "Lembang Jaya (Pos Kerjasama, jarak 9.43km, beda 0.0m, corr=0.26, hari_selisih>20mm=22)",
+      "alasan_ekstrem_harian": "Lembang Jaya (Pos Kerjasama, jarak 9.43km, beda 0.0m, corr=0.26, hari_selisih>25mm=16)",
       "n_tetangga_dicek_ekstrem": 1,
       "n_tetangga_flag_ekstrem": 1
     },
@@ -26374,10 +26374,10 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "ARG Solok Selatan (REF OTOMATIS, jarak 7.72km, beda 0.0m, corr=0.47, hari_selisih>25mm=33)",
       "n_tetangga_dicek_ekstrem": 1,
-      "n_tetangga_flag_ekstrem": 0
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH043",
@@ -29598,9 +29598,9 @@
         }
       ],
       "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "",
+      "alasan_ekstrem_harian": "Padang Laring (Pos Kerjasama, jarak 8.96km, beda 0.0m, corr=0.50, hari_selisih>25mm=49)",
       "n_tetangga_dicek_ekstrem": 1,
-      "n_tetangga_flag_ekstrem": 0
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH072",
@@ -30184,7 +30184,7 @@
         }
       ],
       "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "Sukamenanti (Pos Kerjasama, jarak 9.17km, beda 0.0m, corr=0.31, hari_selisih>20mm=33)",
+      "alasan_ekstrem_harian": "Sukamenanti (Pos Kerjasama, jarak 9.17km, beda 0.0m, corr=0.31, hari_selisih>25mm=30)",
       "n_tetangga_dicek_ekstrem": 2,
       "n_tetangga_flag_ekstrem": 1
     },
@@ -30770,7 +30770,7 @@
         }
       ],
       "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "BPP Koto Baru (Pos Kerjasama, jarak 9.5km, beda 0.0m, corr=0.28, hari_selisih>20mm=22)",
+      "alasan_ekstrem_harian": "BPP Koto Baru (Pos Kerjasama, jarak 9.5km, beda 0.0m, corr=0.28, hari_selisih>25mm=14)",
       "n_tetangga_dicek_ekstrem": 1,
       "n_tetangga_flag_ekstrem": 1
     },
@@ -31062,10 +31062,10 @@
           "status": null
         }
       ],
-      "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "Padang Mangatas (Pos Kerjasama, jarak 4.97km, beda 0.0m, corr=0.22, hari_selisih>20mm=21)",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "Luhak (Pos Kerjasama, jarak 4.58km, beda 0.0m, corr=0.41, hari_selisih>25mm=14); Payakumbuh Selatan (Pos Kerjasama, jarak 4.58km, beda 0.0m, corr=0.48, hari_selisih>25mm=12); Padang Mangatas (Pos Kerjasama, jarak 4.97km, beda 0.0m, corr=0.22, hari_selisih>25mm=12); Salimpaung (Pos Kerjasama, jarak 8.96km, beda 0.0m, corr=0.46, hari_selisih>25mm=12)",
       "n_tetangga_dicek_ekstrem": 5,
-      "n_tetangga_flag_ekstrem": 1
+      "n_tetangga_flag_ekstrem": 4
     },
     {
       "id_pos": "PH123",
@@ -32821,9 +32821,9 @@
         }
       ],
       "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "",
+      "alasan_ekstrem_harian": "Bonjol (Pos Kerjasama, jarak 7.46km, beda 0.0m, corr=0.45, hari_selisih>25mm=28)",
       "n_tetangga_dicek_ekstrem": 3,
-      "n_tetangga_flag_ekstrem": 0
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH119",
@@ -33700,9 +33700,9 @@
         }
       ],
       "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "",
+      "alasan_ekstrem_harian": "Tanjung Lolo (Pos Kerjasama, jarak 1.57km, beda 0.0m, corr=0.48, hari_selisih>25mm=16)",
       "n_tetangga_dicek_ekstrem": 1,
-      "n_tetangga_flag_ekstrem": 0
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH129",
@@ -34286,9 +34286,9 @@
         }
       ],
       "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "",
+      "alasan_ekstrem_harian": "Tanjung Gadang (Pos Kerjasama, jarak 1.57km, beda 0.0m, corr=0.48, hari_selisih>25mm=16)",
       "n_tetangga_dicek_ekstrem": 1,
-      "n_tetangga_flag_ekstrem": 0
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH009",
@@ -34579,7 +34579,7 @@
         }
       ],
       "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "Padang Laring (Pos Kerjasama, jarak 8.68km, beda 0.0m, corr=0.23, hari_selisih>20mm=70)",
+      "alasan_ekstrem_harian": "Padang Laring (Pos Kerjasama, jarak 8.68km, beda 0.0m, corr=0.23, hari_selisih>25mm=47)",
       "n_tetangga_dicek_ekstrem": 1,
       "n_tetangga_flag_ekstrem": 1
     },
@@ -35751,9 +35751,9 @@
         }
       ],
       "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "",
+      "alasan_ekstrem_harian": "Lubuk Basung (Pos Kerjasama, jarak 9.95km, beda 0.0m, corr=0.49, hari_selisih>25mm=28)",
       "n_tetangga_dicek_ekstrem": 1,
-      "n_tetangga_flag_ekstrem": 0
+      "n_tetangga_flag_ekstrem": 1
     },
     {
       "id_pos": "PH015",
@@ -37216,7 +37216,7 @@
         }
       ],
       "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "Bonjol (Pos Kerjasama, jarak 3.34km, beda 0.0m, corr=0.37, hari_selisih>20mm=37)",
+      "alasan_ekstrem_harian": "Bonjol (Pos Kerjasama, jarak 3.34km, beda 0.0m, corr=0.37, hari_selisih>25mm=27)",
       "n_tetangga_dicek_ekstrem": 3,
       "n_tetangga_flag_ekstrem": 1
     },
@@ -37509,9 +37509,9 @@
         }
       ],
       "status_ekstrem_harian": "NORMAL",
-      "alasan_ekstrem_harian": "",
+      "alasan_ekstrem_harian": "Bandar Buat (Pos Kerjasama, jarak 6.76km, beda 0.0m, corr=0.46, hari_selisih>25mm=27)",
       "n_tetangga_dicek_ekstrem": 3,
-      "n_tetangga_flag_ekstrem": 0
+      "n_tetangga_flag_ekstrem": 1
     }
   ]
 }
