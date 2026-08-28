@@ -1,0 +1,362 @@
+/* ================================================================
+   SIMOPHI — Monitoring Pos Hujan Kerjasama
+   style.css — sesuai desain Page_01–Page_04 (sidebar + peta latar)
+   ================================================================ */
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --clr-bg:        #eef2f5;
+  --clr-surface:   #ffffff;
+  --clr-border:    #e2e8f0;
+  --clr-text:      #1e293b;
+  --clr-muted:     #64748b;
+  --clr-normal:    #22c55e;
+  --clr-warn:      #f59e0b;
+  --clr-danger:    #ef4444;
+
+  --clr-header-a:  #14532d;
+  --clr-header-b:  #4d7c0f;
+  --clr-sidebar-active: #f59e0b;
+  --clr-update-bg: #1e293b;
+  --clr-banner:    #1d3a8a;
+
+  --radius:    10px;
+  --radius-lg: 16px;
+  --shadow:    0 2px 8px rgba(15, 23, 42, .12);
+  --shadow-md: 0 6px 24px rgba(15, 23, 42, .18);
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  font-size: 14px;
+  color: var(--clr-text);
+  background: var(--clr-bg);
+  overflow: hidden;
+}
+
+.hidden { display: none !important; }
+
+/* ── Loading overlay ─────────────────────────────────────────── */
+#loading-overlay {
+  position: fixed; inset: 0; z-index: 9999;
+  background: rgba(15, 23, 42, .88);
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: 16px; color: #fff;
+}
+#loading-overlay .spin {
+  width: 44px; height: 44px;
+  border: 4px solid rgba(255, 255, 255, .2);
+  border-top-color: #4ade80;
+  border-radius: 50%;
+  animation: spin .8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+#dummy-notice {
+  position: fixed; bottom: 78px; left: 50%; transform: translateX(-50%);
+  background: #fef3c7; border: 1px solid #fbbf24; border-radius: var(--radius);
+  padding: 8px 16px; font-size: .8rem; color: #92400e; z-index: 1200;
+  box-shadow: var(--shadow);
+}
+
+/* ── App shell ────────────────────────────────────────────────── */
+.app {
+  position: relative;
+  width: 100vw; height: 100vh;
+  overflow: hidden;
+}
+
+/* Peta selalu jadi lapisan dasar */
+#map {
+  position: absolute; inset: 0; z-index: 0;
+  background: #cfe3f0;
+}
+.leaflet-container { font-family: inherit; }
+
+/* ── Header hijau (kartu mengambang kiri-atas) ───────────────── */
+.brand-card {
+  position: absolute; top: 20px; left: 20px; z-index: 500;
+  width: 300px;
+  background: linear-gradient(135deg, var(--clr-header-a), var(--clr-header-b));
+  color: #fff;
+  border-radius: var(--radius);
+  padding: 14px 18px;
+  box-shadow: var(--shadow-md);
+}
+.brand-title { font-size: 1.02rem; font-weight: 800; letter-spacing: .3px; line-height: 1.25; }
+.brand-sub   { font-size: .74rem; opacity: .92; margin-top: 3px; line-height: 1.3; }
+
+/* ── Sidebar navigasi ─────────────────────────────────────────── */
+.sidebar-nav {
+  position: absolute; top: 128px; left: 20px; z-index: 500;
+  display: flex; flex-direction: column; gap: 10px;
+  width: 168px;
+}
+.nav-btn {
+  display: flex; align-items: center; gap: 9px;
+  background: #fff; color: var(--clr-text);
+  border: none; border-radius: 999px;
+  padding: 11px 18px;
+  font-size: .88rem; font-weight: 600;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: background .15s, color .15s, transform .1s;
+  text-align: left;
+}
+.nav-btn:hover { transform: translateY(-1px); }
+.nav-btn .nav-icon { font-size: 1.02rem; line-height: 1; }
+.nav-btn.active {
+  background: var(--clr-sidebar-active);
+  color: #fff;
+  box-shadow: 0 4px 14px rgba(245, 158, 11, .45);
+}
+
+/* ── Pill update waktu ────────────────────────────────────────── */
+.update-pill {
+  position: absolute; bottom: 20px; left: 20px; z-index: 500;
+  background: var(--clr-update-bg); color: #fff;
+  padding: 9px 18px;
+  border-radius: 999px;
+  font-size: .8rem; font-weight: 500;
+  box-shadow: var(--shadow);
+}
+
+/* ── Search & zoom (khusus tab Peta) ─────────────────────────── */
+.map-search {
+  position: absolute; top: 20px; right: 20px; z-index: 500;
+  display: flex; align-items: center; gap: 8px;
+  background: #fff; border-radius: 999px;
+  padding: 9px 16px;
+  box-shadow: var(--shadow-md);
+  width: 260px;
+}
+.map-search input {
+  border: none; outline: none; font-size: .85rem;
+  flex: 1; background: transparent; color: var(--clr-text);
+}
+.map-search .icon { color: var(--clr-muted); font-size: .95rem; }
+.map-search-results {
+  position: absolute; top: 62px; right: 20px; z-index: 500;
+  width: 260px; max-height: 260px; overflow-y: auto;
+  background: #fff; border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  display: none;
+}
+.map-search-results.aktif { display: block; }
+.map-search-item {
+  padding: 9px 14px; font-size: .82rem; cursor: pointer;
+  border-bottom: 1px solid var(--clr-border);
+}
+.map-search-item:last-child { border-bottom: none; }
+.map-search-item:hover { background: #f1f5f9; }
+.map-search-item .msi-nama { font-weight: 600; }
+.map-search-item .msi-kab  { color: var(--clr-muted); font-size: .74rem; }
+
+/* Leaflet zoom control reposition di bawah search */
+.leaflet-top.leaflet-right { top: 78px !important; }
+.leaflet-control-zoom { box-shadow: var(--shadow-md) !important; border: none !important; }
+.leaflet-control-zoom a { border-radius: 50% !important; margin-bottom: 6px !important; border: none !important; box-shadow: var(--shadow); }
+
+/* ── Legenda intensitas hujan ─────────────────────────────────── */
+.legenda {
+  position: absolute; bottom: 20px; right: 20px; z-index: 500;
+  background: #fff; border-radius: var(--radius);
+  padding: 14px 18px;
+  box-shadow: var(--shadow-md);
+  width: 200px;
+  font-size: .78rem;
+}
+.legenda-judul { font-weight: 700; text-transform: uppercase; letter-spacing: .4px; font-size: .72rem; color: var(--clr-muted); margin-bottom: 8px; }
+.legenda-item { display: flex; align-items: center; gap: 8px; padding: 3px 0; }
+.legenda-item span.dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; display: inline-block; }
+.legenda hr { border: none; border-top: 1px solid var(--clr-border); margin: 8px 0; }
+.legenda-suspect-dot {
+  width: 12px; height: 12px; border-radius: 50%;
+  background: #f59e0b; border: 2px solid #fde68a;
+  box-shadow: 0 0 0 2px #f59e0b;
+  flex-shrink: 0; display: inline-block;
+}
+
+/* ── Marker peta ──────────────────────────────────────────────── */
+.marker-dot { border-radius: 50%; box-shadow: 0 1px 4px rgba(0,0,0,.35); cursor: pointer; }
+@keyframes pulse {
+  0%   { box-shadow: 0 0 0 0 rgba(245, 158, 11, .55); }
+  70%  { box-shadow: 0 0 0 10px rgba(245, 158, 11, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0); }
+}
+
+/* ── Popup detail pos (leaflet popup custom) ─────────────────── */
+.leaflet-popup-content-wrapper { border-radius: var(--radius-lg); box-shadow: var(--shadow-md); padding: 0; overflow: hidden; }
+.leaflet-popup-content { margin: 0; width: 250px !important; }
+.leaflet-popup-tip { box-shadow: var(--shadow); }
+.pop-card { font-size: .8rem; }
+.pop-photo {
+  height: 78px;
+  display: flex; align-items: center; justify-content: center;
+  color: #fff; font-weight: 800; font-size: 1.6rem; letter-spacing: .5px;
+  position: relative;
+}
+.pop-photo .pop-suspect-tag {
+  position: absolute; top: 8px; right: 8px;
+  background: rgba(0,0,0,.35); color: #fff;
+  font-size: .62rem; font-weight: 700; text-transform: uppercase;
+  padding: 2px 8px; border-radius: 999px;
+}
+.pop-nama { font-weight: 700; font-size: .92rem; padding: 10px 14px 2px; }
+.pop-kab  { color: var(--clr-muted); font-size: .72rem; padding: 0 14px 8px; }
+.pop-rows { padding: 0 14px 12px; display: flex; flex-direction: column; gap: 6px; }
+.pop-row  { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.pop-row .pr-lbl { color: var(--clr-muted); font-size: .74rem; }
+.pop-row .pr-val { font-weight: 600; font-size: .78rem; text-align: right; }
+.pop-more {
+  display: block; text-align: center; padding: 8px 0; margin: 0 14px 12px;
+  background: #f1f5f9; border: none; border-radius: 8px;
+  font-size: .74rem; font-weight: 600; color: var(--clr-text); cursor: pointer;
+}
+.pop-more:hover { background: #e2e8f0; }
+
+/* ── Panel konten (Statistik / Suspect) — kartu putih mengambang ─ */
+.content-panel {
+  position: absolute; top: 20px; right: 20px; bottom: 20px; left: 340px;
+  z-index: 400;
+  background: var(--clr-surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  overflow-y: auto;
+  display: none;
+}
+.content-panel.aktif { display: block; }
+.panel-inner { padding: 22px 26px 32px; }
+
+.panel-banner {
+  background: var(--clr-banner); color: #fff;
+  font-weight: 700; font-size: 1rem;
+  padding: 16px 26px;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+.panel-section-title { font-size: .84rem; font-weight: 700; color: var(--clr-text); margin: 22px 0 12px; }
+.panel-section-title:first-child { margin-top: 4px; }
+
+/* ── Statistik: kartu ringkasan ───────────────────────────────── */
+.stat-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px;
+  margin-bottom: 22px;
+}
+.stat-card {
+  background: #fff; border: 1px solid var(--clr-border); border-radius: var(--radius);
+  padding: 16px 18px;
+}
+.stat-num   { font-size: 1.9rem; font-weight: 800; color: var(--clr-text); line-height: 1; }
+.stat-label { font-size: .74rem; color: var(--clr-muted); margin-top: 6px; }
+
+.stat-layout { display: grid; grid-template-columns: 1fr 240px; gap: 22px; align-items: start; }
+
+/* ── Tabel status kiriman ─────────────────────────────────────── */
+.tabel-wrap { overflow-x: auto; border: 1px solid var(--clr-border); border-radius: var(--radius); }
+.tabel-histori { width: 100%; border-collapse: collapse; font-size: .8rem; }
+.tabel-histori thead th {
+  background: #f8fafc; color: var(--clr-banner);
+  text-transform: uppercase; letter-spacing: .3px; font-size: .68rem; font-weight: 700;
+  text-align: left; padding: 10px 12px; border-bottom: 2px solid var(--clr-border);
+  position: sticky; top: 0;
+}
+.tabel-histori tbody td { padding: 9px 12px; border-bottom: 1px solid var(--clr-border); }
+.tabel-row { cursor: pointer; transition: background .1s; }
+.tabel-row:hover { background: #f8fafc; }
+.nama-col { font-weight: 600; }
+
+.bar-wrap { position: relative; width: 96px; height: 16px; background: #f1f5f9; border-radius: 999px; overflow: hidden; }
+.bar-fill { position: absolute; inset: 0 auto 0 0; height: 100%; border-radius: 999px; }
+.bar-label {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+  font-size: .66rem; font-weight: 800; color: #1e293b;
+  text-shadow: 0 0 2px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 5px #fff;
+}
+
+/* ── Chart keaktifan ──────────────────────────────────────────── */
+.chart-wrap { height: 260px; margin-top: 8px; background: #fff; border: 1px solid var(--clr-border); border-radius: var(--radius); padding: 14px; }
+
+/* ── Pos teraktif — korelasi tinggi ───────────────────────────── */
+.top-pos-card { background: #fff; border: 1px solid var(--clr-border); border-radius: var(--radius); padding: 14px; }
+.top-pos-item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 12px; border-radius: 999px; margin-bottom: 8px;
+  font-weight: 700; font-size: .78rem; cursor: pointer;
+  background: #f1f5f9; color: var(--clr-text);
+}
+.top-pos-item:last-child { margin-bottom: 0; }
+.top-pos-item.rank-1 { background: var(--clr-sidebar-active); color: #fff; }
+.top-pos-rank { width: 22px; height: 22px; border-radius: 50%; background: rgba(0,0,0,.12); display: flex; align-items: center; justify-content: center; font-size: .7rem; flex-shrink: 0; }
+.top-pos-item.rank-1 .top-pos-rank { background: rgba(255,255,255,.3); }
+.top-pos-name { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.top-pos-pct { font-size: .7rem; opacity: .85; }
+.top-pos-empty { color: var(--clr-muted); font-size: .78rem; padding: 8px 4px; }
+
+/* ── Detail pos (kalender + riwayat) ──────────────────────────── */
+.detail-pos { margin-top: 22px; border: 1px solid var(--clr-border); border-radius: var(--radius); padding: 16px 18px; background: #f8fafc; }
+.detail-header { display: flex; justify-content: space-between; align-items: center; font-weight: 700; font-size: .88rem; margin-bottom: 10px; }
+.detail-header button { border: none; background: transparent; font-size: 1rem; cursor: pointer; color: var(--clr-muted); }
+.kalender-grid { display: grid; grid-template-columns: repeat(10, 1fr); gap: 5px; }
+.kal-cell-lg { aspect-ratio: 1; border-radius: 5px; display: flex; align-items: center; justify-content: center; }
+.kal-tgl { font-size: .62rem; color: rgba(0,0,0,.55); font-weight: 700; }
+.tabel-riwayat { width: 100%; border-collapse: collapse; font-size: .78rem; margin-top: 6px; }
+.tabel-riwayat th { text-align: left; padding: 6px 8px; color: var(--clr-muted); font-weight: 600; border-bottom: 1px solid var(--clr-border); }
+.tabel-riwayat td { padding: 6px 8px; border-bottom: 1px solid var(--clr-border); }
+
+.status-badge { padding: 2px 9px; border-radius: 999px; font-size: .68rem; font-weight: 700; }
+.status-badge.normal  { background: #dcfce7; color: #15803d; }
+.status-badge.suspect { background: #fef3c7; color: #b45309; }
+
+/* ── Suspect: daftar pengecekan ───────────────────────────────── */
+.suspect-empty { text-align: center; padding: 60px 20px; color: var(--clr-muted); }
+.suspect-empty .se-icon { font-size: 2.4rem; margin-bottom: 10px; }
+
+.check-card {
+  border: 2px solid var(--clr-warn); background: #fffdf5;
+  border-radius: var(--radius); padding: 14px 18px; margin-bottom: 14px;
+  cursor: pointer; transition: transform .1s;
+}
+.check-card:hover { transform: translateY(-1px); }
+.check-card-head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-bottom: 8px; }
+.check-nama { font-weight: 700; font-size: .9rem; }
+.check-kab  { color: var(--clr-muted); font-size: .76rem; }
+.check-group { margin-top: 6px; }
+.check-group-label { font-size: .72rem; font-weight: 700; color: var(--clr-banner); margin-bottom: 3px; }
+.check-corr-line { font-size: .78rem; color: var(--clr-text); padding-left: 4px; line-height: 1.55; }
+.check-corr-empty { font-size: .76rem; color: var(--clr-muted); padding-left: 4px; }
+
+.diff-table { width: 100%; border-collapse: collapse; font-size: .8rem; }
+.diff-table thead th {
+  background: #f8fafc; text-align: left; padding: 9px 12px;
+  font-size: .68rem; text-transform: uppercase; color: var(--clr-banner); font-weight: 700;
+  border-bottom: 2px solid var(--clr-border);
+}
+.diff-table tbody td { padding: 9px 12px; border-bottom: 1px solid var(--clr-border); vertical-align: top; }
+.diff-table .dt-nama { font-weight: 600; white-space: nowrap; }
+.diff-table .dt-alasan { color: var(--clr-text); font-size: .78rem; line-height: 1.5; }
+
+/* ── Scrollbar tipis ──────────────────────────────────────────── */
+.content-panel::-webkit-scrollbar { width: 8px; }
+.content-panel::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 999px; }
+
+/* ── Error state ──────────────────────────────────────────────── */
+.error-state { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; background: #0f172a; color: #fff; font-size: .95rem; z-index: 2000; padding: 20px; text-align: center; }
+
+/* ── Responsif ────────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  html, body { overflow-y: auto; overflow-x: hidden; }
+  .app { height: auto; min-height: 100vh; }
+  #map { position: fixed; }
+  .brand-card { width: calc(100vw - 40px); }
+  .sidebar-nav { flex-direction: row; width: calc(100vw - 40px); flex-wrap: wrap; }
+  .nav-btn { flex: 1; justify-content: center; }
+  .content-panel { position: relative; top: 340px; left: 20px; right: 20px; bottom: auto; margin-bottom: 20px; height: calc(100vh - 380px); }
+  .map-search, .map-search-results { display: none; }
+  .legenda { display: none; }
+  .stat-grid { grid-template-columns: repeat(2, 1fr); }
+  .stat-layout { grid-template-columns: 1fr; }
+}
