@@ -109,24 +109,31 @@ function ringkasKorelasi(pos, jenis) {
   return { teks: 'Konsisten', warna: '#22c55e' };
 }
 
+// Ganti fungsi renderMarkers
 function renderMarkers(posHujanList) {
   if (!state.map) return;
   Object.values(state.markers).forEach(m => m.remove());
   state.markers = {};
 
   posHujanList.forEach(pos => {
-    // Suspect jika kriteria 1 ATAU kriteria 2 merah
-    const isSuspect = pos.status === 'SUSPECT' || pos.status_ekstrem_30hari === 'SUSPECT';
+    // Kriteria 1 = Suspect Keras, Kriteria 2 = Anomali
+    const isSuspect = pos.status === 'SUSPECT';
+    const isAnomali = !isSuspect && pos.status_ekstrem_30hari === 'SUSPECT'; 
+    
     const { warna } = kategoriTampil(pos.curah_hujan_mm);
-    const size = isSuspect ? 22 : (pos.curah_hujan_mm > 0 ? 18 : 13);
+    const size = isSuspect || isAnomali ? 22 : (pos.curah_hujan_mm > 0 ? 18 : 13);
+
+    // Styling marker: Suspect (berkedip & oranye tegas), Anomali (border kuning tenang, tidak berkedip)
+    const borderColor = isSuspect ? '#f59e0b' : (isAnomali ? '#fbbf24' : 'rgba(255,255,255,0.65)');
+    const shadowAnim = isSuspect ? 'box-shadow:0 0 0 2px #f59e0b;animation:pulse 2s infinite;' : '';
 
     const icon = L.divIcon({
       className: '',
       html: `<div class="marker-dot" style="
         width:${size}px;height:${size}px;
         background:${warna};
-        border:2px solid ${isSuspect ? '#f59e0b' : 'rgba(255,255,255,0.65)'};
-        ${isSuspect ? 'box-shadow:0 0 0 2px #f59e0b;animation:pulse 2s infinite;' : ''}
+        border:2px solid ${borderColor};
+        ${shadowAnim}
       "></div>`,
       iconSize: [size, size], iconAnchor: [size / 2, size / 2],
     });
@@ -138,9 +145,17 @@ function renderMarkers(posHujanList) {
   });
 }
 
+// Ganti fungsi popupHTML
 function popupHTML(pos) {
   const { kat, warna } = kategoriTampil(pos.curah_hujan_mm);
-  const isSuspect = pos.status === 'SUSPECT' || pos.status_ekstrem_30hari === 'SUSPECT';
+  
+  const isSuspect = pos.status === 'SUSPECT';
+  const isAnomali = pos.status_ekstrem_30hari === 'SUSPECT';
+  
+  let tagHtml = '';
+  if (isSuspect) tagHtml = '<span class="pop-suspect-tag">Suspect</span>';
+  else if (isAnomali) tagHtml = '<span class="pop-anomali-tag">Anomali</span>';
+
   const korAws = ringkasKorelasi(pos, 'aws');
   const pctColor = pos.persen_aktif >= 80 ? '#22c55e' : pos.persen_aktif >= 50 ? '#f59e0b' : '#ef4444';
   
@@ -148,7 +163,7 @@ function popupHTML(pos) {
     <div class="pop-card">
       <div class="pop-photo" style="background:${warna}">
         ${pos.nama_pos.charAt(0).toUpperCase()}
-        ${isSuspect ? '<span class="pop-suspect-tag">Suspect</span>' : ''}
+        ${tagHtml}
       </div>
       <div class="pop-nama">${esc(pos.nama_pos)}</div>
       <div class="pop-kab">📍 ${esc(pos.kabupaten || 'Sumatera Barat')}</div>
@@ -161,6 +176,7 @@ function popupHTML(pos) {
       <button class="pop-more" onclick="ganti('statistik'); tampilkanDetailHistori('${pos.id_pos}')">Lihat Analisis Lengkap</button>
     </div>`;
 }
+
 
 function bukaPopupPos(idPos) {
   const marker = state.markers[idPos];
