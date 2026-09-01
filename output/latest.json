@@ -1,14 +1,884 @@
 {
   "metadata": {
     "tanggal_analisis": "2026-08-29",
-    "waktu_generate": "2026-09-01 18:27:23",
+    "waktu_generate": "2026-09-01 18:28:38",
     "total_pos": 128,
-    "pos_normal": 127,
-    "pos_suspect": 1,
+    "pos_normal": 119,
+    "pos_suspect": 9,
     "pos_aktif_hari_ini": 43,
     "pos_terlambat": 51
   },
   "pos_hujan": [
+    {
+      "id_pos": "PH080",
+      "nama_pos": "BPK IX Koto Seilasi",
+      "latitude": -0.79,
+      "longitude": 100.75,
+      "kabupaten": "Kab. Solok",
+      "status": "SUSPECT",
+      "n_tetangga_dicek": 1,
+      "n_tetangga_flag": 1,
+      "alasan": "Muara Panas (jarak 9.43km, korelasi=0.15)",
+      "flag_spatial": "SUSPECT: Muara Panas (jarak 9.43km, korelasi=0.15)",
+      "window_mulai": "2026-02-11",
+      "window_akhir": "2026-08-29",
+      "curah_hujan_mm": 0.0,
+      "kategori": "Tidak Hujan",
+      "warna": "#94a3b8",
+      "tanggal_terakhir": null,
+      "hari_terakhir_kirim": 999,
+      "label_kirim": "Tidak aktif",
+      "warna_kirim": "#94a3b8",
+      "jumlah_lapor_30hari": 0,
+      "persen_aktif": 0.0,
+      "kalender_30hari": [
+        {
+          "tanggal": "2026-07-31",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-01",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-02",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-03",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-04",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-05",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-06",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-07",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-08",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-09",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-10",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-11",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-12",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-13",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-14",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-15",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-16",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-17",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-18",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-19",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-20",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-21",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-22",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-23",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-24",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-25",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-26",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-27",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-28",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-29",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        }
+      ],
+      "riwayat_7hari": [
+        {
+          "tanggal": "2026-08-29",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-28",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-27",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-26",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-25",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-24",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-23",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        }
+      ],
+      "status_ekstrem_30hari": "NORMAL",
+      "detail_verifikasi_segera": "",
+      "perlu_verifikasi_segera": false,
+      "raw_ekstrem_events": []
+    },
+    {
+      "id_pos": "PH076",
+      "nama_pos": "Balitbu Aripan",
+      "latitude": -0.7,
+      "longitude": 100.6,
+      "kabupaten": "Kab. Solok",
+      "status": "SUSPECT",
+      "n_tetangga_dicek": 7,
+      "n_tetangga_flag": 1,
+      "alasan": "X Koto Singkarak (jarak 1.11km, korelasi=0.10)",
+      "flag_spatial": "SUSPECT: X Koto Singkarak (jarak 1.11km, korelasi=0.10)",
+      "window_mulai": "2026-02-11",
+      "window_akhir": "2026-08-29",
+      "curah_hujan_mm": 0.0,
+      "kategori": "Tidak Hujan",
+      "warna": "#94a3b8",
+      "tanggal_terakhir": "2026-08-28",
+      "hari_terakhir_kirim": 1,
+      "label_kirim": "Kemarin",
+      "warna_kirim": "#3b82f6",
+      "jumlah_lapor_30hari": 29,
+      "persen_aktif": 96.7,
+      "kalender_30hari": [
+        {
+          "tanggal": "2026-07-31",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-01",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-02",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-03",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-04",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-05",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-06",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-07",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-08",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-09",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-10",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-11",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-12",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-13",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-14",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-15",
+          "ada": true,
+          "ch": 14.4,
+          "kat": "Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-16",
+          "ada": true,
+          "ch": 0.5,
+          "kat": "Sangat Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-17",
+          "ada": true,
+          "ch": 7.4,
+          "kat": "Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-18",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-19",
+          "ada": true,
+          "ch": 1.1,
+          "kat": "Sangat Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-20",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-21",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-22",
+          "ada": true,
+          "ch": 0.7,
+          "kat": "Sangat Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-23",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-24",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-25",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-26",
+          "ada": true,
+          "ch": 24.6,
+          "kat": "Sedang",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-27",
+          "ada": true,
+          "ch": 2.5,
+          "kat": "Sangat Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-28",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-29",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        }
+      ],
+      "riwayat_7hari": [
+        {
+          "tanggal": "2026-08-29",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-28",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-27",
+          "ada": true,
+          "ch": 2.5,
+          "kat": "Sangat Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-26",
+          "ada": true,
+          "ch": 24.6,
+          "kat": "Sedang",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-25",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-24",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-23",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        }
+      ],
+      "status_ekstrem_30hari": "NORMAL",
+      "detail_verifikasi_segera": "",
+      "perlu_verifikasi_segera": false,
+      "raw_ekstrem_events": []
+    },
+    {
+      "id_pos": "PH077",
+      "nama_pos": "Balitbu Sumani",
+      "latitude": -0.72,
+      "longitude": 100.6,
+      "kabupaten": "Kab. Solok",
+      "status": "SUSPECT",
+      "n_tetangga_dicek": 6,
+      "n_tetangga_flag": 1,
+      "alasan": "X Koto Singkarak (jarak 1.11km, korelasi=0.05)",
+      "flag_spatial": "SUSPECT: X Koto Singkarak (jarak 1.11km, korelasi=0.05)",
+      "window_mulai": "2026-02-11",
+      "window_akhir": "2026-08-29",
+      "curah_hujan_mm": 5.0,
+      "kategori": "Ringan",
+      "warna": "#60a5fa",
+      "tanggal_terakhir": "2026-08-27",
+      "hari_terakhir_kirim": 2,
+      "label_kirim": "2 hari lalu",
+      "warna_kirim": "#f59e0b",
+      "jumlah_lapor_30hari": 27,
+      "persen_aktif": 90.0,
+      "kalender_30hari": [
+        {
+          "tanggal": "2026-07-31",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-01",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-02",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-03",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-04",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-05",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-06",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-07",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-08",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-09",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-10",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-11",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-12",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-13",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-14",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-15",
+          "ada": true,
+          "ch": 26.0,
+          "kat": "Sedang",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-16",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-17",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-18",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-19",
+          "ada": true,
+          "ch": 1.0,
+          "kat": "Sangat Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-20",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-21",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-22",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-23",
+          "ada": true,
+          "ch": 17.0,
+          "kat": "Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-24",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-25",
+          "ada": true,
+          "ch": 0.5,
+          "kat": "Sangat Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-26",
+          "ada": true,
+          "ch": 7.0,
+          "kat": "Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-27",
+          "ada": true,
+          "ch": 5.0,
+          "kat": "Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-28",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-29",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        }
+      ],
+      "riwayat_7hari": [
+        {
+          "tanggal": "2026-08-29",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-28",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-27",
+          "ada": true,
+          "ch": 5.0,
+          "kat": "Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-26",
+          "ada": true,
+          "ch": 7.0,
+          "kat": "Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-25",
+          "ada": true,
+          "ch": 0.5,
+          "kat": "Sangat Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-24",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-23",
+          "ada": true,
+          "ch": 17.0,
+          "kat": "Ringan",
+          "status": "SUSPECT"
+        }
+      ],
+      "status_ekstrem_30hari": "NORMAL",
+      "detail_verifikasi_segera": "",
+      "perlu_verifikasi_segera": false,
+      "raw_ekstrem_events": []
+    },
     {
       "id_pos": "PH032",
       "nama_pos": "Kandang Ampek",
@@ -18,8 +888,8 @@
       "status": "SUSPECT",
       "n_tetangga_dicek": 2,
       "n_tetangga_flag": 2,
-      "alasan": "Staklim Padang Pariaman (REF BMKG, jarak 7.12km, korelasi=0.15) ; Stageof PPI (REF BMKG, jarak 9.5km, korelasi=-0.07)",
-      "flag_spatial": "SUSPECT: Staklim Padang Pariaman (REF BMKG, jarak 7.12km, korelasi=0.15) ; Stageof PPI (REF BMKG, jarak 9.5km, korelasi=-0.07)",
+      "alasan": "Staklim Padang Pariaman (REF BMKG) (jarak 7.12km, korelasi=0.15) ; Stageof PPI (REF BMKG) (jarak 9.5km, korelasi=-0.07)",
+      "flag_spatial": "SUSPECT: Staklim Padang Pariaman (REF BMKG) (jarak 7.12km, korelasi=0.15) ; Stageof PPI (REF BMKG) (jarak 9.5km, korelasi=-0.07)",
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
       "curah_hujan_mm": 0.0,
@@ -315,6 +1185,1456 @@
           "jarak": 6.88
         }
       ]
+    },
+    {
+      "id_pos": "PH128",
+      "nama_pos": "Lubuk Sikarah",
+      "latitude": -0.77,
+      "longitude": 100.61,
+      "kabupaten": "Kota Solok",
+      "status": "SUSPECT",
+      "n_tetangga_dicek": 6,
+      "n_tetangga_flag": 1,
+      "alasan": "X Koto Singkarak (jarak 6.76km, korelasi=0.15)",
+      "flag_spatial": "SUSPECT: X Koto Singkarak (jarak 6.76km, korelasi=0.15)",
+      "window_mulai": "2026-02-11",
+      "window_akhir": "2026-08-29",
+      "curah_hujan_mm": 0.0,
+      "kategori": "Tidak Hujan",
+      "warna": "#94a3b8",
+      "tanggal_terakhir": "2026-08-29",
+      "hari_terakhir_kirim": 0,
+      "label_kirim": "Hari ini",
+      "warna_kirim": "#22c55e",
+      "jumlah_lapor_30hari": 30,
+      "persen_aktif": 100.0,
+      "kalender_30hari": [
+        {
+          "tanggal": "2026-07-31",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-01",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-02",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-03",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-04",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-05",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-06",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-07",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-08",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-09",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-10",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-11",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-12",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-13",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-14",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-15",
+          "ada": true,
+          "ch": 6.0,
+          "kat": "Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-16",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-17",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-18",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-19",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-20",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-21",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-22",
+          "ada": true,
+          "ch": 20.0,
+          "kat": "Sedang",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-23",
+          "ada": true,
+          "ch": 10.0,
+          "kat": "Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-24",
+          "ada": true,
+          "ch": 2.0,
+          "kat": "Sangat Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-25",
+          "ada": true,
+          "ch": 3.0,
+          "kat": "Sangat Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-26",
+          "ada": true,
+          "ch": 39.0,
+          "kat": "Sedang",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-27",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-28",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-29",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        }
+      ],
+      "riwayat_7hari": [
+        {
+          "tanggal": "2026-08-29",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-28",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-27",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-26",
+          "ada": true,
+          "ch": 39.0,
+          "kat": "Sedang",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-25",
+          "ada": true,
+          "ch": 3.0,
+          "kat": "Sangat Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-24",
+          "ada": true,
+          "ch": 2.0,
+          "kat": "Sangat Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-23",
+          "ada": true,
+          "ch": 10.0,
+          "kat": "Ringan",
+          "status": "SUSPECT"
+        }
+      ],
+      "status_ekstrem_30hari": "NORMAL",
+      "detail_verifikasi_segera": "",
+      "perlu_verifikasi_segera": false,
+      "raw_ekstrem_events": []
+    },
+    {
+      "id_pos": "PH087",
+      "nama_pos": "Muara Panas",
+      "latitude": -0.85,
+      "longitude": 100.69,
+      "kabupaten": "Kab. Solok",
+      "status": "SUSPECT",
+      "n_tetangga_dicek": 2,
+      "n_tetangga_flag": 1,
+      "alasan": "BPK IX Koto Seilasi (jarak 9.43km, korelasi=0.15)",
+      "flag_spatial": "SUSPECT: BPK IX Koto Seilasi (jarak 9.43km, korelasi=0.15)",
+      "window_mulai": "2026-02-11",
+      "window_akhir": "2026-08-29",
+      "curah_hujan_mm": 0.0,
+      "kategori": "Tidak Hujan",
+      "warna": "#94a3b8",
+      "tanggal_terakhir": "2026-08-29",
+      "hari_terakhir_kirim": 0,
+      "label_kirim": "Hari ini",
+      "warna_kirim": "#22c55e",
+      "jumlah_lapor_30hari": 24,
+      "persen_aktif": 80.0,
+      "kalender_30hari": [
+        {
+          "tanggal": "2026-07-31",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-01",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-02",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-03",
+          "ada": true,
+          "ch": 13.0,
+          "kat": "Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-04",
+          "ada": true,
+          "ch": 13.0,
+          "kat": "Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-05",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-06",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-07",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-08",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-09",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-10",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-11",
+          "ada": true,
+          "ch": 1.0,
+          "kat": "Sangat Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-12",
+          "ada": true,
+          "ch": 1.0,
+          "kat": "Sangat Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-13",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-14",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-15",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-16",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-17",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-18",
+          "ada": true,
+          "ch": 14.0,
+          "kat": "Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-19",
+          "ada": true,
+          "ch": 13.5,
+          "kat": "Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-20",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-21",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-22",
+          "ada": true,
+          "ch": 8.5,
+          "kat": "Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-23",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-24",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-25",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-26",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-27",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-28",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-29",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        }
+      ],
+      "riwayat_7hari": [
+        {
+          "tanggal": "2026-08-29",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-28",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-27",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-26",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-25",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-24",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-23",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        }
+      ],
+      "status_ekstrem_30hari": "NORMAL",
+      "detail_verifikasi_segera": "",
+      "perlu_verifikasi_segera": false,
+      "raw_ekstrem_events": []
+    },
+    {
+      "id_pos": "PH088",
+      "nama_pos": "Muaro Pingai",
+      "latitude": -0.68,
+      "longitude": 100.56,
+      "kabupaten": "Kab. Solok",
+      "status": "SUSPECT",
+      "n_tetangga_dicek": 4,
+      "n_tetangga_flag": 1,
+      "alasan": "X Koto Singkarak (jarak 5.56km, korelasi=-0.01)",
+      "flag_spatial": "SUSPECT: X Koto Singkarak (jarak 5.56km, korelasi=-0.01)",
+      "window_mulai": "2026-02-11",
+      "window_akhir": "2026-08-29",
+      "curah_hujan_mm": 11.0,
+      "kategori": "Ringan",
+      "warna": "#60a5fa",
+      "tanggal_terakhir": "2026-08-27",
+      "hari_terakhir_kirim": 2,
+      "label_kirim": "2 hari lalu",
+      "warna_kirim": "#f59e0b",
+      "jumlah_lapor_30hari": 26,
+      "persen_aktif": 86.7,
+      "kalender_30hari": [
+        {
+          "tanggal": "2026-07-31",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-01",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-02",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-03",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-04",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-05",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-06",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-07",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-08",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-09",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-10",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-11",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-12",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-13",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-14",
+          "ada": true,
+          "ch": 8.0,
+          "kat": "Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-15",
+          "ada": true,
+          "ch": 8.0,
+          "kat": "Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-16",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-17",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-18",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-19",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-20",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-21",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-22",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-23",
+          "ada": true,
+          "ch": 2.0,
+          "kat": "Sangat Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-24",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-25",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-26",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-27",
+          "ada": true,
+          "ch": 11.0,
+          "kat": "Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-28",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-29",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        }
+      ],
+      "riwayat_7hari": [
+        {
+          "tanggal": "2026-08-29",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-28",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-27",
+          "ada": true,
+          "ch": 11.0,
+          "kat": "Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-26",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-25",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-24",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-23",
+          "ada": true,
+          "ch": 2.0,
+          "kat": "Sangat Ringan",
+          "status": "SUSPECT"
+        }
+      ],
+      "status_ekstrem_30hari": "NORMAL",
+      "detail_verifikasi_segera": "",
+      "perlu_verifikasi_segera": false,
+      "raw_ekstrem_events": []
+    },
+    {
+      "id_pos": "PH129",
+      "nama_pos": "Tanjung Harapan",
+      "latitude": -0.76,
+      "longitude": 100.65,
+      "kabupaten": "Kota Solok",
+      "status": "SUSPECT",
+      "n_tetangga_dicek": 6,
+      "n_tetangga_flag": 1,
+      "alasan": "X Koto Singkarak (jarak 7.86km, korelasi=0.17)",
+      "flag_spatial": "SUSPECT: X Koto Singkarak (jarak 7.86km, korelasi=0.17)",
+      "window_mulai": "2026-02-11",
+      "window_akhir": "2026-08-29",
+      "curah_hujan_mm": 0.0,
+      "kategori": "Tidak Hujan",
+      "warna": "#94a3b8",
+      "tanggal_terakhir": "2026-08-20",
+      "hari_terakhir_kirim": 9,
+      "label_kirim": "9 hari lalu",
+      "warna_kirim": "#ef4444",
+      "jumlah_lapor_30hari": 21,
+      "persen_aktif": 70.0,
+      "kalender_30hari": [
+        {
+          "tanggal": "2026-07-31",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-01",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-02",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-03",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-04",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-05",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-06",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-07",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-08",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-09",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-10",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-11",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-12",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-13",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-14",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-15",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-16",
+          "ada": true,
+          "ch": 1.0,
+          "kat": "Sangat Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-17",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-18",
+          "ada": true,
+          "ch": 15.0,
+          "kat": "Ringan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-19",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-20",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "SUSPECT"
+        },
+        {
+          "tanggal": "2026-08-21",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-22",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-23",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-24",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-25",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-26",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-27",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-28",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-29",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        }
+      ],
+      "riwayat_7hari": [
+        {
+          "tanggal": "2026-08-29",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-28",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-27",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-26",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-25",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-24",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-23",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        }
+      ],
+      "status_ekstrem_30hari": "NORMAL",
+      "detail_verifikasi_segera": "",
+      "perlu_verifikasi_segera": false,
+      "raw_ekstrem_events": []
+    },
+    {
+      "id_pos": "PH092",
+      "nama_pos": "X Koto Singkarak",
+      "latitude": -0.71,
+      "longitude": 100.6,
+      "kabupaten": "Kab. Solok",
+      "status": "SUSPECT",
+      "n_tetangga_dicek": 6,
+      "n_tetangga_flag": 6,
+      "alasan": "Balitbu Aripan (jarak 1.11km, korelasi=0.10) ; Balitbu Sumani (jarak 1.11km, korelasi=0.05) ; Muaro Pingai (jarak 5.56km, korelasi=-0.01) ; Lubuk Sikarah (jarak 6.76km, korelasi=0.15) ; Tanjung Harapan (jarak 7.86km, korelasi=0.17) ; AAWS Sumani (jarak 1.41km, korelasi=0.04)",
+      "flag_spatial": "SUSPECT: Balitbu Aripan (jarak 1.11km, korelasi=0.10) ; Balitbu Sumani (jarak 1.11km, korelasi=0.05) ; Muaro Pingai (jarak 5.56km, korelasi=-0.01) ; Lubuk Sikarah (jarak 6.76km, korelasi=0.15) ; Tanjung Harapan (jarak 7.86km, korelasi=0.17) ; AAWS Sumani (jarak 1.41km, korelasi=0.04)",
+      "window_mulai": "2026-02-11",
+      "window_akhir": "2026-08-29",
+      "curah_hujan_mm": 0.0,
+      "kategori": "Tidak Hujan",
+      "warna": "#94a3b8",
+      "tanggal_terakhir": null,
+      "hari_terakhir_kirim": 999,
+      "label_kirim": "Tidak aktif",
+      "warna_kirim": "#94a3b8",
+      "jumlah_lapor_30hari": 0,
+      "persen_aktif": 0.0,
+      "kalender_30hari": [
+        {
+          "tanggal": "2026-07-31",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-01",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-02",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-03",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-04",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-05",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-06",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-07",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-08",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-09",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-10",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-11",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-12",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-13",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-14",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-15",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-16",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-17",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-18",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-19",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-20",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-21",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-22",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-23",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-24",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-25",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-26",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-27",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-28",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-29",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        }
+      ],
+      "riwayat_7hari": [
+        {
+          "tanggal": "2026-08-29",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-28",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-27",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-26",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-25",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-24",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-23",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        }
+      ],
+      "status_ekstrem_30hari": "NORMAL",
+      "detail_verifikasi_segera": "",
+      "perlu_verifikasi_segera": false,
+      "raw_ekstrem_events": []
     },
     {
       "id_pos": "PH055",
@@ -3257,296 +5577,6 @@
           "jarak": 8.43
         }
       ]
-    },
-    {
-      "id_pos": "PH080",
-      "nama_pos": "BPK IX Koto Seilasi",
-      "latitude": -0.79,
-      "longitude": 100.75,
-      "kabupaten": "Kab. Solok",
-      "status": "NORMAL",
-      "n_tetangga_dicek": 1,
-      "n_tetangga_flag": 0,
-      "alasan": "",
-      "flag_spatial": "KONSISTEN",
-      "window_mulai": "2026-02-11",
-      "window_akhir": "2026-08-29",
-      "curah_hujan_mm": 0.0,
-      "kategori": "Tidak Hujan",
-      "warna": "#94a3b8",
-      "tanggal_terakhir": null,
-      "hari_terakhir_kirim": 999,
-      "label_kirim": "Tidak aktif",
-      "warna_kirim": "#94a3b8",
-      "jumlah_lapor_30hari": 0,
-      "persen_aktif": 0.0,
-      "kalender_30hari": [
-        {
-          "tanggal": "2026-07-31",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-01",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-02",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-03",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-04",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-05",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-06",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-07",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-08",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-09",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-10",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-11",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-12",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-13",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-14",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-15",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-16",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-17",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-18",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-19",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-20",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-21",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-22",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-23",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-24",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-25",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-26",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-27",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-28",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-29",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        }
-      ],
-      "riwayat_7hari": [
-        {
-          "tanggal": "2026-08-29",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-28",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-27",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-26",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-25",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-24",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-23",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        }
-      ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
-      "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
     },
     {
       "id_pos": "PH081",
@@ -8618,586 +10648,6 @@
           "ch": null,
           "kat": null,
           "status": null
-        }
-      ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
-      "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
-    },
-    {
-      "id_pos": "PH076",
-      "nama_pos": "Balitbu Aripan",
-      "latitude": -0.7,
-      "longitude": 100.6,
-      "kabupaten": "Kab. Solok",
-      "status": "NORMAL",
-      "n_tetangga_dicek": 7,
-      "n_tetangga_flag": 0,
-      "alasan": "",
-      "flag_spatial": "KONSISTEN",
-      "window_mulai": "2026-02-11",
-      "window_akhir": "2026-08-29",
-      "curah_hujan_mm": 0.0,
-      "kategori": "Tidak Hujan",
-      "warna": "#94a3b8",
-      "tanggal_terakhir": "2026-08-28",
-      "hari_terakhir_kirim": 1,
-      "label_kirim": "Kemarin",
-      "warna_kirim": "#3b82f6",
-      "jumlah_lapor_30hari": 29,
-      "persen_aktif": 96.7,
-      "kalender_30hari": [
-        {
-          "tanggal": "2026-07-31",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-01",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-02",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-03",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-04",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-05",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-06",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-07",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-08",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-09",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-10",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-11",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-12",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-13",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-14",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-15",
-          "ada": true,
-          "ch": 14.4,
-          "kat": "Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-16",
-          "ada": true,
-          "ch": 0.5,
-          "kat": "Sangat Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-17",
-          "ada": true,
-          "ch": 7.4,
-          "kat": "Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-18",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-19",
-          "ada": true,
-          "ch": 1.1,
-          "kat": "Sangat Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-20",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-21",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-22",
-          "ada": true,
-          "ch": 0.7,
-          "kat": "Sangat Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-23",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-24",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-25",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-26",
-          "ada": true,
-          "ch": 24.6,
-          "kat": "Sedang",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-27",
-          "ada": true,
-          "ch": 2.5,
-          "kat": "Sangat Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-28",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-29",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        }
-      ],
-      "riwayat_7hari": [
-        {
-          "tanggal": "2026-08-29",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-28",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-27",
-          "ada": true,
-          "ch": 2.5,
-          "kat": "Sangat Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-26",
-          "ada": true,
-          "ch": 24.6,
-          "kat": "Sedang",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-25",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-24",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-23",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        }
-      ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
-      "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
-    },
-    {
-      "id_pos": "PH077",
-      "nama_pos": "Balitbu Sumani",
-      "latitude": -0.72,
-      "longitude": 100.6,
-      "kabupaten": "Kab. Solok",
-      "status": "NORMAL",
-      "n_tetangga_dicek": 6,
-      "n_tetangga_flag": 0,
-      "alasan": "",
-      "flag_spatial": "KONSISTEN",
-      "window_mulai": "2026-02-11",
-      "window_akhir": "2026-08-29",
-      "curah_hujan_mm": 5.0,
-      "kategori": "Ringan",
-      "warna": "#60a5fa",
-      "tanggal_terakhir": "2026-08-27",
-      "hari_terakhir_kirim": 2,
-      "label_kirim": "2 hari lalu",
-      "warna_kirim": "#f59e0b",
-      "jumlah_lapor_30hari": 27,
-      "persen_aktif": 90.0,
-      "kalender_30hari": [
-        {
-          "tanggal": "2026-07-31",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-01",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-02",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-03",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-04",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-05",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-06",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-07",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-08",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-09",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-10",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-11",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-12",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-13",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-14",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-15",
-          "ada": true,
-          "ch": 26.0,
-          "kat": "Sedang",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-16",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-17",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-18",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-19",
-          "ada": true,
-          "ch": 1.0,
-          "kat": "Sangat Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-20",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-21",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-22",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-23",
-          "ada": true,
-          "ch": 17.0,
-          "kat": "Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-24",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-25",
-          "ada": true,
-          "ch": 0.5,
-          "kat": "Sangat Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-26",
-          "ada": true,
-          "ch": 7.0,
-          "kat": "Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-27",
-          "ada": true,
-          "ch": 5.0,
-          "kat": "Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-28",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-29",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        }
-      ],
-      "riwayat_7hari": [
-        {
-          "tanggal": "2026-08-29",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-28",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-27",
-          "ada": true,
-          "ch": 5.0,
-          "kat": "Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-26",
-          "ada": true,
-          "ch": 7.0,
-          "kat": "Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-25",
-          "ada": true,
-          "ch": 0.5,
-          "kat": "Sangat Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-24",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-23",
-          "ada": true,
-          "ch": 17.0,
-          "kat": "Ringan",
-          "status": "NORMAL"
         }
       ],
       "status_ekstrem_30hari": "NORMAL",
@@ -17903,296 +19353,6 @@
       "raw_ekstrem_events": []
     },
     {
-      "id_pos": "PH128",
-      "nama_pos": "Lubuk Sikarah",
-      "latitude": -0.77,
-      "longitude": 100.61,
-      "kabupaten": "Kota Solok",
-      "status": "NORMAL",
-      "n_tetangga_dicek": 6,
-      "n_tetangga_flag": 0,
-      "alasan": "",
-      "flag_spatial": "KONSISTEN",
-      "window_mulai": "2026-02-11",
-      "window_akhir": "2026-08-29",
-      "curah_hujan_mm": 0.0,
-      "kategori": "Tidak Hujan",
-      "warna": "#94a3b8",
-      "tanggal_terakhir": "2026-08-29",
-      "hari_terakhir_kirim": 0,
-      "label_kirim": "Hari ini",
-      "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 30,
-      "persen_aktif": 100.0,
-      "kalender_30hari": [
-        {
-          "tanggal": "2026-07-31",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-01",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-02",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-03",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-04",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-05",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-06",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-07",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-08",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-09",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-10",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-11",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-12",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-13",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-14",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-15",
-          "ada": true,
-          "ch": 6.0,
-          "kat": "Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-16",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-17",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-18",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-19",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-20",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-21",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-22",
-          "ada": true,
-          "ch": 20.0,
-          "kat": "Sedang",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-23",
-          "ada": true,
-          "ch": 10.0,
-          "kat": "Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-24",
-          "ada": true,
-          "ch": 2.0,
-          "kat": "Sangat Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-25",
-          "ada": true,
-          "ch": 3.0,
-          "kat": "Sangat Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-26",
-          "ada": true,
-          "ch": 39.0,
-          "kat": "Sedang",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-27",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-28",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-29",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        }
-      ],
-      "riwayat_7hari": [
-        {
-          "tanggal": "2026-08-29",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-28",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-27",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-26",
-          "ada": true,
-          "ch": 39.0,
-          "kat": "Sedang",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-25",
-          "ada": true,
-          "ch": 3.0,
-          "kat": "Sangat Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-24",
-          "ada": true,
-          "ch": 2.0,
-          "kat": "Sangat Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-23",
-          "ada": true,
-          "ch": 10.0,
-          "kat": "Ringan",
-          "status": "NORMAL"
-        }
-      ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
-      "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
-    },
-    {
       "id_pos": "PH070",
       "nama_pos": "Lubuk Tarok",
       "latitude": -0.82,
@@ -20272,296 +21432,6 @@
       ]
     },
     {
-      "id_pos": "PH087",
-      "nama_pos": "Muara Panas",
-      "latitude": -0.85,
-      "longitude": 100.69,
-      "kabupaten": "Kab. Solok",
-      "status": "NORMAL",
-      "n_tetangga_dicek": 2,
-      "n_tetangga_flag": 0,
-      "alasan": "",
-      "flag_spatial": "KONSISTEN",
-      "window_mulai": "2026-02-11",
-      "window_akhir": "2026-08-29",
-      "curah_hujan_mm": 0.0,
-      "kategori": "Tidak Hujan",
-      "warna": "#94a3b8",
-      "tanggal_terakhir": "2026-08-29",
-      "hari_terakhir_kirim": 0,
-      "label_kirim": "Hari ini",
-      "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 24,
-      "persen_aktif": 80.0,
-      "kalender_30hari": [
-        {
-          "tanggal": "2026-07-31",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-01",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-02",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-03",
-          "ada": true,
-          "ch": 13.0,
-          "kat": "Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-04",
-          "ada": true,
-          "ch": 13.0,
-          "kat": "Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-05",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-06",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-07",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-08",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-09",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-10",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-11",
-          "ada": true,
-          "ch": 1.0,
-          "kat": "Sangat Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-12",
-          "ada": true,
-          "ch": 1.0,
-          "kat": "Sangat Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-13",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-14",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-15",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-16",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-17",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-18",
-          "ada": true,
-          "ch": 14.0,
-          "kat": "Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-19",
-          "ada": true,
-          "ch": 13.5,
-          "kat": "Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-20",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-21",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-22",
-          "ada": true,
-          "ch": 8.5,
-          "kat": "Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-23",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-24",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-25",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-26",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-27",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-28",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-29",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        }
-      ],
-      "riwayat_7hari": [
-        {
-          "tanggal": "2026-08-29",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-28",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-27",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-26",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-25",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-24",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-23",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        }
-      ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
-      "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
-    },
-    {
       "id_pos": "PH016",
       "nama_pos": "Muara Siberut",
       "latitude": -1.63,
@@ -21424,296 +22294,6 @@
           "ch": null,
           "kat": null,
           "status": null
-        }
-      ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
-      "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
-    },
-    {
-      "id_pos": "PH088",
-      "nama_pos": "Muaro Pingai",
-      "latitude": -0.68,
-      "longitude": 100.56,
-      "kabupaten": "Kab. Solok",
-      "status": "NORMAL",
-      "n_tetangga_dicek": 4,
-      "n_tetangga_flag": 0,
-      "alasan": "",
-      "flag_spatial": "KONSISTEN",
-      "window_mulai": "2026-02-11",
-      "window_akhir": "2026-08-29",
-      "curah_hujan_mm": 11.0,
-      "kategori": "Ringan",
-      "warna": "#60a5fa",
-      "tanggal_terakhir": "2026-08-27",
-      "hari_terakhir_kirim": 2,
-      "label_kirim": "2 hari lalu",
-      "warna_kirim": "#f59e0b",
-      "jumlah_lapor_30hari": 26,
-      "persen_aktif": 86.7,
-      "kalender_30hari": [
-        {
-          "tanggal": "2026-07-31",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-01",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-02",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-03",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-04",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-05",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-06",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-07",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-08",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-09",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-10",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-11",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-12",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-13",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-14",
-          "ada": true,
-          "ch": 8.0,
-          "kat": "Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-15",
-          "ada": true,
-          "ch": 8.0,
-          "kat": "Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-16",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-17",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-18",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-19",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-20",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-21",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-22",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-23",
-          "ada": true,
-          "ch": 2.0,
-          "kat": "Sangat Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-24",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-25",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-26",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-27",
-          "ada": true,
-          "ch": 11.0,
-          "kat": "Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-28",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-29",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        }
-      ],
-      "riwayat_7hari": [
-        {
-          "tanggal": "2026-08-29",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-28",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-27",
-          "ada": true,
-          "ch": 11.0,
-          "kat": "Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-26",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-25",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-24",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-23",
-          "ada": true,
-          "ch": 2.0,
-          "kat": "Sangat Ringan",
-          "status": "NORMAL"
         }
       ],
       "status_ekstrem_30hari": "NORMAL",
@@ -33981,296 +34561,6 @@
       "raw_ekstrem_events": []
     },
     {
-      "id_pos": "PH129",
-      "nama_pos": "Tanjung Harapan",
-      "latitude": -0.76,
-      "longitude": 100.65,
-      "kabupaten": "Kota Solok",
-      "status": "NORMAL",
-      "n_tetangga_dicek": 6,
-      "n_tetangga_flag": 0,
-      "alasan": "",
-      "flag_spatial": "KONSISTEN",
-      "window_mulai": "2026-02-11",
-      "window_akhir": "2026-08-29",
-      "curah_hujan_mm": 0.0,
-      "kategori": "Tidak Hujan",
-      "warna": "#94a3b8",
-      "tanggal_terakhir": "2026-08-20",
-      "hari_terakhir_kirim": 9,
-      "label_kirim": "9 hari lalu",
-      "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 21,
-      "persen_aktif": 70.0,
-      "kalender_30hari": [
-        {
-          "tanggal": "2026-07-31",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-01",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-02",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-03",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-04",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-05",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-06",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-07",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-08",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-09",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-10",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-11",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-12",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-13",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-14",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-15",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-16",
-          "ada": true,
-          "ch": 1.0,
-          "kat": "Sangat Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-17",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-18",
-          "ada": true,
-          "ch": 15.0,
-          "kat": "Ringan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-19",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-20",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "NORMAL"
-        },
-        {
-          "tanggal": "2026-08-21",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-22",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-23",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-24",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-25",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-26",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-27",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-28",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-29",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        }
-      ],
-      "riwayat_7hari": [
-        {
-          "tanggal": "2026-08-29",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-28",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-27",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-26",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-25",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-24",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-23",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        }
-      ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
-      "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
-    },
-    {
       "id_pos": "PH075",
       "nama_pos": "Tanjung Lolo",
       "latitude": -0.77,
@@ -37889,296 +38179,6 @@
           "jarak": 6.29
         }
       ]
-    },
-    {
-      "id_pos": "PH092",
-      "nama_pos": "X Koto Singkarak",
-      "latitude": -0.71,
-      "longitude": 100.6,
-      "kabupaten": "Kab. Solok",
-      "status": "NORMAL",
-      "n_tetangga_dicek": 6,
-      "n_tetangga_flag": 0,
-      "alasan": "",
-      "flag_spatial": "KONSISTEN",
-      "window_mulai": "2026-02-11",
-      "window_akhir": "2026-08-29",
-      "curah_hujan_mm": 0.0,
-      "kategori": "Tidak Hujan",
-      "warna": "#94a3b8",
-      "tanggal_terakhir": null,
-      "hari_terakhir_kirim": 999,
-      "label_kirim": "Tidak aktif",
-      "warna_kirim": "#94a3b8",
-      "jumlah_lapor_30hari": 0,
-      "persen_aktif": 0.0,
-      "kalender_30hari": [
-        {
-          "tanggal": "2026-07-31",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-01",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-02",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-03",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-04",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-05",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-06",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-07",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-08",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-09",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-10",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-11",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-12",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-13",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-14",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-15",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-16",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-17",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-18",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-19",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-20",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-21",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-22",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-23",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-24",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-25",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-26",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-27",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-28",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-29",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        }
-      ],
-      "riwayat_7hari": [
-        {
-          "tanggal": "2026-08-29",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-28",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-27",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-26",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-25",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-24",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-23",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        }
-      ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
-      "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
     }
   ]
 }
