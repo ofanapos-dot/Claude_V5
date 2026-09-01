@@ -1,7 +1,7 @@
 {
   "metadata": {
     "tanggal_analisis": "2026-08-29",
-    "waktu_generate": "2026-09-01 18:02:42",
+    "waktu_generate": "2026-09-01 18:05:01",
     "total_pos": 128,
     "pos_normal": 127,
     "pos_suspect": 1,
@@ -16,12 +16,16 @@
       "longitude": 100.34,
       "kabupaten": "Kab. Padang Pariaman",
       "status": "SUSPECT",
+      "tipe_referensi": "BMKG",
       "n_tetangga_dicek": 2,
       "n_tetangga_flag": 2,
-      "alasan": "Staklim Padang Pariaman (BMKG | 7.12km | beda 0.0m | r=0.15 | diff=21.7mm) ; Stageof PPI (BMKG | 9.5km | beda 0.0m | r=-0.07 | diff=19.6mm)",
-      "flag_spatial": "SUSPECT: Staklim Padang Pariaman (BMKG | 7.12km | beda 0.0m | r=0.15 | diff=21.7mm) ; Stageof PPI (BMKG | 9.5km | beda 0.0m | r=-0.07 | diff=19.6mm)",
+      "alasan": "Staklim Padang Pariaman (BMKG, jarak 7.12km, beda 0.0m, corr=0.15, diff=21.7); Stageof PPI (BMKG, jarak 9.5km, beda 0.0m, corr=-0.07, diff=19.6)",
+      "flag_spatial": "SUSPECT: Staklim Padang Pariaman (BMKG, jarak 7.12km, beda 0.0m, corr=0.15, diff=21.7); Stageof PPI (BMKG, jarak 9.5km, beda 0.0m, corr=-0.07, diff=19.6)",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -294,27 +298,14 @@
           "status": "SUSPECT"
         }
       ],
-      "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "03 Aug 2026: vs AAWS Staklim Padang Pariaman (1mm vs 72mm, selisih 71mm, 6.88km) | 28 Aug 2026: vs AAWS Staklim Padang Pariaman (64mm vs 0mm, selisih 64mm, 6.88km)",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "AAWS Staklim Padang Pariaman (REF OTOMATIS, jarak 6.88km, beda 0.0m, EKSTREM BERULANG 2x (ambang 50.0mm, terbaru 2026-08-28 selisih 63.8mm), arah=NETRAL, konsisten=29%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": 1.0,
       "perlu_verifikasi_segera": true,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "03 Aug 2026",
-          "tetangga": "AAWS Staklim Padang Pariaman",
-          "ch_target": 1.0,
-          "ch_tetangga": 71.6,
-          "selisih": 70.6,
-          "jarak": 6.88
-        },
-        {
-          "tanggal": "28 Aug 2026",
-          "tetangga": "AAWS Staklim Padang Pariaman",
-          "ch_target": 64.0,
-          "ch_tetangga": 0.2,
-          "selisih": 63.8,
-          "jarak": 6.88
-        }
-      ]
+      "detail_verifikasi_segera": "2026-08-28: Kandang Ampek=64.0mm vs AAWS Staklim Padang Pariaman=0.2mm (selisih 63.8mm, jarak 6.88km, beda 0.0m)"
     },
     {
       "id_pos": "PH055",
@@ -323,12 +314,16 @@
       "longitude": 100.95,
       "kabupaten": "Kab. Pesisir Selatan",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -601,10 +596,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH018",
@@ -613,12 +612,16 @@
       "longitude": 100.55,
       "kabupaten": "Kab. Lima Puluh Kota",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 4,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -891,10 +894,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "ARG Guguak (REF OTOMATIS, jarak 9.65km, beda 0.0m, corr=0.34, hari_selisih>20mm=3, arah=NETRAL, konsisten=10%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH078",
@@ -903,12 +910,16 @@
       "longitude": 100.87,
       "kabupaten": "Kab. Solok",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 14.0,
       "kategori": "Ringan",
       "warna": "#60a5fa",
@@ -1181,10 +1192,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH029",
@@ -1193,12 +1208,16 @@
       "longitude": 100.29,
       "kabupaten": "Kab. Padang Pariaman",
       "status": "NORMAL",
+      "tipe_referensi": "BMKG",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "Referensi Utama BMKG",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -1471,10 +1490,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Referensi Utama BMKG",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH019",
@@ -1483,12 +1506,16 @@
       "longitude": 100.52,
       "kabupaten": "Kab. Lima Puluh Kota",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -1761,10 +1788,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH113",
@@ -1773,12 +1804,16 @@
       "longitude": 100.37,
       "kabupaten": "Kota Bukittinggi",
       "status": "NORMAL",
+      "tipe_referensi": "BMKG",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -2051,10 +2086,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH056",
@@ -2063,12 +2102,16 @@
       "longitude": 100.61,
       "kabupaten": "Kab. Pesisir Selatan",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 7.0,
       "kategori": "Ringan",
       "warna": "#60a5fa",
@@ -2341,43 +2384,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "15 Aug 2026: vs PU Batang Kapas - Tanah Kareh (6mm vs 152mm, selisih 146mm, 1.57km) | 03 Aug 2026: vs PU Batang Kapas - Tanah Kareh (68mm vs 0mm, selisih 68mm, 1.57km) | 04 Aug 2026: vs PU Batang Kapas - Tanah Kareh (0mm vs 52mm, selisih 52mm, 1.57km) | 23 Aug 2026: vs PU Batang Kapas - Tanah Kareh (70mm vs 19mm, selisih 51mm, 1.57km)",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "PU Batang Kapas - Tanah Kareh (Pos Kerjasama, jarak 1.57km, beda 0.0m, EKSTREM BERULANG 4x (ambang 50.0mm, terbaru 2026-08-23 selisih 51.0mm), arah=NETRAL, konsisten=27%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": 6.0,
       "perlu_verifikasi_segera": true,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "15 Aug 2026",
-          "tetangga": "PU Batang Kapas - Tanah Kareh",
-          "ch_target": 6.0,
-          "ch_tetangga": 152.0,
-          "selisih": 146.0,
-          "jarak": 1.57
-        },
-        {
-          "tanggal": "03 Aug 2026",
-          "tetangga": "PU Batang Kapas - Tanah Kareh",
-          "ch_target": 68.0,
-          "ch_tetangga": 0.0,
-          "selisih": 68.0,
-          "jarak": 1.57
-        },
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "PU Batang Kapas - Tanah Kareh",
-          "ch_target": 0.0,
-          "ch_tetangga": 52.0,
-          "selisih": 52.0,
-          "jarak": 1.57
-        },
-        {
-          "tanggal": "23 Aug 2026",
-          "tetangga": "PU Batang Kapas - Tanah Kareh",
-          "ch_target": 70.0,
-          "ch_tetangga": 19.0,
-          "selisih": 51.0,
-          "jarak": 1.57
-        }
-      ]
+      "detail_verifikasi_segera": "2026-08-15: BPK Batang Kapas=6.0mm vs PU Batang Kapas - Tanah Kareh=152.0mm (selisih 146.0mm, jarak 1.57km, beda 0.0m)"
     },
     {
       "id_pos": "PH057",
@@ -2386,12 +2400,16 @@
       "longitude": 100.49,
       "kabupaten": "Kab. Pesisir Selatan",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -2664,10 +2682,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH058",
@@ -2676,12 +2698,16 @@
       "longitude": 100.48,
       "kabupaten": "Kab. Pesisir Selatan",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -2954,10 +2980,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH079",
@@ -2966,12 +2996,16 @@
       "longitude": 100.87,
       "kabupaten": "Kab. Solok",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 2.0,
       "kategori": "Sangat Ringan",
       "warna": "#bae6fd",
@@ -3244,19 +3278,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "16 Aug 2026: vs AWS Alahan Panjang (61mm vs 0mm, selisih 61mm, 8.43km)",
-      "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "16 Aug 2026",
-          "tetangga": "AWS Alahan Panjang",
-          "ch_target": 61.0,
-          "ch_tetangga": 0.2,
-          "selisih": 60.8,
-          "jarak": 8.43
-        }
-      ]
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "AWS Alahan Panjang (REF OTOMATIS, jarak 8.43km, beda 0.0m, corr=-0.07, hari_selisih>20mm=2, arah=NETRAL, konsisten=25%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": 13.0,
+      "perlu_verifikasi_segera": true,
+      "detail_verifikasi_segera": "2026-08-16: BPK Hiliran Gumanti=61.0mm vs AWS Alahan Panjang=0.2mm (selisih 60.8mm, jarak 8.43km, beda 0.0m)"
     },
     {
       "id_pos": "PH080",
@@ -3265,12 +3294,16 @@
       "longitude": 100.75,
       "kabupaten": "Kab. Solok",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -3543,10 +3576,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH081",
@@ -3555,12 +3592,16 @@
       "longitude": 100.78,
       "kabupaten": "Kab. Solok",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 2,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -3833,10 +3874,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "AWS Alahan Panjang (REF OTOMATIS, jarak 2.35km, beda 0.0m, corr=0.23, hari_selisih>20mm=3, arah=NETRAL, konsisten=13%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH059",
@@ -3845,12 +3890,16 @@
       "longitude": 100.88,
       "kabupaten": "Kab. Pesisir Selatan",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 2,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -4123,43 +4172,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "15 Aug 2026: vs ARG Linggo Sari Baganti (0mm vs 333mm, selisih 333mm, 0.46km) | 15 Aug 2026: vs BPK Padang Laban (0mm vs 161mm, selisih 161mm, 1.57km) | 14 Aug 2026: vs BPK Padang Laban (125mm vs 0mm, selisih 125mm, 1.57km) | 14 Aug 2026: vs ARG Linggo Sari Baganti (125mm vs 0mm, selisih 125mm, 0.46km)",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "ARG Linggo Sari Baganti (REF OTOMATIS, jarak 0.46km, beda 0.0m, EKSTREM BERULANG 2x (ambang 50.0mm, terbaru 2026-08-15 selisih 333.4mm), arah=UNDER, konsisten=20%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "UNDER",
+      "hari_sejak_ekstrem_terakhir": 14.0,
       "perlu_verifikasi_segera": true,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "15 Aug 2026",
-          "tetangga": "ARG Linggo Sari Baganti",
-          "ch_target": 0.0,
-          "ch_tetangga": 333.4,
-          "selisih": 333.4,
-          "jarak": 0.46
-        },
-        {
-          "tanggal": "15 Aug 2026",
-          "tetangga": "BPK Padang Laban",
-          "ch_target": 0.0,
-          "ch_tetangga": 161.0,
-          "selisih": 161.0,
-          "jarak": 1.57
-        },
-        {
-          "tanggal": "14 Aug 2026",
-          "tetangga": "BPK Padang Laban",
-          "ch_target": 125.0,
-          "ch_tetangga": 0.0,
-          "selisih": 125.0,
-          "jarak": 1.57
-        },
-        {
-          "tanggal": "14 Aug 2026",
-          "tetangga": "ARG Linggo Sari Baganti",
-          "ch_target": 125.0,
-          "ch_tetangga": 0.0,
-          "selisih": 125.0,
-          "jarak": 0.46
-        }
-      ]
+      "detail_verifikasi_segera": "2026-08-15: BPK Linggo Sari Baganti=0.0mm vs ARG Linggo Sari Baganti=333.4mm (selisih 333.4mm, jarak 0.46km, beda 0.0m); 2026-08-14: BPK Linggo Sari Baganti=125.0mm vs ARG Linggo Sari Baganti=0.0mm (selisih 125.0mm, jarak 0.46km, beda 0.0m)"
     },
     {
       "id_pos": "PH060",
@@ -4168,12 +4188,16 @@
       "longitude": 100.87,
       "kabupaten": "Kab. Pesisir Selatan",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 2,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 2.0,
       "kategori": "Sangat Ringan",
       "warna": "#bae6fd",
@@ -4446,35 +4470,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "15 Aug 2026: vs ARG Linggo Sari Baganti (161mm vs 333mm, selisih 172mm, 2.03km) | 15 Aug 2026: vs BPK Linggo Sari Baganti (161mm vs 0mm, selisih 161mm, 1.57km) | 14 Aug 2026: vs BPK Linggo Sari Baganti (0mm vs 125mm, selisih 125mm, 1.57km)",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": 14.0,
       "perlu_verifikasi_segera": true,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "15 Aug 2026",
-          "tetangga": "ARG Linggo Sari Baganti",
-          "ch_target": 161.0,
-          "ch_tetangga": 333.4,
-          "selisih": 172.39999999999998,
-          "jarak": 2.03
-        },
-        {
-          "tanggal": "15 Aug 2026",
-          "tetangga": "BPK Linggo Sari Baganti",
-          "ch_target": 161.0,
-          "ch_tetangga": 0.0,
-          "selisih": 161.0,
-          "jarak": 1.57
-        },
-        {
-          "tanggal": "14 Aug 2026",
-          "tetangga": "BPK Linggo Sari Baganti",
-          "ch_target": 0.0,
-          "ch_tetangga": 125.0,
-          "selisih": 125.0,
-          "jarak": 1.57
-        }
-      ]
+      "detail_verifikasi_segera": "2026-08-15: BPK Padang Laban=161.0mm vs ARG Linggo Sari Baganti=333.4mm (selisih 172.4mm, jarak 2.03km, beda 0.0m)"
     },
     {
       "id_pos": "PH065",
@@ -4483,12 +4486,16 @@
       "longitude": 101.01,
       "kabupaten": "Kab. Sijunjung",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 2,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 8.5,
       "kategori": "Ringan",
       "warna": "#60a5fa",
@@ -4761,10 +4768,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH066",
@@ -4773,12 +4784,16 @@
       "longitude": 100.96,
       "kabupaten": "Kab. Sijunjung",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 4,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -5051,10 +5066,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "ARG Sijunjung (REF OTOMATIS, jarak 7.74km, beda 0.0m, corr=0.00, hari_selisih>20mm=1, arah=NETRAL, konsisten=14%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH082",
@@ -5063,12 +5082,16 @@
       "longitude": 100.64,
       "kabupaten": "Kab. Solok",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 2,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -5341,10 +5364,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH099",
@@ -5353,12 +5380,16 @@
       "longitude": 100.42,
       "kabupaten": "Kab. Tanah Datar",
       "status": "NORMAL",
+      "tipe_referensi": "BMKG",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -5631,10 +5662,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "ARG X Koto (REF OTOMATIS, jarak 5.22km, beda 0.0m, corr=-0.11, hari_selisih>20mm=1, arah=NETRAL, konsisten=18%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH067",
@@ -5643,12 +5678,16 @@
       "longitude": 100.88,
       "kabupaten": "Kab. Sijunjung",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 2,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -5921,10 +5960,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 2,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH127",
@@ -5933,12 +5976,16 @@
       "longitude": 100.73,
       "kabupaten": "Kota Sawahlunto",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 2,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 45.0,
       "kategori": "Sedang",
       "warna": "#3b82f6",
@@ -6211,10 +6258,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH011",
@@ -6223,12 +6274,16 @@
       "longitude": 101.67,
       "kabupaten": "Kab. Dharmasraya",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -6501,10 +6556,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH012",
@@ -6513,12 +6572,16 @@
       "longitude": 101.73,
       "kabupaten": "Kab. Dharmasraya",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -6791,10 +6854,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH100",
@@ -6803,12 +6870,16 @@
       "longitude": 100.72,
       "kabupaten": "Kab. Tanah Datar",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -7081,10 +7152,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH030",
@@ -7093,12 +7168,16 @@
       "longitude": 100.1,
       "kabupaten": "Kab. Padang Pariaman",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 3,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -7371,10 +7450,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH093",
@@ -7383,12 +7466,16 @@
       "longitude": 101.39,
       "kabupaten": "Kab. Solok Selatan",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 14.5,
       "kategori": "Ringan",
       "warna": "#60a5fa",
@@ -7661,10 +7748,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH031",
@@ -7673,12 +7764,16 @@
       "longitude": 100.26,
       "kabupaten": "Kab. Padang Pariaman",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 3,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -7951,99 +8046,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "04 Aug 2026: vs Sunur (2mm vs 108mm, selisih 106mm, 8.09km) | 04 Aug 2026: vs Ulakan Tapakis (2mm vs 108mm, selisih 106mm, 7.12km) | 18 Aug 2026: vs Sunur (98mm vs 0mm, selisih 98mm, 8.09km) | 18 Aug 2026: vs Ulakan Tapakis (98mm vs 0mm, selisih 98mm, 7.12km) | 15 Aug 2026: vs Sunur (3mm vs 96mm, selisih 93mm, 8.09km) | 18 Aug 2026: vs Bonjol (98mm vs 10mm, selisih 88mm, 5.67km) | 13 Aug 2026: vs Sunur (76mm vs 0mm, selisih 76mm, 8.09km) | 13 Aug 2026: vs Ulakan Tapakis (76mm vs 0mm, selisih 76mm, 7.12km) | 13 Aug 2026: vs Bonjol (76mm vs 11mm, selisih 65mm, 5.67km) | 14 Aug 2026: vs Sunur (48mm vs 104mm, selisih 56mm, 8.09km) | 15 Aug 2026: vs Ulakan Tapakis (3mm vs 57mm, selisih 54mm, 7.12km)",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "Bonjol (Pos Kerjasama, jarak 5.67km, beda 0.0m, EKSTREM BERULANG 2x (ambang 50.0mm, terbaru 2026-08-18 selisih 87.7mm), arah=OVER, konsisten=42%); Ulakan Tapakis (Pos Kerjasama, jarak 7.12km, beda 0.0m, EKSTREM BERULANG 4x (ambang 50.0mm, terbaru 2026-08-18 selisih 98.0mm), arah=NETRAL, konsisten=21%); Sunur (Pos Kerjasama, jarak 8.09km, beda 0.0m, EKSTREM BERULANG 5x (ambang 50.0mm, terbaru 2026-08-18 selisih 98.0mm), arah=NETRAL, konsisten=29%)",
+      "n_tetangga_dicek_ekstrem": 3,
+      "n_tetangga_flag_ekstrem": 3,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": 11.0,
       "perlu_verifikasi_segera": true,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "Sunur",
-          "ch_target": 2.0,
-          "ch_tetangga": 108.0,
-          "selisih": 106.0,
-          "jarak": 8.09
-        },
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "Ulakan Tapakis",
-          "ch_target": 2.0,
-          "ch_tetangga": 108.0,
-          "selisih": 106.0,
-          "jarak": 7.12
-        },
-        {
-          "tanggal": "18 Aug 2026",
-          "tetangga": "Sunur",
-          "ch_target": 98.0,
-          "ch_tetangga": 0.0,
-          "selisih": 98.0,
-          "jarak": 8.09
-        },
-        {
-          "tanggal": "18 Aug 2026",
-          "tetangga": "Ulakan Tapakis",
-          "ch_target": 98.0,
-          "ch_tetangga": 0.0,
-          "selisih": 98.0,
-          "jarak": 7.12
-        },
-        {
-          "tanggal": "15 Aug 2026",
-          "tetangga": "Sunur",
-          "ch_target": 3.0,
-          "ch_tetangga": 96.0,
-          "selisih": 93.0,
-          "jarak": 8.09
-        },
-        {
-          "tanggal": "18 Aug 2026",
-          "tetangga": "Bonjol",
-          "ch_target": 98.0,
-          "ch_tetangga": 10.3,
-          "selisih": 87.7,
-          "jarak": 5.67
-        },
-        {
-          "tanggal": "13 Aug 2026",
-          "tetangga": "Sunur",
-          "ch_target": 76.0,
-          "ch_tetangga": 0.0,
-          "selisih": 76.0,
-          "jarak": 8.09
-        },
-        {
-          "tanggal": "13 Aug 2026",
-          "tetangga": "Ulakan Tapakis",
-          "ch_target": 76.0,
-          "ch_tetangga": 0.0,
-          "selisih": 76.0,
-          "jarak": 7.12
-        },
-        {
-          "tanggal": "13 Aug 2026",
-          "tetangga": "Bonjol",
-          "ch_target": 76.0,
-          "ch_tetangga": 11.0,
-          "selisih": 65.0,
-          "jarak": 5.67
-        },
-        {
-          "tanggal": "14 Aug 2026",
-          "tetangga": "Sunur",
-          "ch_target": 48.0,
-          "ch_tetangga": 104.0,
-          "selisih": 56.0,
-          "jarak": 8.09
-        },
-        {
-          "tanggal": "15 Aug 2026",
-          "tetangga": "Ulakan Tapakis",
-          "ch_target": 3.0,
-          "ch_tetangga": 57.0,
-          "selisih": 54.0,
-          "jarak": 7.12
-        }
-      ]
+      "detail_verifikasi_segera": "2026-08-18: BPP Sintuk=98.0mm vs Bonjol=10.3mm (selisih 87.7mm, jarak 5.67km, beda 0.0m); 2026-08-13: BPP Sintuk=76.0mm vs Bonjol=11.0mm (selisih 65.0mm, jarak 5.67km, beda 0.0m); 2026-08-04: BPP Sintuk=2.0mm vs Ulakan Tapakis=108.0mm (selisih 106.0mm, jarak 7.12km, beda 0.0m); 2026-08-04: BPP Sintuk=2.0mm vs Sunur=108.0mm (selisih 106.0mm, jarak 8.09km, beda 0.0m)"
     },
     {
       "id_pos": "PH102",
@@ -8052,12 +8062,16 @@
       "longitude": 100.63,
       "kabupaten": "Kab. Tanah Datar",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 3,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -8330,10 +8344,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "ARG Sungai Tarab (REF OTOMATIS, jarak 7.76km, beda 0.0m, corr=0.23, hari_selisih>20mm=1, arah=NETRAL, konsisten=18%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH020",
@@ -8342,12 +8360,16 @@
       "longitude": 100.66,
       "kabupaten": "Kab. Lima Puluh Kota",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 4,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 19.5,
       "kategori": "Ringan",
       "warna": "#60a5fa",
@@ -8620,10 +8642,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "AWS Harau (REF OTOMATIS, jarak 0.67km, beda 0.0m, corr=0.03, hari_selisih>20mm=1, arah=NETRAL, konsisten=27%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH076",
@@ -8632,12 +8658,16 @@
       "longitude": 100.6,
       "kabupaten": "Kab. Solok",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 7,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -8910,10 +8940,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH077",
@@ -8922,12 +8956,16 @@
       "longitude": 100.6,
       "kabupaten": "Kab. Solok",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 6,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 5.0,
       "kategori": "Ringan",
       "warna": "#60a5fa",
@@ -9200,10 +9238,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH114",
@@ -9212,12 +9254,16 @@
       "longitude": 100.42,
       "kabupaten": "Kota Padang",
       "status": "NORMAL",
+      "tipe_referensi": "BMKG",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 5.0,
       "kategori": "Ringan",
       "warna": "#60a5fa",
@@ -9490,19 +9536,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "04 Aug 2026: vs AWS Maritim Bungus (188mm vs 286mm, selisih 97mm, 9.24km)",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "AWS Maritim Bungus",
-          "ch_target": 188.5,
-          "ch_tetangga": 285.6,
-          "selisih": 97.10000000000002,
-          "jarak": 9.24
-        }
-      ]
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH001",
@@ -9511,12 +9552,16 @@
       "longitude": 100.48,
       "kabupaten": "Kab. Agam",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -9789,10 +9834,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH098",
@@ -9801,12 +9850,16 @@
       "longitude": 100.46,
       "kabupaten": "Kab. Tanah Datar",
       "status": "NORMAL",
+      "tipe_referensi": "BMKG",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 5.0,
       "kategori": "Ringan",
       "warna": "#60a5fa",
@@ -10079,10 +10132,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "ARG X Koto (REF OTOMATIS, jarak 9.97km, beda 0.0m, corr=-0.11, hari_selisih>20mm=3, arah=NETRAL, konsisten=24%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH041",
@@ -10091,12 +10148,16 @@
       "longitude": 100.25,
       "kabupaten": "Kab. Pasaman",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 4,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -10369,83 +10430,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "05 Aug 2026: vs Kuliek (0mm vs 177mm, selisih 177mm, 9.94km) | 14 Aug 2026: vs Sunur (5mm vs 104mm, selisih 99mm, 7.46km) | 14 Aug 2026: vs Kuliek (5mm vs 102mm, selisih 97mm, 9.94km) | 18 Aug 2026: vs BPP Sintuk (10mm vs 98mm, selisih 88mm, 5.67km) | 04 Aug 2026: vs Sunur (24mm vs 108mm, selisih 84mm, 7.46km) | 04 Aug 2026: vs Ulakan Tapakis (24mm vs 108mm, selisih 84mm, 3.34km) | 13 Aug 2026: vs BPP Sintuk (11mm vs 76mm, selisih 65mm, 5.67km) | 14 Aug 2026: vs Ulakan Tapakis (5mm vs 70mm, selisih 64mm, 3.34km) | 15 Aug 2026: vs Sunur (41mm vs 96mm, selisih 55mm, 7.46km)",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "Ulakan Tapakis (Pos Kerjasama, jarak 3.34km, beda 0.0m, EKSTREM BERULANG 2x (ambang 50.0mm, terbaru 2026-08-14 selisih 64.5mm), arah=UNDER, konsisten=30%); BPP Sintuk (Pos Kerjasama, jarak 5.67km, beda 0.0m, EKSTREM BERULANG 2x (ambang 50.0mm, terbaru 2026-08-18 selisih 87.7mm), arah=UNDER, konsisten=17%); Sunur (Pos Kerjasama, jarak 7.46km, beda 0.0m, EKSTREM BERULANG 3x (ambang 50.0mm, terbaru 2026-08-15 selisih 54.8mm), arah=UNDER, konsisten=28%); Kuliek (Pos Kerjasama, jarak 9.94km, beda 0.0m, EKSTREM BERULANG 2x (ambang 50.0mm, terbaru 2026-08-14 selisih 97.0mm), arah=UNDER, konsisten=30%)",
+      "n_tetangga_dicek_ekstrem": 4,
+      "n_tetangga_flag_ekstrem": 4,
+      "arah_bias_dominan": "UNDER",
+      "hari_sejak_ekstrem_terakhir": 11.0,
       "perlu_verifikasi_segera": true,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "05 Aug 2026",
-          "tetangga": "Kuliek",
-          "ch_target": 0.0,
-          "ch_tetangga": 177.0,
-          "selisih": 177.0,
-          "jarak": 9.94
-        },
-        {
-          "tanggal": "14 Aug 2026",
-          "tetangga": "Sunur",
-          "ch_target": 5.0,
-          "ch_tetangga": 104.0,
-          "selisih": 99.0,
-          "jarak": 7.46
-        },
-        {
-          "tanggal": "14 Aug 2026",
-          "tetangga": "Kuliek",
-          "ch_target": 5.0,
-          "ch_tetangga": 102.0,
-          "selisih": 97.0,
-          "jarak": 9.94
-        },
-        {
-          "tanggal": "18 Aug 2026",
-          "tetangga": "BPP Sintuk",
-          "ch_target": 10.3,
-          "ch_tetangga": 98.0,
-          "selisih": 87.7,
-          "jarak": 5.67
-        },
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "Sunur",
-          "ch_target": 24.4,
-          "ch_tetangga": 108.0,
-          "selisih": 83.6,
-          "jarak": 7.46
-        },
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "Ulakan Tapakis",
-          "ch_target": 24.4,
-          "ch_tetangga": 108.0,
-          "selisih": 83.6,
-          "jarak": 3.34
-        },
-        {
-          "tanggal": "13 Aug 2026",
-          "tetangga": "BPP Sintuk",
-          "ch_target": 11.0,
-          "ch_tetangga": 76.0,
-          "selisih": 65.0,
-          "jarak": 5.67
-        },
-        {
-          "tanggal": "14 Aug 2026",
-          "tetangga": "Ulakan Tapakis",
-          "ch_target": 5.0,
-          "ch_tetangga": 69.5,
-          "selisih": 64.5,
-          "jarak": 3.34
-        },
-        {
-          "tanggal": "15 Aug 2026",
-          "tetangga": "Sunur",
-          "ch_target": 41.2,
-          "ch_tetangga": 96.0,
-          "selisih": 54.8,
-          "jarak": 7.46
-        }
-      ]
+      "detail_verifikasi_segera": "2026-08-05: Bonjol=0.0mm vs Kuliek=177.0mm (selisih 177.0mm, jarak 9.94km, beda 0.0m)"
     },
     {
       "id_pos": "PH101",
@@ -10454,12 +10446,16 @@
       "longitude": 100.57,
       "kabupaten": "Kab. Tanah Datar",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 6,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 5.0,
       "kategori": "Ringan",
       "warna": "#60a5fa",
@@ -10732,10 +10728,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "ARG SMPK Tanah Datar (REF OTOMATIS, jarak 8.96km, beda 0.0m, corr=0.11, hari_selisih>20mm=1, arah=NETRAL, konsisten=23%)",
+      "n_tetangga_dicek_ekstrem": 2,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH103",
@@ -10744,12 +10744,16 @@
       "longitude": 100.54,
       "kabupaten": "Kab. Tanah Datar",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 6,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -11022,10 +11026,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 2,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH083",
@@ -11034,12 +11042,16 @@
       "longitude": 100.74,
       "kabupaten": "Kab. Solok",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 3,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -11312,10 +11324,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "AWS Alahan Panjang (REF OTOMATIS, jarak 8.64km, beda 0.0m, corr=0.03, hari_selisih>20mm=1, arah=NETRAL, konsisten=15%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH104",
@@ -11324,12 +11340,16 @@
       "longitude": 100.62,
       "kabupaten": "Kab. Tanah Datar",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 7,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -11602,10 +11622,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "ARG SMPK Tanah Datar (REF OTOMATIS, jarak 6.19km, beda 0.0m, corr=0.33, hari_selisih>20mm=1, arah=NETRAL, konsisten=10%)",
+      "n_tetangga_dicek_ekstrem": 2,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH002",
@@ -11614,12 +11638,16 @@
       "longitude": 100.34,
       "kabupaten": "Kab. Agam",
       "status": "NORMAL",
+      "tipe_referensi": "BMKG",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "Referensi Utama BMKG",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -11892,10 +11920,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Referensi Utama BMKG",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH003",
@@ -11904,12 +11936,16 @@
       "longitude": 100.38,
       "kabupaten": "Kab. Agam",
       "status": "NORMAL",
+      "tipe_referensi": "BMKG",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "Referensi Utama BMKG",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -12182,10 +12218,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Referensi Utama BMKG",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH105",
@@ -12194,12 +12234,16 @@
       "longitude": 100.56,
       "kabupaten": "Kab. Tanah Datar",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 7,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -12472,10 +12516,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 2,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH021",
@@ -12484,12 +12532,16 @@
       "longitude": 100.57,
       "kabupaten": "Kab. Lima Puluh Kota",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 2,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -12762,10 +12814,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "ARG Guguak (REF OTOMATIS, jarak 2.61km, beda 0.0m, corr=0.23, hari_selisih>20mm=2, arah=NETRAL, konsisten=14%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH084",
@@ -12774,12 +12830,16 @@
       "longitude": 100.63,
       "kabupaten": "Kab. Solok",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -13052,10 +13112,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "ARG Solok (REF OTOMATIS, jarak 8.82km, beda 0.0m, corr=0.21, hari_selisih>20mm=3, arah=NETRAL, konsisten=20%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH047",
@@ -13064,12 +13128,16 @@
       "longitude": 99.72,
       "kabupaten": "Kab. Pasaman Barat",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -13342,10 +13410,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH004",
@@ -13354,12 +13426,16 @@
       "longitude": 100.41,
       "kabupaten": "Kab. Agam",
       "status": "NORMAL",
+      "tipe_referensi": "BMKG",
       "n_tetangga_dicek": 2,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -13632,10 +13708,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH061",
@@ -13644,12 +13724,16 @@
       "longitude": 100.74,
       "kabupaten": "Kab. Pesisir Selatan",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -13922,10 +14006,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH048",
@@ -13934,12 +14022,16 @@
       "longitude": 99.85,
       "kabupaten": "Kab. Pasaman Barat",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -14212,10 +14304,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH005",
@@ -14224,12 +14320,16 @@
       "longitude": 100.3,
       "kabupaten": "Kab. Agam",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -14502,10 +14602,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Matur (Pos Kerjasama, jarak 8.68km, beda 0.0m, corr=0.31, hari_selisih>20mm=6, arah=UNDER, konsisten=12%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "UNDER",
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH085",
@@ -14514,12 +14618,16 @@
       "longitude": 100.61,
       "kabupaten": "Kab. Solok",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 3,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -14792,10 +14900,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 3,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH033",
@@ -14804,12 +14916,16 @@
       "longitude": 100.33,
       "kabupaten": "Kab. Padang Pariaman",
       "status": "NORMAL",
+      "tipe_referensi": "BMKG",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 50.0,
       "kategori": "Lebat",
       "warna": "#f59e0b",
@@ -15082,67 +15198,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "05 Aug 2026: vs Bonjol (177mm vs 0mm, selisih 177mm, 9.94km) | 05 Aug 2026: vs AWS Bandara Minangkabau (177mm vs 16mm, selisih 162mm, 7.22km) | 04 Aug 2026: vs AWS Bandara Minangkabau (0mm vs 118mm, selisih 118mm, 7.22km) | 14 Aug 2026: vs Bonjol (102mm vs 5mm, selisih 97mm, 9.94km) | 15 Aug 2026: vs AWS Bandara Minangkabau (0mm vs 80mm, selisih 80mm, 7.22km) | 14 Aug 2026: vs AWS Bandara Minangkabau (102mm vs 22mm, selisih 80mm, 7.22km) | 03 Aug 2026: vs AWS Bandara Minangkabau (0mm vs 50mm, selisih 50mm, 7.22km)",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "AWS Bandara Minangkabau (REF OTOMATIS, jarak 7.22km, beda 0.0m, EKSTREM BERULANG 5x (ambang 50.0mm, terbaru 2026-08-15 selisih 80.5mm), arah=NETRAL, konsisten=30%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": 14.0,
       "perlu_verifikasi_segera": true,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "05 Aug 2026",
-          "tetangga": "Bonjol",
-          "ch_target": 177.0,
-          "ch_tetangga": 0.0,
-          "selisih": 177.0,
-          "jarak": 9.94
-        },
-        {
-          "tanggal": "05 Aug 2026",
-          "tetangga": "AWS Bandara Minangkabau",
-          "ch_target": 177.0,
-          "ch_tetangga": 15.5,
-          "selisih": 161.5,
-          "jarak": 7.22
-        },
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "AWS Bandara Minangkabau",
-          "ch_target": 0.0,
-          "ch_tetangga": 118.0,
-          "selisih": 118.0,
-          "jarak": 7.22
-        },
-        {
-          "tanggal": "14 Aug 2026",
-          "tetangga": "Bonjol",
-          "ch_target": 102.0,
-          "ch_tetangga": 5.0,
-          "selisih": 97.0,
-          "jarak": 9.94
-        },
-        {
-          "tanggal": "15 Aug 2026",
-          "tetangga": "AWS Bandara Minangkabau",
-          "ch_target": 0.0,
-          "ch_tetangga": 80.5,
-          "selisih": 80.5,
-          "jarak": 7.22
-        },
-        {
-          "tanggal": "14 Aug 2026",
-          "tetangga": "AWS Bandara Minangkabau",
-          "ch_target": 102.0,
-          "ch_tetangga": 22.3,
-          "selisih": 79.7,
-          "jarak": 7.22
-        },
-        {
-          "tanggal": "03 Aug 2026",
-          "tetangga": "AWS Bandara Minangkabau",
-          "ch_target": 0.0,
-          "ch_tetangga": 50.2,
-          "selisih": 50.2,
-          "jarak": 7.22
-        }
-      ]
+      "detail_verifikasi_segera": "2026-08-05: Kuliek=177.0mm vs AWS Bandara Minangkabau=15.5mm (selisih 161.5mm, jarak 7.22km, beda 0.0m); 2026-08-04: Kuliek=0.0mm vs AWS Bandara Minangkabau=118.0mm (selisih 118.0mm, jarak 7.22km, beda 0.0m)"
     },
     {
       "id_pos": "PH068",
@@ -15151,12 +15214,16 @@
       "longitude": 100.88,
       "kabupaten": "Kab. Sijunjung",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -15429,10 +15496,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Sumpur Kudus (Pos Kerjasama, jarak 7.86km, beda 0.0m, corr=0.34, hari_selisih>20mm=1, arah=NETRAL, konsisten=12%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH069",
@@ -15441,12 +15512,16 @@
       "longitude": 100.84,
       "kabupaten": "Kab. Sijunjung",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 90.0,
       "kategori": "Lebat",
       "warna": "#f59e0b",
@@ -15719,10 +15794,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH086",
@@ -15731,12 +15810,16 @@
       "longitude": 100.72,
       "kabupaten": "Kab. Solok",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 2,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 19.0,
       "kategori": "Ringan",
       "warna": "#60a5fa",
@@ -16009,10 +16092,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Danau Kembar (Pos Kerjasama, jarak 8.1km, beda 0.0m, corr=0.20, hari_selisih>20mm=1, arah=NETRAL, konsisten=30%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH115",
@@ -16021,12 +16108,16 @@
       "longitude": 100.44,
       "kabupaten": "Kota Padang",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 4,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -16299,51 +16390,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "04 Aug 2026: vs Water Plan Semen Padang (164mm vs 3mm, selisih 161mm, 6.29km) | 20 Aug 2026: vs Tambang Semen Padang (20mm vs 159mm, selisih 139mm, 8.02km) | 20 Aug 2026: vs Water Plan Semen Padang (20mm vs 121mm, selisih 101mm, 6.29km) | 04 Aug 2026: vs Nanggalo (164mm vs 248mm, selisih 84mm, 8.96km) | 03 Aug 2026: vs Tambang Semen Padang (27mm vs 78mm, selisih 51mm, 8.02km)",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Water Plan Semen Padang (Pos Kerjasama, jarak 6.29km, beda 0.0m, EKSTREM BERULANG 2x (ambang 50.0mm, terbaru 2026-08-20 selisih 101.0mm), arah=NETRAL, konsisten=24%)",
+      "n_tetangga_dicek_ekstrem": 3,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": 9.0,
       "perlu_verifikasi_segera": true,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "Water Plan Semen Padang",
-          "ch_target": 164.0,
-          "ch_tetangga": 3.0,
-          "selisih": 161.0,
-          "jarak": 6.29
-        },
-        {
-          "tanggal": "20 Aug 2026",
-          "tetangga": "Tambang Semen Padang",
-          "ch_target": 20.0,
-          "ch_tetangga": 159.0,
-          "selisih": 139.0,
-          "jarak": 8.02
-        },
-        {
-          "tanggal": "20 Aug 2026",
-          "tetangga": "Water Plan Semen Padang",
-          "ch_target": 20.0,
-          "ch_tetangga": 121.0,
-          "selisih": 101.0,
-          "jarak": 6.29
-        },
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "Nanggalo",
-          "ch_target": 164.0,
-          "ch_tetangga": 248.0,
-          "selisih": 84.0,
-          "jarak": 8.96
-        },
-        {
-          "tanggal": "03 Aug 2026",
-          "tetangga": "Tambang Semen Padang",
-          "ch_target": 27.0,
-          "ch_tetangga": 78.0,
-          "selisih": 51.0,
-          "jarak": 8.02
-        }
-      ]
+      "detail_verifikasi_segera": "2026-08-20: Limau Manih-UNAND=20.0mm vs Water Plan Semen Padang=121.0mm (selisih 101.0mm, jarak 6.29km, beda 0.0m); 2026-08-04: Limau Manih-UNAND=164.0mm vs Water Plan Semen Padang=3.0mm (selisih 161.0mm, jarak 6.29km, beda 0.0m)"
     },
     {
       "id_pos": "PH034",
@@ -16352,12 +16406,16 @@
       "longitude": 100.17,
       "kabupaten": "Kab. Padang Pariaman",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 4,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -16630,75 +16688,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "15 Aug 2026: vs Pariaman (265mm vs 47mm, selisih 218mm, 8.96km) | 15 Aug 2026: vs Tandikat (265mm vs 75mm, selisih 190mm, 9.5km) | 15 Aug 2026: vs ARG Sungai Limau (265mm vs 90mm, selisih 175mm, 7.53km) | 04 Aug 2026: vs ARG Sungai Limau (1mm vs 114mm, selisih 113mm, 7.53km) | 04 Aug 2026: vs Pariaman (1mm vs 102mm, selisih 101mm, 8.96km) | 23 Aug 2026: vs Tandikat (0mm vs 85mm, selisih 85mm, 9.5km) | 03 Aug 2026: vs Tandikat (102mm vs 27mm, selisih 76mm, 9.5km) | 14 Aug 2026: vs Pariaman (21mm vs 90mm, selisih 68mm, 8.96km)",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "ARG Sungai Limau (REF OTOMATIS, jarak 7.53km, beda 0.0m, EKSTREM BERULANG 2x (ambang 50.0mm, terbaru 2026-08-15 selisih 175.0mm), arah=NETRAL, konsisten=26%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": 14.0,
       "perlu_verifikasi_segera": true,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "15 Aug 2026",
-          "tetangga": "Pariaman",
-          "ch_target": 265.0,
-          "ch_tetangga": 46.6,
-          "selisih": 218.4,
-          "jarak": 8.96
-        },
-        {
-          "tanggal": "15 Aug 2026",
-          "tetangga": "Tandikat",
-          "ch_target": 265.0,
-          "ch_tetangga": 75.0,
-          "selisih": 190.0,
-          "jarak": 9.5
-        },
-        {
-          "tanggal": "15 Aug 2026",
-          "tetangga": "ARG Sungai Limau",
-          "ch_target": 265.0,
-          "ch_tetangga": 90.0,
-          "selisih": 175.0,
-          "jarak": 7.53
-        },
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "ARG Sungai Limau",
-          "ch_target": 1.0,
-          "ch_tetangga": 113.6,
-          "selisih": 112.6,
-          "jarak": 7.53
-        },
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "Pariaman",
-          "ch_target": 1.0,
-          "ch_tetangga": 102.0,
-          "selisih": 101.0,
-          "jarak": 8.96
-        },
-        {
-          "tanggal": "23 Aug 2026",
-          "tetangga": "Tandikat",
-          "ch_target": 0.0,
-          "ch_tetangga": 85.0,
-          "selisih": 85.0,
-          "jarak": 9.5
-        },
-        {
-          "tanggal": "03 Aug 2026",
-          "tetangga": "Tandikat",
-          "ch_target": 102.5,
-          "ch_tetangga": 27.0,
-          "selisih": 75.5,
-          "jarak": 9.5
-        },
-        {
-          "tanggal": "14 Aug 2026",
-          "tetangga": "Pariaman",
-          "ch_target": 21.0,
-          "ch_tetangga": 89.5,
-          "selisih": 68.5,
-          "jarak": 8.96
-        }
-      ]
+      "detail_verifikasi_segera": "2026-08-15: Limau Purut=265.0mm vs ARG Sungai Limau=90.0mm (selisih 175.0mm, jarak 7.53km, beda 0.0m); 2026-08-04: Limau Purut=1.0mm vs ARG Sungai Limau=113.6mm (selisih 112.6mm, jarak 7.53km, beda 0.0m)"
     },
     {
       "id_pos": "PH006",
@@ -16707,12 +16704,16 @@
       "longitude": 99.95,
       "kabupaten": "Kab. Agam",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -16985,43 +16986,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "13 Aug 2026: vs Tiku (1mm vs 117mm, selisih 116mm, 9.95km) | 19 Aug 2026: vs Tiku (84mm vs 0mm, selisih 84mm, 9.95km) | 14 Aug 2026: vs Tiku (43mm vs 117mm, selisih 74mm, 9.95km) | 15 Aug 2026: vs Tiku (43mm vs 97mm, selisih 54mm, 9.95km)",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Tiku (Pos Kerjasama, jarak 9.95km, beda 0.0m, EKSTREM BERULANG 4x (ambang 50.0mm, terbaru 2026-08-19 selisih 84.0mm), arah=UNDER, konsisten=15%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "UNDER",
+      "hari_sejak_ekstrem_terakhir": 10.0,
       "perlu_verifikasi_segera": true,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "13 Aug 2026",
-          "tetangga": "Tiku",
-          "ch_target": 1.0,
-          "ch_tetangga": 117.0,
-          "selisih": 116.0,
-          "jarak": 9.95
-        },
-        {
-          "tanggal": "19 Aug 2026",
-          "tetangga": "Tiku",
-          "ch_target": 84.0,
-          "ch_tetangga": 0.0,
-          "selisih": 84.0,
-          "jarak": 9.95
-        },
-        {
-          "tanggal": "14 Aug 2026",
-          "tetangga": "Tiku",
-          "ch_target": 43.0,
-          "ch_tetangga": 117.0,
-          "selisih": 74.0,
-          "jarak": 9.95
-        },
-        {
-          "tanggal": "15 Aug 2026",
-          "tetangga": "Tiku",
-          "ch_target": 43.0,
-          "ch_tetangga": 97.0,
-          "selisih": 54.0,
-          "jarak": 9.95
-        }
-      ]
+      "detail_verifikasi_segera": "2026-08-13: Lubuk Basung=1.0mm vs Tiku=117.0mm (selisih 116.0mm, jarak 9.95km, beda 0.0m)"
     },
     {
       "id_pos": "PH094",
@@ -17030,12 +17002,16 @@
       "longitude": 101.25,
       "kabupaten": "Kab. Solok Selatan",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -17308,10 +17284,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH116",
@@ -17320,12 +17300,16 @@
       "longitude": 100.38,
       "kabupaten": "Kota Padang",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -17598,19 +17582,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "04 Aug 2026: vs Nanggalo (0mm vs 248mm, selisih 248mm, 7.03km)",
-      "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "Nanggalo",
-          "ch_target": 0.0,
-          "ch_tetangga": 248.0,
-          "selisih": 248.0,
-          "jarak": 7.03
-        }
-      ]
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": 25.0,
+      "perlu_verifikasi_segera": true,
+      "detail_verifikasi_segera": "2026-08-04: Lubuk Minturun=0.0mm vs Nanggalo=248.0mm (selisih 248.0mm, jarak 7.03km, beda 0.0m)"
     },
     {
       "id_pos": "PH042",
@@ -17619,12 +17598,16 @@
       "longitude": 100.17,
       "kabupaten": "Kab. Pasaman",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -17897,10 +17880,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH128",
@@ -17909,12 +17896,16 @@
       "longitude": 100.61,
       "kabupaten": "Kota Solok",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 6,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -18187,10 +18178,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH070",
@@ -18199,12 +18194,16 @@
       "longitude": 101.03,
       "kabupaten": "Kab. Sijunjung",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -18477,10 +18476,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH022",
@@ -18489,12 +18492,16 @@
       "longitude": 100.68,
       "kabupaten": "Kab. Lima Puluh Kota",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 4,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -18767,10 +18774,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "Payakumbuh Selatan (Pos Kerjasama, jarak 6.48km, beda 0.0m, corr=0.37, hari_selisih>20mm=1, arah=NETRAL, konsisten=7%); Payakumbuh Barat (Pos Kerjasama, jarak 7.46km, beda 0.0m, corr=0.16, hari_selisih>20mm=1, arah=NETRAL, konsisten=12%)",
+      "n_tetangga_dicek_ekstrem": 3,
+      "n_tetangga_flag_ekstrem": 2,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH062",
@@ -18779,12 +18790,16 @@
       "longitude": 101.1,
       "kabupaten": "Kab. Pesisir Selatan",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -19057,10 +19072,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH106",
@@ -19069,12 +19088,16 @@
       "longitude": 100.48,
       "kabupaten": "Kab. Tanah Datar",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -19347,10 +19370,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH007",
@@ -19359,12 +19386,16 @@
       "longitude": 100.25,
       "kabupaten": "Kab. Agam",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -19637,10 +19668,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Koto Tuo (Pos Kerjasama, jarak 8.68km, beda 0.0m, corr=0.31, hari_selisih>20mm=6, arah=OVER, konsisten=35%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "OVER",
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH023",
@@ -19649,12 +19684,16 @@
       "longitude": 100.55,
       "kabupaten": "Kab. Lima Puluh Kota",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 22.0,
       "kategori": "Sedang",
       "warna": "#3b82f6",
@@ -19927,10 +19966,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "ARG Kapur IX (REF OTOMATIS, jarak 0.91km, beda 0.0m, corr=0.04, hari_selisih>20mm=4, arah=NETRAL, konsisten=18%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH117",
@@ -19939,12 +19982,16 @@
       "longitude": 100.38,
       "kabupaten": "Kota Padang",
       "status": "NORMAL",
+      "tipe_referensi": "BMKG",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -20217,59 +20264,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "15 Aug 2026: vs Teluk Bayur (110mm vs 1mm, selisih 109mm, 4.97km) | 18 Aug 2026: vs Teluk Bayur (0mm vs 100mm, selisih 100mm, 4.97km) | 14 Aug 2026: vs Teluk Bayur (0mm vs 87mm, selisih 86mm, 4.97km) | 04 Aug 2026: vs Nanggalo (175mm vs 248mm, selisih 73mm, 4.01km) | 19 Aug 2026: vs Teluk Bayur (63mm vs 5mm, selisih 58mm, 4.97km) | 03 Aug 2026: vs Nanggalo (22mm vs 75mm, selisih 54mm, 4.01km)",
-      "perlu_verifikasi_segera": true,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "15 Aug 2026",
-          "tetangga": "Teluk Bayur",
-          "ch_target": 110.0,
-          "ch_tetangga": 1.0,
-          "selisih": 109.0,
-          "jarak": 4.97
-        },
-        {
-          "tanggal": "18 Aug 2026",
-          "tetangga": "Teluk Bayur",
-          "ch_target": 0.0,
-          "ch_tetangga": 100.0,
-          "selisih": 100.0,
-          "jarak": 4.97
-        },
-        {
-          "tanggal": "14 Aug 2026",
-          "tetangga": "Teluk Bayur",
-          "ch_target": 0.5,
-          "ch_tetangga": 87.0,
-          "selisih": 86.5,
-          "jarak": 4.97
-        },
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "Nanggalo",
-          "ch_target": 175.0,
-          "ch_tetangga": 248.0,
-          "selisih": 73.0,
-          "jarak": 4.01
-        },
-        {
-          "tanggal": "19 Aug 2026",
-          "tetangga": "Teluk Bayur",
-          "ch_target": 63.0,
-          "ch_tetangga": 5.0,
-          "selisih": 58.0,
-          "jarak": 4.97
-        },
-        {
-          "tanggal": "03 Aug 2026",
-          "tetangga": "Nanggalo",
-          "ch_target": 21.5,
-          "ch_tetangga": 75.0,
-          "selisih": 53.5,
-          "jarak": 4.01
-        }
-      ]
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
+      "perlu_verifikasi_segera": false,
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH087",
@@ -20278,12 +20280,16 @@
       "longitude": 100.69,
       "kabupaten": "Kab. Solok",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 2,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -20556,10 +20562,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH016",
@@ -20568,12 +20578,16 @@
       "longitude": 99.18,
       "kabupaten": "Kab. Kepulauan Mentawai",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -20846,10 +20860,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH071",
@@ -20858,12 +20876,16 @@
       "longitude": 100.99,
       "kabupaten": "Kab. Sijunjung",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -21136,10 +21158,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH017",
@@ -21148,12 +21174,16 @@
       "longitude": 98.98,
       "kabupaten": "Kab. Kepulauan Mentawai",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 9.0,
       "kategori": "Ringan",
       "warna": "#60a5fa",
@@ -21426,10 +21456,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH088",
@@ -21438,12 +21472,16 @@
       "longitude": 100.56,
       "kabupaten": "Kab. Solok",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 4,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 11.0,
       "kategori": "Ringan",
       "warna": "#60a5fa",
@@ -21716,10 +21754,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH118",
@@ -21728,12 +21770,16 @@
       "longitude": 100.36,
       "kabupaten": "Kota Padang",
       "status": "NORMAL",
+      "tipe_referensi": "BMKG",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -22006,75 +22052,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "04 Aug 2026: vs Lubuk Minturun (248mm vs 0mm, selisih 248mm, 7.03km) | 15 Aug 2026: vs Teluk Bayur (116mm vs 1mm, selisih 115mm, 7.78km) | 18 Aug 2026: vs Teluk Bayur (0mm vs 100mm, selisih 100mm, 7.78km) | 14 Aug 2026: vs Teluk Bayur (1mm vs 87mm, selisih 86mm, 7.78km) | 04 Aug 2026: vs Limau Manih-UNAND (248mm vs 164mm, selisih 84mm, 8.96km) | 04 Aug 2026: vs Muara Palam - Parak karakah (248mm vs 175mm, selisih 73mm, 4.01km) | 19 Aug 2026: vs Teluk Bayur (76mm vs 5mm, selisih 71mm, 7.78km) | 03 Aug 2026: vs Muara Palam - Parak karakah (75mm vs 22mm, selisih 54mm, 4.01km)",
-      "perlu_verifikasi_segera": true,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "Lubuk Minturun",
-          "ch_target": 248.0,
-          "ch_tetangga": 0.0,
-          "selisih": 248.0,
-          "jarak": 7.03
-        },
-        {
-          "tanggal": "15 Aug 2026",
-          "tetangga": "Teluk Bayur",
-          "ch_target": 116.0,
-          "ch_tetangga": 1.0,
-          "selisih": 115.0,
-          "jarak": 7.78
-        },
-        {
-          "tanggal": "18 Aug 2026",
-          "tetangga": "Teluk Bayur",
-          "ch_target": 0.0,
-          "ch_tetangga": 100.0,
-          "selisih": 100.0,
-          "jarak": 7.78
-        },
-        {
-          "tanggal": "14 Aug 2026",
-          "tetangga": "Teluk Bayur",
-          "ch_target": 1.0,
-          "ch_tetangga": 87.0,
-          "selisih": 86.0,
-          "jarak": 7.78
-        },
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "Limau Manih-UNAND",
-          "ch_target": 248.0,
-          "ch_tetangga": 164.0,
-          "selisih": 84.0,
-          "jarak": 8.96
-        },
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "Muara Palam - Parak karakah",
-          "ch_target": 248.0,
-          "ch_tetangga": 175.0,
-          "selisih": 73.0,
-          "jarak": 4.01
-        },
-        {
-          "tanggal": "19 Aug 2026",
-          "tetangga": "Teluk Bayur",
-          "ch_target": 76.0,
-          "ch_tetangga": 5.0,
-          "selisih": 71.0,
-          "jarak": 7.78
-        },
-        {
-          "tanggal": "03 Aug 2026",
-          "tetangga": "Muara Palam - Parak karakah",
-          "ch_target": 75.0,
-          "ch_tetangga": 21.5,
-          "selisih": 53.5,
-          "jarak": 4.01
-        }
-      ]
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
+      "perlu_verifikasi_segera": false,
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH107",
@@ -22083,12 +22068,16 @@
       "longitude": 100.55,
       "kabupaten": "Kab. Tanah Datar",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 4,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 5.0,
       "kategori": "Ringan",
       "warna": "#60a5fa",
@@ -22361,10 +22350,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH063",
@@ -22373,12 +22366,16 @@
       "longitude": 100.62,
       "kabupaten": "Kab. Pesisir Selatan",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 4.0,
       "kategori": "Sangat Ringan",
       "warna": "#bae6fd",
@@ -22651,43 +22648,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "15 Aug 2026: vs BPK Batang Kapas (152mm vs 6mm, selisih 146mm, 1.57km) | 03 Aug 2026: vs BPK Batang Kapas (0mm vs 68mm, selisih 68mm, 1.57km) | 04 Aug 2026: vs BPK Batang Kapas (52mm vs 0mm, selisih 52mm, 1.57km) | 23 Aug 2026: vs BPK Batang Kapas (19mm vs 70mm, selisih 51mm, 1.57km)",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "BPK Batang Kapas (Pos Kerjasama, jarak 1.57km, beda 0.0m, EKSTREM BERULANG 4x (ambang 50.0mm, terbaru 2026-08-23 selisih 51.0mm), arah=NETRAL, konsisten=31%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": 6.0,
       "perlu_verifikasi_segera": true,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "15 Aug 2026",
-          "tetangga": "BPK Batang Kapas",
-          "ch_target": 152.0,
-          "ch_tetangga": 6.0,
-          "selisih": 146.0,
-          "jarak": 1.57
-        },
-        {
-          "tanggal": "03 Aug 2026",
-          "tetangga": "BPK Batang Kapas",
-          "ch_target": 0.0,
-          "ch_tetangga": 68.0,
-          "selisih": 68.0,
-          "jarak": 1.57
-        },
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "BPK Batang Kapas",
-          "ch_target": 52.0,
-          "ch_tetangga": 0.0,
-          "selisih": 52.0,
-          "jarak": 1.57
-        },
-        {
-          "tanggal": "23 Aug 2026",
-          "tetangga": "BPK Batang Kapas",
-          "ch_target": 19.0,
-          "ch_tetangga": 70.0,
-          "selisih": 51.0,
-          "jarak": 1.57
-        }
-      ]
+      "detail_verifikasi_segera": "2026-08-15: PU Batang Kapas - Tanah Kareh=152.0mm vs BPK Batang Kapas=6.0mm (selisih 146.0mm, jarak 1.57km, beda 0.0m)"
     },
     {
       "id_pos": "PH122",
@@ -22696,12 +22664,16 @@
       "longitude": 100.44,
       "kabupaten": "Kota Padang Panjang",
       "status": "NORMAL",
+      "tipe_referensi": "BMKG",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 2.0,
       "kategori": "Sangat Ringan",
       "warna": "#bae6fd",
@@ -22974,10 +22946,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH108",
@@ -22986,12 +22962,16 @@
       "longitude": 100.68,
       "kabupaten": "Kab. Tanah Datar",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 5,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -23264,10 +23244,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "ARG Berangin (REF OTOMATIS, jarak 9.58km, beda 0.0m, corr=0.25, hari_selisih>20mm=1, arah=NETRAL, konsisten=10%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH035",
@@ -23276,12 +23260,16 @@
       "longitude": 100.09,
       "kabupaten": "Kab. Padang Pariaman",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 2,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -23554,83 +23542,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "02 Aug 2026: vs Sei Geringging (85mm vs 1mm, selisih 84mm, 8.96km) | 03 Aug 2026: vs Sei Geringging (85mm vs 1mm, selisih 84mm, 8.96km) | 04 Aug 2026: vs Tanjung Raya - Maninjau (95mm vs 17mm, selisih 78mm, 8.68km) | 02 Aug 2026: vs Tanjung Raya - Maninjau (85mm vs 9mm, selisih 76mm, 8.68km) | 03 Aug 2026: vs Tanjung Raya - Maninjau (85mm vs 9mm, selisih 76mm, 8.68km) | 06 Aug 2026: vs Tanjung Raya - Maninjau (63mm vs 0mm, selisih 63mm, 8.68km) | 06 Aug 2026: vs Sei Geringging (63mm vs 0mm, selisih 63mm, 8.96km) | 09 Aug 2026: vs Tanjung Raya - Maninjau (63mm vs 1mm, selisih 62mm, 8.68km) | 09 Aug 2026: vs Sei Geringging (63mm vs 8mm, selisih 55mm, 8.96km)",
-      "perlu_verifikasi_segera": true,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "02 Aug 2026",
-          "tetangga": "Sei Geringging",
-          "ch_target": 85.0,
-          "ch_tetangga": 1.0,
-          "selisih": 84.0,
-          "jarak": 8.96
-        },
-        {
-          "tanggal": "03 Aug 2026",
-          "tetangga": "Sei Geringging",
-          "ch_target": 85.0,
-          "ch_tetangga": 1.0,
-          "selisih": 84.0,
-          "jarak": 8.96
-        },
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "Tanjung Raya - Maninjau",
-          "ch_target": 95.0,
-          "ch_tetangga": 17.0,
-          "selisih": 78.0,
-          "jarak": 8.68
-        },
-        {
-          "tanggal": "02 Aug 2026",
-          "tetangga": "Tanjung Raya - Maninjau",
-          "ch_target": 85.0,
-          "ch_tetangga": 9.0,
-          "selisih": 76.0,
-          "jarak": 8.68
-        },
-        {
-          "tanggal": "03 Aug 2026",
-          "tetangga": "Tanjung Raya - Maninjau",
-          "ch_target": 85.0,
-          "ch_tetangga": 9.0,
-          "selisih": 76.0,
-          "jarak": 8.68
-        },
-        {
-          "tanggal": "06 Aug 2026",
-          "tetangga": "Tanjung Raya - Maninjau",
-          "ch_target": 63.0,
-          "ch_tetangga": 0.0,
-          "selisih": 63.0,
-          "jarak": 8.68
-        },
-        {
-          "tanggal": "06 Aug 2026",
-          "tetangga": "Sei Geringging",
-          "ch_target": 63.0,
-          "ch_tetangga": 0.0,
-          "selisih": 63.0,
-          "jarak": 8.96
-        },
-        {
-          "tanggal": "09 Aug 2026",
-          "tetangga": "Tanjung Raya - Maninjau",
-          "ch_target": 63.0,
-          "ch_tetangga": 1.0,
-          "selisih": 62.0,
-          "jarak": 8.68
-        },
-        {
-          "tanggal": "09 Aug 2026",
-          "tetangga": "Sei Geringging",
-          "ch_target": 63.0,
-          "ch_tetangga": 8.0,
-          "selisih": 55.0,
-          "jarak": 8.96
-        }
-      ]
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
+      "perlu_verifikasi_segera": false,
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH024",
@@ -23639,12 +23558,16 @@
       "longitude": 100.68,
       "kabupaten": "Kab. Lima Puluh Kota",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 4,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -23917,10 +23840,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 3,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH095",
@@ -23929,12 +23856,16 @@
       "longitude": 101.05,
       "kabupaten": "Kab. Solok Selatan",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 13.5,
       "kategori": "Ringan",
       "warna": "#60a5fa",
@@ -24207,10 +24138,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH008",
@@ -24219,12 +24154,16 @@
       "longitude": 100.23,
       "kabupaten": "Kab. Agam",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -24497,10 +24436,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH025",
@@ -24509,12 +24452,16 @@
       "longitude": 100.73,
       "kabupaten": "Kab. Lima Puluh Kota",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -24787,10 +24734,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH124",
@@ -24799,12 +24750,16 @@
       "longitude": 100.13,
       "kabupaten": "Kota Pariaman",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 3,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -25077,35 +25032,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "15 Aug 2026: vs Limau Purut (47mm vs 265mm, selisih 218mm, 8.96km) | 04 Aug 2026: vs Limau Purut (102mm vs 1mm, selisih 101mm, 8.96km) | 14 Aug 2026: vs Limau Purut (90mm vs 21mm, selisih 68mm, 8.96km)",
-      "perlu_verifikasi_segera": true,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "15 Aug 2026",
-          "tetangga": "Limau Purut",
-          "ch_target": 46.6,
-          "ch_tetangga": 265.0,
-          "selisih": 218.4,
-          "jarak": 8.96
-        },
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "Limau Purut",
-          "ch_target": 102.0,
-          "ch_tetangga": 1.0,
-          "selisih": 101.0,
-          "jarak": 8.96
-        },
-        {
-          "tanggal": "14 Aug 2026",
-          "tetangga": "Limau Purut",
-          "ch_target": 89.5,
-          "ch_tetangga": 21.0,
-          "selisih": 68.5,
-          "jarak": 8.96
-        }
-      ]
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
+      "perlu_verifikasi_segera": false,
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH049",
@@ -25114,12 +25048,16 @@
       "longitude": 99.53,
       "kabupaten": "Kab. Pasaman Barat",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -25392,10 +25330,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH125",
@@ -25404,12 +25346,16 @@
       "longitude": 100.62,
       "kabupaten": "Kota Payakumbuh",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 6,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 15.0,
       "kategori": "Ringan",
       "warna": "#60a5fa",
@@ -25682,10 +25628,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "Luhak (Pos Kerjasama, jarak 7.46km, beda 0.0m, corr=0.16, hari_selisih>20mm=1, arah=NETRAL, konsisten=28%); Akabiluru (Pos Kerjasama, jarak 7.86km, beda 0.0m, corr=0.13, hari_selisih>20mm=1, arah=NETRAL, konsisten=32%)",
+      "n_tetangga_dicek_ekstrem": 5,
+      "n_tetangga_flag_ekstrem": 2,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH126",
@@ -25694,12 +25644,16 @@
       "longitude": 100.63,
       "kabupaten": "Kota Payakumbuh",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 8,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -25972,10 +25926,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH089",
@@ -25984,12 +25942,16 @@
       "longitude": 100.78,
       "kabupaten": "Kab. Solok",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -26262,10 +26224,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH096",
@@ -26274,12 +26240,16 @@
       "longitude": 101.14,
       "kabupaten": "Kab. Solok Selatan",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 29.0,
       "kategori": "Sedang",
       "warna": "#3b82f6",
@@ -26552,19 +26522,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "26 Aug 2026: vs ARG Solok Selatan (77mm vs 14mm, selisih 63mm, 7.72km)",
-      "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "26 Aug 2026",
-          "tetangga": "ARG Solok Selatan",
-          "ch_target": 77.0,
-          "ch_tetangga": 13.8,
-          "selisih": 63.2,
-          "jarak": 7.72
-        }
-      ]
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "ARG Solok Selatan (REF OTOMATIS, jarak 7.72km, beda 0.0m, corr=0.21, hari_selisih>20mm=10, arah=OVER, konsisten=48%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "OVER",
+      "hari_sejak_ekstrem_terakhir": 3.0,
+      "perlu_verifikasi_segera": true,
+      "detail_verifikasi_segera": "2026-08-26: Pekonina=77.0mm vs ARG Solok Selatan=13.8mm (selisih 63.2mm, jarak 7.72km, beda 0.0m)"
     },
     {
       "id_pos": "PH043",
@@ -26573,12 +26538,16 @@
       "longitude": 100.1,
       "kabupaten": "Kab. Pasaman",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -26851,10 +26820,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH026",
@@ -26863,12 +26836,16 @@
       "longitude": 100.67,
       "kabupaten": "Kab. Lima Puluh Kota",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 3,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 7.5,
       "kategori": "Ringan",
       "warna": "#60a5fa",
@@ -27141,10 +27118,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH110",
@@ -27153,12 +27134,16 @@
       "longitude": 100.57,
       "kabupaten": "Kab. Tanah Datar",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -27431,10 +27416,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH044",
@@ -27443,12 +27432,16 @@
       "longitude": 100.02,
       "kabupaten": "Kab. Pasaman",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -27721,10 +27714,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH111",
@@ -27733,12 +27730,16 @@
       "longitude": 100.57,
       "kabupaten": "Kab. Tanah Datar",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 3,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 5.0,
       "kategori": "Ringan",
       "warna": "#60a5fa",
@@ -28011,10 +28012,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH097",
@@ -28023,12 +28028,16 @@
       "longitude": 101.32,
       "kabupaten": "Kab. Solok Selatan",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 12.0,
       "kategori": "Ringan",
       "warna": "#60a5fa",
@@ -28301,10 +28310,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH112",
@@ -28313,12 +28326,16 @@
       "longitude": 100.63,
       "kabupaten": "Kab. Tanah Datar",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 5,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -28591,10 +28608,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH050",
@@ -28603,12 +28624,16 @@
       "longitude": 99.7,
       "kabupaten": "Kab. Pasaman Barat",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -28881,10 +28906,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH051",
@@ -28893,12 +28922,16 @@
       "longitude": 99.45,
       "kabupaten": "Kab. Pasaman Barat",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -29171,10 +29204,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH013",
@@ -29183,12 +29220,16 @@
       "longitude": 101.5,
       "kabupaten": "Kab. Dharmasraya",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -29461,10 +29502,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH036",
@@ -29473,12 +29518,16 @@
       "longitude": 100.08,
       "kabupaten": "Kab. Padang Pariaman",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -29751,43 +29800,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "02 Aug 2026: vs Padang Laring (1mm vs 85mm, selisih 84mm, 8.96km) | 03 Aug 2026: vs Padang Laring (1mm vs 85mm, selisih 84mm, 8.96km) | 06 Aug 2026: vs Padang Laring (0mm vs 63mm, selisih 63mm, 8.96km) | 09 Aug 2026: vs Padang Laring (8mm vs 63mm, selisih 55mm, 8.96km)",
-      "perlu_verifikasi_segera": true,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "02 Aug 2026",
-          "tetangga": "Padang Laring",
-          "ch_target": 1.0,
-          "ch_tetangga": 85.0,
-          "selisih": 84.0,
-          "jarak": 8.96
-        },
-        {
-          "tanggal": "03 Aug 2026",
-          "tetangga": "Padang Laring",
-          "ch_target": 1.0,
-          "ch_tetangga": 85.0,
-          "selisih": 84.0,
-          "jarak": 8.96
-        },
-        {
-          "tanggal": "06 Aug 2026",
-          "tetangga": "Padang Laring",
-          "ch_target": 0.0,
-          "ch_tetangga": 63.0,
-          "selisih": 63.0,
-          "jarak": 8.96
-        },
-        {
-          "tanggal": "09 Aug 2026",
-          "tetangga": "Padang Laring",
-          "ch_target": 8.0,
-          "ch_tetangga": 63.0,
-          "selisih": 55.0,
-          "jarak": 8.96
-        }
-      ]
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
+      "perlu_verifikasi_segera": false,
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH072",
@@ -29796,12 +29816,16 @@
       "longitude": 101.3,
       "kabupaten": "Kab. Sijunjung",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -30074,10 +30098,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH052",
@@ -30086,12 +30114,16 @@
       "longitude": 99.79,
       "kabupaten": "Kab. Pasaman Barat",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 2,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 23.5,
       "kategori": "Sedang",
       "warna": "#3b82f6",
@@ -30364,10 +30396,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH045",
@@ -30376,12 +30412,16 @@
       "longitude": 100.16,
       "kabupaten": "Kab. Pasaman",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 36.0,
       "kategori": "Sedang",
       "warna": "#3b82f6",
@@ -30654,10 +30694,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH014",
@@ -30666,12 +30710,16 @@
       "longitude": 101.59,
       "kabupaten": "Kab. Dharmasraya",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -30944,10 +30992,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH027",
@@ -30956,12 +31008,16 @@
       "longitude": 100.64,
       "kabupaten": "Kab. Lima Puluh Kota",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 5,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -31234,10 +31290,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH123",
@@ -31246,12 +31306,16 @@
       "longitude": 100.42,
       "kabupaten": "Kota Padang Panjang",
       "status": "NORMAL",
+      "tipe_referensi": "BMKG",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "Referensi Utama BMKG",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -31524,10 +31588,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Referensi Utama BMKG",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH037",
@@ -31536,12 +31604,16 @@
       "longitude": 100.3,
       "kabupaten": "Kab. Padang Pariaman",
       "status": "NORMAL",
+      "tipe_referensi": "BMKG",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "Referensi Utama BMKG",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -31814,10 +31886,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Referensi Utama BMKG",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH053",
@@ -31826,12 +31902,16 @@
       "longitude": 99.81,
       "kabupaten": "Kab. Pasaman Barat",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 2,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -32104,10 +32184,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH028",
@@ -32116,12 +32200,16 @@
       "longitude": 100.5,
       "kabupaten": "Kab. Lima Puluh Kota",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 2,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -32394,10 +32482,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH073",
@@ -32406,12 +32498,16 @@
       "longitude": 100.81,
       "kabupaten": "Kab. Sijunjung",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -32684,10 +32780,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Kumanis (Pos Kerjasama, jarak 7.86km, beda 0.0m, corr=0.34, hari_selisih>20mm=1, arah=NETRAL, konsisten=12%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH038",
@@ -32696,12 +32796,16 @@
       "longitude": 100.19,
       "kabupaten": "Kab. Padang Pariaman",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 3,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -32974,75 +33078,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "04 Aug 2026: vs BPP Sintuk (108mm vs 2mm, selisih 106mm, 8.09km) | 14 Aug 2026: vs Bonjol (104mm vs 5mm, selisih 99mm, 7.46km) | 18 Aug 2026: vs BPP Sintuk (0mm vs 98mm, selisih 98mm, 8.09km) | 15 Aug 2026: vs BPP Sintuk (96mm vs 3mm, selisih 93mm, 8.09km) | 04 Aug 2026: vs Bonjol (108mm vs 24mm, selisih 84mm, 7.46km) | 13 Aug 2026: vs BPP Sintuk (0mm vs 76mm, selisih 76mm, 8.09km) | 14 Aug 2026: vs BPP Sintuk (104mm vs 48mm, selisih 56mm, 8.09km) | 15 Aug 2026: vs Bonjol (96mm vs 41mm, selisih 55mm, 7.46km)",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "Bonjol (Pos Kerjasama, jarak 7.46km, beda 0.0m, EKSTREM BERULANG 3x (ambang 50.0mm, terbaru 2026-08-15 selisih 54.8mm), arah=OVER, konsisten=31%); BPP Sintuk (Pos Kerjasama, jarak 8.09km, beda 0.0m, EKSTREM BERULANG 5x (ambang 50.0mm, terbaru 2026-08-18 selisih 98.0mm), arah=NETRAL, konsisten=21%)",
+      "n_tetangga_dicek_ekstrem": 3,
+      "n_tetangga_flag_ekstrem": 2,
+      "arah_bias_dominan": "OVER",
+      "hari_sejak_ekstrem_terakhir": 11.0,
       "perlu_verifikasi_segera": true,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "BPP Sintuk",
-          "ch_target": 108.0,
-          "ch_tetangga": 2.0,
-          "selisih": 106.0,
-          "jarak": 8.09
-        },
-        {
-          "tanggal": "14 Aug 2026",
-          "tetangga": "Bonjol",
-          "ch_target": 104.0,
-          "ch_tetangga": 5.0,
-          "selisih": 99.0,
-          "jarak": 7.46
-        },
-        {
-          "tanggal": "18 Aug 2026",
-          "tetangga": "BPP Sintuk",
-          "ch_target": 0.0,
-          "ch_tetangga": 98.0,
-          "selisih": 98.0,
-          "jarak": 8.09
-        },
-        {
-          "tanggal": "15 Aug 2026",
-          "tetangga": "BPP Sintuk",
-          "ch_target": 96.0,
-          "ch_tetangga": 3.0,
-          "selisih": 93.0,
-          "jarak": 8.09
-        },
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "Bonjol",
-          "ch_target": 108.0,
-          "ch_tetangga": 24.4,
-          "selisih": 83.6,
-          "jarak": 7.46
-        },
-        {
-          "tanggal": "13 Aug 2026",
-          "tetangga": "BPP Sintuk",
-          "ch_target": 0.0,
-          "ch_tetangga": 76.0,
-          "selisih": 76.0,
-          "jarak": 8.09
-        },
-        {
-          "tanggal": "14 Aug 2026",
-          "tetangga": "BPP Sintuk",
-          "ch_target": 104.0,
-          "ch_tetangga": 48.0,
-          "selisih": 56.0,
-          "jarak": 8.09
-        },
-        {
-          "tanggal": "15 Aug 2026",
-          "tetangga": "Bonjol",
-          "ch_target": 96.0,
-          "ch_tetangga": 41.2,
-          "selisih": 54.8,
-          "jarak": 7.46
-        }
-      ]
+      "detail_verifikasi_segera": "2026-08-15: Sunur=96.0mm vs BPP Sintuk=3.0mm (selisih 93.0mm, jarak 8.09km, beda 0.0m); 2026-08-14: Sunur=104.0mm vs Bonjol=5.0mm (selisih 99.0mm, jarak 7.46km, beda 0.0m); 2026-08-04: Sunur=108.0mm vs BPP Sintuk=2.0mm (selisih 106.0mm, jarak 8.09km, beda 0.0m)"
     },
     {
       "id_pos": "PH119",
@@ -33051,12 +33094,16 @@
       "longitude": 100.5,
       "kabupaten": "Kota Padang",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -33329,27 +33376,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "20 Aug 2026: vs Limau Manih-UNAND (159mm vs 20mm, selisih 139mm, 8.02km) | 03 Aug 2026: vs Limau Manih-UNAND (78mm vs 27mm, selisih 51mm, 8.02km)",
-      "perlu_verifikasi_segera": true,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "20 Aug 2026",
-          "tetangga": "Limau Manih-UNAND",
-          "ch_target": 159.0,
-          "ch_tetangga": 20.0,
-          "selisih": 139.0,
-          "jarak": 8.02
-        },
-        {
-          "tanggal": "03 Aug 2026",
-          "tetangga": "Limau Manih-UNAND",
-          "ch_target": 78.0,
-          "ch_tetangga": 27.0,
-          "selisih": 51.0,
-          "jarak": 8.02
-        }
-      ]
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
+      "perlu_verifikasi_segera": false,
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH039",
@@ -33358,12 +33392,16 @@
       "longitude": 100.25,
       "kabupaten": "Kab. Padang Pariaman",
       "status": "NORMAL",
+      "tipe_referensi": "BMKG",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -33636,59 +33674,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "15 Aug 2026: vs Limau Purut (75mm vs 265mm, selisih 190mm, 9.5km) | 23 Aug 2026: vs Limau Purut (85mm vs 0mm, selisih 85mm, 9.5km) | 14 Aug 2026: vs Staklim Padang Pariaman (0mm vs 76mm, selisih 76mm, 7.86km) | 03 Aug 2026: vs Limau Purut (27mm vs 102mm, selisih 76mm, 9.5km) | 15 Aug 2026: vs Staklim Padang Pariaman (75mm vs 1mm, selisih 74mm, 7.86km) | 23 Aug 2026: vs AAWS Staklim Padang Pariaman (85mm vs 22mm, selisih 63mm, 7.42km)",
-      "perlu_verifikasi_segera": true,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "15 Aug 2026",
-          "tetangga": "Limau Purut",
-          "ch_target": 75.0,
-          "ch_tetangga": 265.0,
-          "selisih": 190.0,
-          "jarak": 9.5
-        },
-        {
-          "tanggal": "23 Aug 2026",
-          "tetangga": "Limau Purut",
-          "ch_target": 85.0,
-          "ch_tetangga": 0.0,
-          "selisih": 85.0,
-          "jarak": 9.5
-        },
-        {
-          "tanggal": "14 Aug 2026",
-          "tetangga": "Staklim Padang Pariaman",
-          "ch_target": 0.0,
-          "ch_tetangga": 76.0,
-          "selisih": 76.0,
-          "jarak": 7.86
-        },
-        {
-          "tanggal": "03 Aug 2026",
-          "tetangga": "Limau Purut",
-          "ch_target": 27.0,
-          "ch_tetangga": 102.5,
-          "selisih": 75.5,
-          "jarak": 9.5
-        },
-        {
-          "tanggal": "15 Aug 2026",
-          "tetangga": "Staklim Padang Pariaman",
-          "ch_target": 75.0,
-          "ch_tetangga": 1.0,
-          "selisih": 74.0,
-          "jarak": 7.86
-        },
-        {
-          "tanggal": "23 Aug 2026",
-          "tetangga": "AAWS Staklim Padang Pariaman",
-          "ch_target": 85.0,
-          "ch_tetangga": 21.6,
-          "selisih": 63.4,
-          "jarak": 7.42
-        }
-      ]
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": 6.0,
+      "perlu_verifikasi_segera": false,
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH074",
@@ -33697,12 +33690,16 @@
       "longitude": 101.17,
       "kabupaten": "Kab. Sijunjung",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 7.0,
       "kategori": "Ringan",
       "warna": "#60a5fa",
@@ -33975,10 +33972,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Tanjung Lolo (Pos Kerjasama, jarak 1.57km, beda 0.0m, corr=-0.03, hari_selisih>20mm=1, arah=NETRAL, konsisten=22%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH129",
@@ -33987,12 +33988,16 @@
       "longitude": 100.65,
       "kabupaten": "Kota Solok",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 6,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -34265,10 +34270,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH075",
@@ -34277,12 +34286,16 @@
       "longitude": 101.18,
       "kabupaten": "Kab. Sijunjung",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -34555,10 +34568,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Tanjung Gadang (Pos Kerjasama, jarak 1.57km, beda 0.0m, corr=-0.03, hari_selisih>20mm=1, arah=NETRAL, konsisten=13%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH009",
@@ -34567,12 +34584,16 @@
       "longitude": 100.15,
       "kabupaten": "Kab. Agam",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -34845,51 +34866,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "04 Aug 2026: vs Padang Laring (17mm vs 95mm, selisih 78mm, 8.68km) | 02 Aug 2026: vs Padang Laring (9mm vs 85mm, selisih 76mm, 8.68km) | 03 Aug 2026: vs Padang Laring (9mm vs 85mm, selisih 76mm, 8.68km) | 06 Aug 2026: vs Padang Laring (0mm vs 63mm, selisih 63mm, 8.68km) | 09 Aug 2026: vs Padang Laring (1mm vs 63mm, selisih 62mm, 8.68km)",
-      "perlu_verifikasi_segera": true,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "Padang Laring",
-          "ch_target": 17.0,
-          "ch_tetangga": 95.0,
-          "selisih": 78.0,
-          "jarak": 8.68
-        },
-        {
-          "tanggal": "02 Aug 2026",
-          "tetangga": "Padang Laring",
-          "ch_target": 9.0,
-          "ch_tetangga": 85.0,
-          "selisih": 76.0,
-          "jarak": 8.68
-        },
-        {
-          "tanggal": "03 Aug 2026",
-          "tetangga": "Padang Laring",
-          "ch_target": 9.0,
-          "ch_tetangga": 85.0,
-          "selisih": 76.0,
-          "jarak": 8.68
-        },
-        {
-          "tanggal": "06 Aug 2026",
-          "tetangga": "Padang Laring",
-          "ch_target": 0.0,
-          "ch_tetangga": 63.0,
-          "selisih": 63.0,
-          "jarak": 8.68
-        },
-        {
-          "tanggal": "09 Aug 2026",
-          "tetangga": "Padang Laring",
-          "ch_target": 1.0,
-          "ch_tetangga": 63.0,
-          "selisih": 62.0,
-          "jarak": 8.68
-        }
-      ]
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
+      "perlu_verifikasi_segera": false,
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH064",
@@ -34898,12 +34882,16 @@
       "longitude": 100.47,
       "kabupaten": "Kab. Pesisir Selatan",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 2,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -35176,10 +35164,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH120",
@@ -35188,12 +35180,16 @@
       "longitude": 100.36,
       "kabupaten": "Kota Padang",
       "status": "NORMAL",
+      "tipe_referensi": "BMKG",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "Referensi Utama BMKG",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 5.0,
       "kategori": "Ringan",
       "warna": "#60a5fa",
@@ -35466,10 +35462,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Referensi Utama BMKG",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH090",
@@ -35478,12 +35478,16 @@
       "longitude": 101.05,
       "kabupaten": "Kab. Solok",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 43.0,
       "kategori": "Sedang",
       "warna": "#3b82f6",
@@ -35756,10 +35760,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH010",
@@ -35768,12 +35776,16 @@
       "longitude": 99.91,
       "kabupaten": "Kab. Agam",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 4.0,
       "kategori": "Sangat Ringan",
       "warna": "#bae6fd",
@@ -36046,43 +36058,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "13 Aug 2026: vs Lubuk Basung (117mm vs 1mm, selisih 116mm, 9.95km) | 19 Aug 2026: vs Lubuk Basung (0mm vs 84mm, selisih 84mm, 9.95km) | 14 Aug 2026: vs Lubuk Basung (117mm vs 43mm, selisih 74mm, 9.95km) | 15 Aug 2026: vs Lubuk Basung (97mm vs 43mm, selisih 54mm, 9.95km)",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Lubuk Basung (Pos Kerjasama, jarak 9.95km, beda 0.0m, EKSTREM BERULANG 4x (ambang 50.0mm, terbaru 2026-08-19 selisih 84.0mm), arah=OVER, konsisten=46%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "OVER",
+      "hari_sejak_ekstrem_terakhir": 10.0,
       "perlu_verifikasi_segera": true,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "13 Aug 2026",
-          "tetangga": "Lubuk Basung",
-          "ch_target": 117.0,
-          "ch_tetangga": 1.0,
-          "selisih": 116.0,
-          "jarak": 9.95
-        },
-        {
-          "tanggal": "19 Aug 2026",
-          "tetangga": "Lubuk Basung",
-          "ch_target": 0.0,
-          "ch_tetangga": 84.0,
-          "selisih": 84.0,
-          "jarak": 9.95
-        },
-        {
-          "tanggal": "14 Aug 2026",
-          "tetangga": "Lubuk Basung",
-          "ch_target": 117.0,
-          "ch_tetangga": 43.0,
-          "selisih": 74.0,
-          "jarak": 9.95
-        },
-        {
-          "tanggal": "15 Aug 2026",
-          "tetangga": "Lubuk Basung",
-          "ch_target": 97.0,
-          "ch_tetangga": 43.0,
-          "selisih": 54.0,
-          "jarak": 9.95
-        }
-      ]
+      "detail_verifikasi_segera": "2026-08-13: Tiku=117.0mm vs Lubuk Basung=1.0mm (selisih 116.0mm, jarak 9.95km, beda 0.0m)"
     },
     {
       "id_pos": "PH015",
@@ -36091,12 +36074,16 @@
       "longitude": 101.62,
       "kabupaten": "Kab. Dharmasraya",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -36369,10 +36356,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH046",
@@ -36381,12 +36372,16 @@
       "longitude": 100.05,
       "kabupaten": "Kab. Pasaman",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -36659,10 +36654,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH054",
@@ -36671,12 +36670,16 @@
       "longitude": 99.95,
       "kabupaten": "Kab. Pasaman Barat",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 7.0,
       "kategori": "Ringan",
       "warna": "#60a5fa",
@@ -36949,10 +36952,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH091",
@@ -36961,12 +36968,16 @@
       "longitude": 100.78,
       "kabupaten": "Kab. Solok",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 19.0,
       "kategori": "Ringan",
       "warna": "#60a5fa",
@@ -37239,10 +37250,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     },
     {
       "id_pos": "PH040",
@@ -37251,12 +37266,16 @@
       "longitude": 100.22,
       "kabupaten": "Kab. Padang Pariaman",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 3,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:03:59",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -37529,59 +37548,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "04 Aug 2026: vs BPP Sintuk (108mm vs 2mm, selisih 106mm, 7.12km) | 18 Aug 2026: vs BPP Sintuk (0mm vs 98mm, selisih 98mm, 7.12km) | 04 Aug 2026: vs Bonjol (108mm vs 24mm, selisih 84mm, 3.34km) | 13 Aug 2026: vs BPP Sintuk (0mm vs 76mm, selisih 76mm, 7.12km) | 14 Aug 2026: vs Bonjol (70mm vs 5mm, selisih 64mm, 3.34km) | 15 Aug 2026: vs BPP Sintuk (57mm vs 3mm, selisih 54mm, 7.12km)",
+      "status_ekstrem_harian": "SUSPECT",
+      "alasan_ekstrem_harian": "Bonjol (Pos Kerjasama, jarak 3.34km, beda 0.0m, EKSTREM BERULANG 2x (ambang 50.0mm, terbaru 2026-08-14 selisih 64.5mm), arah=OVER, konsisten=33%); BPP Sintuk (Pos Kerjasama, jarak 7.12km, beda 0.0m, EKSTREM BERULANG 4x (ambang 50.0mm, terbaru 2026-08-18 selisih 98.0mm), arah=NETRAL, konsisten=33%)",
+      "n_tetangga_dicek_ekstrem": 3,
+      "n_tetangga_flag_ekstrem": 2,
+      "arah_bias_dominan": "OVER",
+      "hari_sejak_ekstrem_terakhir": 11.0,
       "perlu_verifikasi_segera": true,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "BPP Sintuk",
-          "ch_target": 108.0,
-          "ch_tetangga": 2.0,
-          "selisih": 106.0,
-          "jarak": 7.12
-        },
-        {
-          "tanggal": "18 Aug 2026",
-          "tetangga": "BPP Sintuk",
-          "ch_target": 0.0,
-          "ch_tetangga": 98.0,
-          "selisih": 98.0,
-          "jarak": 7.12
-        },
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "Bonjol",
-          "ch_target": 108.0,
-          "ch_tetangga": 24.4,
-          "selisih": 83.6,
-          "jarak": 3.34
-        },
-        {
-          "tanggal": "13 Aug 2026",
-          "tetangga": "BPP Sintuk",
-          "ch_target": 0.0,
-          "ch_tetangga": 76.0,
-          "selisih": 76.0,
-          "jarak": 7.12
-        },
-        {
-          "tanggal": "14 Aug 2026",
-          "tetangga": "Bonjol",
-          "ch_target": 69.5,
-          "ch_tetangga": 5.0,
-          "selisih": 64.5,
-          "jarak": 3.34
-        },
-        {
-          "tanggal": "15 Aug 2026",
-          "tetangga": "BPP Sintuk",
-          "ch_target": 57.0,
-          "ch_tetangga": 3.0,
-          "selisih": 54.0,
-          "jarak": 7.12
-        }
-      ]
+      "detail_verifikasi_segera": "2026-08-15: Ulakan Tapakis=57.0mm vs BPP Sintuk=3.0mm (selisih 54.0mm, jarak 7.12km, beda 0.0m); 2026-08-14: Ulakan Tapakis=69.5mm vs Bonjol=5.0mm (selisih 64.5mm, jarak 3.34km, beda 0.0m); 2026-08-04: Ulakan Tapakis=108.0mm vs BPP Sintuk=2.0mm (selisih 106.0mm, jarak 7.12km, beda 0.0m)"
     },
     {
       "id_pos": "PH121",
@@ -37590,12 +37564,16 @@
       "longitude": 100.48,
       "kabupaten": "Kota Padang",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 2,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -37868,27 +37846,14 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "04 Aug 2026: vs Limau Manih-UNAND (3mm vs 164mm, selisih 161mm, 6.29km) | 20 Aug 2026: vs Limau Manih-UNAND (121mm vs 20mm, selisih 101mm, 6.29km)",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "Limau Manih-UNAND (Pos Kerjasama, jarak 6.29km, beda 0.0m, EKSTREM BERULANG 2x (ambang 50.0mm, terbaru 2026-08-20 selisih 101.0mm), arah=NETRAL, konsisten=40%)",
+      "n_tetangga_dicek_ekstrem": 1,
+      "n_tetangga_flag_ekstrem": 1,
+      "arah_bias_dominan": "NETRAL",
+      "hari_sejak_ekstrem_terakhir": 9.0,
       "perlu_verifikasi_segera": true,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "Limau Manih-UNAND",
-          "ch_target": 3.0,
-          "ch_tetangga": 164.0,
-          "selisih": 161.0,
-          "jarak": 6.29
-        },
-        {
-          "tanggal": "20 Aug 2026",
-          "tetangga": "Limau Manih-UNAND",
-          "ch_target": 121.0,
-          "ch_tetangga": 20.0,
-          "selisih": 101.0,
-          "jarak": 6.29
-        }
-      ]
+      "detail_verifikasi_segera": "2026-08-20: Water Plan Semen Padang=121.0mm vs Limau Manih-UNAND=20.0mm (selisih 101.0mm, jarak 6.29km, beda 0.0m); 2026-08-04: Water Plan Semen Padang=3.0mm vs Limau Manih-UNAND=164.0mm (selisih 161.0mm, jarak 6.29km, beda 0.0m)"
     },
     {
       "id_pos": "PH092",
@@ -37897,12 +37862,16 @@
       "longitude": 100.6,
       "kabupaten": "Kab. Solok",
       "status": "NORMAL",
+      "tipe_referensi": "OTOMATIS_POS",
       "n_tetangga_dicek": 6,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
+      "flag_aws": "OK",
+      "ch_aws_rata": null,
       "window_mulai": "2026-02-11",
       "window_akhir": "2026-08-29",
+      "waktu_analisis": "2026-09-01T18:04:00",
       "curah_hujan_mm": 0.0,
       "kategori": "Tidak Hujan",
       "warna": "#94a3b8",
@@ -38175,10 +38144,14 @@
           "status": null
         }
       ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
+      "status_ekstrem_harian": "NORMAL",
+      "alasan_ekstrem_harian": "",
+      "n_tetangga_dicek_ekstrem": 0,
+      "n_tetangga_flag_ekstrem": 0,
+      "arah_bias_dominan": null,
+      "hari_sejak_ekstrem_terakhir": NaN,
       "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
+      "detail_verifikasi_segera": ""
     }
   ]
 }
