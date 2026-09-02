@@ -310,13 +310,13 @@ function renderSuspectPanel(posHujan) {
     }).join('');
   }
 
-  // PERBAIKAN: Menggunakan array raw_ekstrem_events JSON langsung
+// PERBAIKAN: Menggunakan array raw_ekstrem_events JSON dengan Tombol Aksi
   const rows = [];
   posHujan.forEach(p => {
     if (p.raw_ekstrem_events && p.raw_ekstrem_events.length > 0) {
       p.raw_ekstrem_events.forEach(ev => {
         rows.push({
-          id: p.id_pos, nama: p.nama_pos,
+          id: p.id_pos, nama: p.nama_pos, tanggal: ev.tanggal,
           teks: `<b>${ev.tanggal}</b>: Beda ${ev.selisih}mm dengan ${ev.tetangga} (Titik ini: <b>${ev.ch_target}mm</b> vs Tetangga: <b>${ev.ch_tetangga}mm</b>, Jarak: ${ev.jarak}km)`
         });
       });
@@ -325,14 +325,19 @@ function renderSuspectPanel(posHujan) {
 
   const tbody = el('tbodyDiff');
   if (!rows.length) {
-    tbody.innerHTML = `<tr><td colspan="2" style="text-align:center;color:#94a3b8;padding:24px">Tidak ada kejadian selisih ekstrem.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="3" style="text-align:center;color:#94a3b8;padding:24px">Tidak ada kejadian selisih ekstrem.</td></tr>`;
   } else {
     tbody.innerHTML = rows.map(r => `
-      <tr class="tabel-row" onclick="bukaPopupPos('${r.id}')">
-        <td class="dt-nama">${esc(r.nama)}</td><td class="dt-alasan">${r.teks}</td>
+      <tr class="tabel-row">
+        <td class="dt-nama" onclick="bukaPopupPos('${r.id}')">${esc(r.nama)}</td>
+        <td class="dt-alasan" onclick="bukaPopupPos('${r.id}')">${r.teks}</td>
+        <td style="white-space: nowrap; vertical-align: middle;">
+          <button onclick="kirimKonfirmasi(this, '${r.id}', '${esc(r.nama)}', '${r.tanggal}', 'Valid')" style="background:#10b981; color:white; border:none; padding:6px 10px; border-radius:6px; cursor:pointer; font-size:0.75rem; font-weight:600; margin-bottom:6px; display:block; width:100%; transition: opacity 0.2s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">✅ Valid</button>
+          <button onclick="kirimKonfirmasi(this, '${r.id}', '${esc(r.nama)}', '${r.tanggal}', 'Salah Input')" style="background:#ef4444; color:white; border:none; padding:6px 10px; border-radius:6px; cursor:pointer; font-size:0.75rem; font-weight:600; display:block; width:100%; transition: opacity 0.2s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">❌ Salah Input</button>
+        </td>
       </tr>`).join('');
   }
-}
+
 
 async function loadData() {
   try {
@@ -349,3 +354,49 @@ async function loadData() {
 }
 
 document.addEventListener('DOMContentLoaded', () => { initMap(); initSearch(); loadData(); });
+
+// ===== FUNGSI KONFIRMASI ANOMALI KE GOOGLE SHEETS =====
+function kirimKonfirmasi(btnEl, idPos, namaPos, tanggal, status) {
+  let keterangan = prompt(`Konfirmasi Data: [${status}]\nMasukkan catatan atau keterangan untuk ${namaPos} (Opsional):`);
+  if (keterangan === null) return; // Batal jika user menekan Cancel
+
+  // Berikan efek loading pada tombol
+  const originalText = btnEl.innerHTML;
+  btnEl.innerHTML = '⏳ Menyimpan...';
+  btnEl.disabled = true;
+
+  // URL Web App Google Apps Script Anda
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbw7QBHgTIdb81cH8RpE_90oYRSj7WapIzmuKLmp-8Mcpy7DmsrDwl1ZQGv0OVv7sjtb/exec';
+  
+  fetch(scriptURL, {
+    method: 'POST',
+    mode: 'no-cors', // Penting untuk bypass blokir CORS browser
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      id_pos: idPos,
+      nama_pos: namaPos,
+      tanggal: tanggal,
+      status: status,
+      keterangan: keterangan
+    })
+  })
+  .then(res => {
+    // Karena mode no-cors, response akan selalu terlihat 'opaque', 
+    // jadi kita asumsikan sukses jika fetch berhasil (tidak masuk catch).
+    alert("✅ Konfirmasi berhasil disimpan ke Database!");
+    
+    // Ubah tampilan baris tabel agar terlihat sudah diproses
+    const row = btnEl.closest('tr');
+    if (row) {
+      row.style.background = '#f1f5f9';
+      row.style.opacity = '0.6';
+      const actionCell = row.querySelector('td:last-child');
+      if (actionCell) actionCell.innerHTML = `<span style="color:#059669; font-weight:700; font-size:0.8rem;">Terkonfirmasi:<br>${status}</span>`;
+    }
+  })
+  .catch(err => {
+    alert("❌ Gagal menyimpan konfirmasi. Periksa koneksi internet Anda.");
+    btnEl.innerHTML = originalText;
+    btnEl.disabled = false;
+  });
+}
