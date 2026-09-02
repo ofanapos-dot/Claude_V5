@@ -337,6 +337,7 @@ function renderSuspectPanel(posHujan) {
         </td>
       </tr>`).join('');
   }
+}
 
 
 async function loadData() {
