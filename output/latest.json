@@ -1,7 +1,7 @@
 {
   "metadata": {
     "tanggal_analisis": "2026-08-29",
-    "waktu_generate": "2026-09-01 19:01:35",
+    "waktu_generate": "2026-09-02 08:27:03",
     "total_pos": 128,
     "pos_normal": 126,
     "pos_suspect": 2,
@@ -7963,7 +7963,7 @@
       "longitude": 100.26,
       "kabupaten": "Kab. Padang Pariaman",
       "status": "NORMAL",
-      "n_tetangga_dicek": 3,
+      "n_tetangga_dicek": 2,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
@@ -8242,7 +8242,7 @@
         }
       ],
       "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "04 Aug 2026: vs Sunur (2mm vs 108mm, selisih 106mm, 8.09km) | 04 Aug 2026: vs Ulakan Tapakis (2mm vs 108mm, selisih 106mm, 7.12km) | 18 Aug 2026: vs Sunur (98mm vs 0mm, selisih 98mm, 8.09km) | 18 Aug 2026: vs Ulakan Tapakis (98mm vs 0mm, selisih 98mm, 7.12km) | 15 Aug 2026: vs Sunur (3mm vs 96mm, selisih 93mm, 8.09km) | 18 Aug 2026: vs Bonjol (98mm vs 10mm, selisih 88mm, 5.67km) | 13 Aug 2026: vs Sunur (76mm vs 0mm, selisih 76mm, 8.09km) | 13 Aug 2026: vs Ulakan Tapakis (76mm vs 0mm, selisih 76mm, 7.12km) | 13 Aug 2026: vs Bonjol (76mm vs 11mm, selisih 65mm, 5.67km) | 14 Aug 2026: vs Sunur (48mm vs 104mm, selisih 56mm, 8.09km) | 15 Aug 2026: vs Ulakan Tapakis (3mm vs 57mm, selisih 54mm, 7.12km)",
+      "detail_verifikasi_segera": "04 Aug 2026: vs Sunur (2mm vs 108mm, selisih 106mm, 8.09km) | 04 Aug 2026: vs Ulakan Tapakis (2mm vs 108mm, selisih 106mm, 7.12km) | 18 Aug 2026: vs Sunur (98mm vs 0mm, selisih 98mm, 8.09km) | 18 Aug 2026: vs Ulakan Tapakis (98mm vs 0mm, selisih 98mm, 7.12km) | 15 Aug 2026: vs Sunur (3mm vs 96mm, selisih 93mm, 8.09km) | 13 Aug 2026: vs Sunur (76mm vs 0mm, selisih 76mm, 8.09km) | 13 Aug 2026: vs Ulakan Tapakis (76mm vs 0mm, selisih 76mm, 7.12km) | 14 Aug 2026: vs Sunur (48mm vs 104mm, selisih 56mm, 8.09km) | 15 Aug 2026: vs Ulakan Tapakis (3mm vs 57mm, selisih 54mm, 7.12km)",
       "perlu_verifikasi_segera": true,
       "raw_ekstrem_events": [
         {
@@ -8286,14 +8286,6 @@
           "jarak": 8.09
         },
         {
-          "tanggal": "18 Aug 2026",
-          "tetangga": "Bonjol",
-          "ch_target": 98.0,
-          "ch_tetangga": 10.3,
-          "selisih": 87.7,
-          "jarak": 5.67
-        },
-        {
           "tanggal": "13 Aug 2026",
           "tetangga": "Sunur",
           "ch_target": 76.0,
@@ -8308,14 +8300,6 @@
           "ch_tetangga": 0.0,
           "selisih": 76.0,
           "jarak": 7.12
-        },
-        {
-          "tanggal": "13 Aug 2026",
-          "tetangga": "Bonjol",
-          "ch_target": 76.0,
-          "ch_tetangga": 11.0,
-          "selisih": 65.0,
-          "jarak": 5.67
         },
         {
           "tanggal": "14 Aug 2026",
@@ -10377,11 +10361,11 @@
     {
       "id_pos": "PH041",
       "nama_pos": "Bonjol",
-      "latitude": -0.7,
-      "longitude": 100.25,
+      "latitude": 0.017993,
+      "longitude": 100.255733,
       "kabupaten": "Kab. Pasaman",
       "status": "NORMAL",
-      "n_tetangga_dicek": 4,
+      "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
@@ -10659,83 +10643,10 @@
           "status": "NORMAL"
         }
       ],
-      "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "05 Aug 2026: vs Kuliek (0mm vs 177mm, selisih 177mm, 9.94km) | 14 Aug 2026: vs Sunur (5mm vs 104mm, selisih 99mm, 7.46km) | 14 Aug 2026: vs Kuliek (5mm vs 102mm, selisih 97mm, 9.94km) | 18 Aug 2026: vs BPP Sintuk (10mm vs 98mm, selisih 88mm, 5.67km) | 04 Aug 2026: vs Sunur (24mm vs 108mm, selisih 84mm, 7.46km) | 04 Aug 2026: vs Ulakan Tapakis (24mm vs 108mm, selisih 84mm, 3.34km) | 13 Aug 2026: vs BPP Sintuk (11mm vs 76mm, selisih 65mm, 5.67km) | 14 Aug 2026: vs Ulakan Tapakis (5mm vs 70mm, selisih 64mm, 3.34km) | 15 Aug 2026: vs Sunur (41mm vs 96mm, selisih 55mm, 7.46km)",
-      "perlu_verifikasi_segera": true,
-      "raw_ekstrem_events": [
-        {
-          "tanggal": "05 Aug 2026",
-          "tetangga": "Kuliek",
-          "ch_target": 0.0,
-          "ch_tetangga": 177.0,
-          "selisih": 177.0,
-          "jarak": 9.94
-        },
-        {
-          "tanggal": "14 Aug 2026",
-          "tetangga": "Sunur",
-          "ch_target": 5.0,
-          "ch_tetangga": 104.0,
-          "selisih": 99.0,
-          "jarak": 7.46
-        },
-        {
-          "tanggal": "14 Aug 2026",
-          "tetangga": "Kuliek",
-          "ch_target": 5.0,
-          "ch_tetangga": 102.0,
-          "selisih": 97.0,
-          "jarak": 9.94
-        },
-        {
-          "tanggal": "18 Aug 2026",
-          "tetangga": "BPP Sintuk",
-          "ch_target": 10.3,
-          "ch_tetangga": 98.0,
-          "selisih": 87.7,
-          "jarak": 5.67
-        },
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "Sunur",
-          "ch_target": 24.4,
-          "ch_tetangga": 108.0,
-          "selisih": 83.6,
-          "jarak": 7.46
-        },
-        {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "Ulakan Tapakis",
-          "ch_target": 24.4,
-          "ch_tetangga": 108.0,
-          "selisih": 83.6,
-          "jarak": 3.34
-        },
-        {
-          "tanggal": "13 Aug 2026",
-          "tetangga": "BPP Sintuk",
-          "ch_target": 11.0,
-          "ch_tetangga": 76.0,
-          "selisih": 65.0,
-          "jarak": 5.67
-        },
-        {
-          "tanggal": "14 Aug 2026",
-          "tetangga": "Ulakan Tapakis",
-          "ch_target": 5.0,
-          "ch_tetangga": 69.5,
-          "selisih": 64.5,
-          "jarak": 3.34
-        },
-        {
-          "tanggal": "15 Aug 2026",
-          "tetangga": "Sunur",
-          "ch_target": 41.2,
-          "ch_tetangga": 96.0,
-          "selisih": 54.8,
-          "jarak": 7.46
-        }
-      ]
+      "status_ekstrem_30hari": "NORMAL",
+      "detail_verifikasi_segera": "",
+      "perlu_verifikasi_segera": false,
+      "raw_ekstrem_events": []
     },
     {
       "id_pos": "PH101",
@@ -15373,17 +15284,9 @@
         }
       ],
       "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "05 Aug 2026: vs Bonjol (177mm vs 0mm, selisih 177mm, 9.94km) | 05 Aug 2026: vs AWS Bandara Minangkabau (177mm vs 16mm, selisih 162mm, 7.22km) | 04 Aug 2026: vs AWS Bandara Minangkabau (0mm vs 118mm, selisih 118mm, 7.22km) | 14 Aug 2026: vs Bonjol (102mm vs 5mm, selisih 97mm, 9.94km) | 15 Aug 2026: vs AWS Bandara Minangkabau (0mm vs 80mm, selisih 80mm, 7.22km) | 14 Aug 2026: vs AWS Bandara Minangkabau (102mm vs 22mm, selisih 80mm, 7.22km) | 03 Aug 2026: vs AWS Bandara Minangkabau (0mm vs 50mm, selisih 50mm, 7.22km)",
+      "detail_verifikasi_segera": "05 Aug 2026: vs AWS Bandara Minangkabau (177mm vs 16mm, selisih 162mm, 7.22km) | 04 Aug 2026: vs AWS Bandara Minangkabau (0mm vs 118mm, selisih 118mm, 7.22km) | 15 Aug 2026: vs AWS Bandara Minangkabau (0mm vs 80mm, selisih 80mm, 7.22km) | 14 Aug 2026: vs AWS Bandara Minangkabau (102mm vs 22mm, selisih 80mm, 7.22km) | 03 Aug 2026: vs AWS Bandara Minangkabau (0mm vs 50mm, selisih 50mm, 7.22km)",
       "perlu_verifikasi_segera": true,
       "raw_ekstrem_events": [
-        {
-          "tanggal": "05 Aug 2026",
-          "tetangga": "Bonjol",
-          "ch_target": 177.0,
-          "ch_tetangga": 0.0,
-          "selisih": 177.0,
-          "jarak": 9.94
-        },
         {
           "tanggal": "05 Aug 2026",
           "tetangga": "AWS Bandara Minangkabau",
@@ -15399,14 +15302,6 @@
           "ch_tetangga": 118.0,
           "selisih": 118.0,
           "jarak": 7.22
-        },
-        {
-          "tanggal": "14 Aug 2026",
-          "tetangga": "Bonjol",
-          "ch_target": 102.0,
-          "ch_tetangga": 5.0,
-          "selisih": 97.0,
-          "jarak": 9.94
         },
         {
           "tanggal": "15 Aug 2026",
@@ -32986,7 +32881,7 @@
       "longitude": 100.19,
       "kabupaten": "Kab. Padang Pariaman",
       "status": "NORMAL",
-      "n_tetangga_dicek": 3,
+      "n_tetangga_dicek": 2,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
@@ -33265,7 +33160,7 @@
         }
       ],
       "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "04 Aug 2026: vs BPP Sintuk (108mm vs 2mm, selisih 106mm, 8.09km) | 14 Aug 2026: vs Bonjol (104mm vs 5mm, selisih 99mm, 7.46km) | 18 Aug 2026: vs BPP Sintuk (0mm vs 98mm, selisih 98mm, 8.09km) | 15 Aug 2026: vs BPP Sintuk (96mm vs 3mm, selisih 93mm, 8.09km) | 04 Aug 2026: vs Bonjol (108mm vs 24mm, selisih 84mm, 7.46km) | 13 Aug 2026: vs BPP Sintuk (0mm vs 76mm, selisih 76mm, 8.09km) | 14 Aug 2026: vs BPP Sintuk (104mm vs 48mm, selisih 56mm, 8.09km) | 15 Aug 2026: vs Bonjol (96mm vs 41mm, selisih 55mm, 7.46km)",
+      "detail_verifikasi_segera": "04 Aug 2026: vs BPP Sintuk (108mm vs 2mm, selisih 106mm, 8.09km) | 18 Aug 2026: vs BPP Sintuk (0mm vs 98mm, selisih 98mm, 8.09km) | 15 Aug 2026: vs BPP Sintuk (96mm vs 3mm, selisih 93mm, 8.09km) | 13 Aug 2026: vs BPP Sintuk (0mm vs 76mm, selisih 76mm, 8.09km) | 14 Aug 2026: vs BPP Sintuk (104mm vs 48mm, selisih 56mm, 8.09km)",
       "perlu_verifikasi_segera": true,
       "raw_ekstrem_events": [
         {
@@ -33275,14 +33170,6 @@
           "ch_tetangga": 2.0,
           "selisih": 106.0,
           "jarak": 8.09
-        },
-        {
-          "tanggal": "14 Aug 2026",
-          "tetangga": "Bonjol",
-          "ch_target": 104.0,
-          "ch_tetangga": 5.0,
-          "selisih": 99.0,
-          "jarak": 7.46
         },
         {
           "tanggal": "18 Aug 2026",
@@ -33301,14 +33188,6 @@
           "jarak": 8.09
         },
         {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "Bonjol",
-          "ch_target": 108.0,
-          "ch_tetangga": 24.4,
-          "selisih": 83.6,
-          "jarak": 7.46
-        },
-        {
           "tanggal": "13 Aug 2026",
           "tetangga": "BPP Sintuk",
           "ch_target": 0.0,
@@ -33323,14 +33202,6 @@
           "ch_tetangga": 48.0,
           "selisih": 56.0,
           "jarak": 8.09
-        },
-        {
-          "tanggal": "15 Aug 2026",
-          "tetangga": "Bonjol",
-          "ch_target": 96.0,
-          "ch_tetangga": 41.2,
-          "selisih": 54.8,
-          "jarak": 7.46
         }
       ]
     },
@@ -37541,7 +37412,7 @@
       "longitude": 100.22,
       "kabupaten": "Kab. Padang Pariaman",
       "status": "NORMAL",
-      "n_tetangga_dicek": 3,
+      "n_tetangga_dicek": 2,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
@@ -37820,7 +37691,7 @@
         }
       ],
       "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "04 Aug 2026: vs BPP Sintuk (108mm vs 2mm, selisih 106mm, 7.12km) | 18 Aug 2026: vs BPP Sintuk (0mm vs 98mm, selisih 98mm, 7.12km) | 04 Aug 2026: vs Bonjol (108mm vs 24mm, selisih 84mm, 3.34km) | 13 Aug 2026: vs BPP Sintuk (0mm vs 76mm, selisih 76mm, 7.12km) | 14 Aug 2026: vs Bonjol (70mm vs 5mm, selisih 64mm, 3.34km) | 15 Aug 2026: vs BPP Sintuk (57mm vs 3mm, selisih 54mm, 7.12km)",
+      "detail_verifikasi_segera": "04 Aug 2026: vs BPP Sintuk (108mm vs 2mm, selisih 106mm, 7.12km) | 18 Aug 2026: vs BPP Sintuk (0mm vs 98mm, selisih 98mm, 7.12km) | 13 Aug 2026: vs BPP Sintuk (0mm vs 76mm, selisih 76mm, 7.12km) | 15 Aug 2026: vs BPP Sintuk (57mm vs 3mm, selisih 54mm, 7.12km)",
       "perlu_verifikasi_segera": true,
       "raw_ekstrem_events": [
         {
@@ -37840,28 +37711,12 @@
           "jarak": 7.12
         },
         {
-          "tanggal": "04 Aug 2026",
-          "tetangga": "Bonjol",
-          "ch_target": 108.0,
-          "ch_tetangga": 24.4,
-          "selisih": 83.6,
-          "jarak": 3.34
-        },
-        {
           "tanggal": "13 Aug 2026",
           "tetangga": "BPP Sintuk",
           "ch_target": 0.0,
           "ch_tetangga": 76.0,
           "selisih": 76.0,
           "jarak": 7.12
-        },
-        {
-          "tanggal": "14 Aug 2026",
-          "tetangga": "Bonjol",
-          "ch_target": 69.5,
-          "ch_tetangga": 5.0,
-          "selisih": 64.5,
-          "jarak": 3.34
         },
         {
           "tanggal": "15 Aug 2026",
