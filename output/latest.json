@@ -1,10 +1,10 @@
 {
   "metadata": {
     "tanggal_analisis": "2026-09-08",
-    "waktu_generate": "2026-09-09 05:21:42",
+    "waktu_generate": "2026-09-09 05:27:07",
     "total_pos": 128,
-    "pos_normal": 125,
-    "pos_suspect": 3,
+    "pos_normal": 126,
+    "pos_suspect": 2,
     "pos_aktif_hari_ini": 54,
     "pos_terlambat": 51
   },
@@ -18,8 +18,8 @@
       "status": "SUSPECT",
       "n_tetangga_dicek": 2,
       "n_tetangga_flag": 2,
-      "alasan": "BPK Padang Laban (jarak 1.57km, korelasi=0.11) ; ARG Linggo Sari Baganti (jarak 0.46km, korelasi=0.07)",
-      "flag_spatial": "SUSPECT: BPK Padang Laban (jarak 1.57km, korelasi=0.11) ; ARG Linggo Sari Baganti (jarak 0.46km, korelasi=0.07)",
+      "alasan": "BPK Padang Laban (jarak 1.57km, korelasi=0.11) ; ARG Linggo Sari Baganti (jarak 0.0km, korelasi=0.07)",
+      "flag_spatial": "SUSPECT: BPK Padang Laban (jarak 1.57km, korelasi=0.11) ; ARG Linggo Sari Baganti (jarak 0.0km, korelasi=0.07)",
       "window_mulai": "2026-06-01",
       "window_akhir": "2026-09-08",
       "curah_hujan_mm": 0.0,
@@ -295,7 +295,7 @@
         }
       ],
       "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "15 Aug 2026: vs ARG Linggo Sari Baganti (0mm vs 333mm, selisih 333mm, 0.46km) | 15 Aug 2026: vs BPK Padang Laban (0mm vs 161mm, selisih 161mm, 1.57km) | 20 Jul 2026: vs ARG Linggo Sari Baganti (20mm vs 164mm, selisih 144mm, 0.46km) | 14 Aug 2026: vs BPK Padang Laban (125mm vs 0mm, selisih 125mm, 1.57km) | 14 Aug 2026: vs ARG Linggo Sari Baganti (125mm vs 0mm, selisih 125mm, 0.46km) | 20 Jul 2026: vs BPK Padang Laban (20mm vs 90mm, selisih 70mm, 1.57km)",
+      "detail_verifikasi_segera": "15 Aug 2026: vs ARG Linggo Sari Baganti (0mm vs 333mm, selisih 333mm, 0.0km) | 15 Aug 2026: vs BPK Padang Laban (0mm vs 161mm, selisih 161mm, 1.57km) | 20 Jul 2026: vs ARG Linggo Sari Baganti (20mm vs 164mm, selisih 144mm, 0.0km) | 14 Aug 2026: vs BPK Padang Laban (125mm vs 0mm, selisih 125mm, 1.57km) | 14 Aug 2026: vs ARG Linggo Sari Baganti (125mm vs 0mm, selisih 125mm, 0.0km) | 20 Jul 2026: vs BPK Padang Laban (20mm vs 90mm, selisih 70mm, 1.57km)",
       "perlu_verifikasi_segera": true,
       "raw_ekstrem_events": [
         {
@@ -304,7 +304,7 @@
           "ch_target": 0.0,
           "ch_tetangga": 333.4,
           "selisih": 333.4,
-          "jarak": 0.46
+          "jarak": 0.0
         },
         {
           "tanggal": "15 Aug 2026",
@@ -320,7 +320,7 @@
           "ch_target": 20.0,
           "ch_tetangga": 164.0,
           "selisih": 144.0,
-          "jarak": 0.46
+          "jarak": 0.0
         },
         {
           "tanggal": "14 Aug 2026",
@@ -336,7 +336,7 @@
           "ch_target": 125.0,
           "ch_tetangga": 0.0,
           "selisih": 125.0,
-          "jarak": 0.46
+          "jarak": 0.0
         },
         {
           "tanggal": "20 Jul 2026",
@@ -349,296 +349,6 @@
       ]
     },
     {
-      "id_pos": "PH105",
-      "nama_pos": "Galo Gandang",
-      "latitude": -0.4967534638,
-      "longitude": 100.5536264,
-      "kabupaten": "Kab. Tanah Datar",
-      "status": "SUSPECT",
-      "n_tetangga_dicek": 4,
-      "n_tetangga_flag": 2,
-      "alasan": "Ombilin weir (jarak 7.04km, korelasi=0.16) ; ARG Sungai Tarab (jarak 9.5km, korelasi=0.11)",
-      "flag_spatial": "SUSPECT: Ombilin weir (jarak 7.04km, korelasi=0.16) ; ARG Sungai Tarab (jarak 9.5km, korelasi=0.11)",
-      "window_mulai": "2026-06-01",
-      "window_akhir": "2026-09-08",
-      "curah_hujan_mm": 0.0,
-      "kategori": "Tidak Hujan",
-      "warna": "#94a3b8",
-      "tanggal_terakhir": "2026-09-08",
-      "hari_terakhir_kirim": 0,
-      "label_kirim": "Hari ini",
-      "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 25,
-      "persen_aktif": 83.3,
-      "kalender_30hari": [
-        {
-          "tanggal": "2026-08-10",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-08-11",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-08-12",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-08-13",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-08-14",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-08-15",
-          "ada": true,
-          "ch": 13.0,
-          "kat": "Ringan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-08-16",
-          "ada": true,
-          "ch": 1.0,
-          "kat": "Sangat Ringan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-08-17",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-08-18",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-08-19",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-08-20",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-21",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-08-22",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-08-23",
-          "ada": true,
-          "ch": 26.0,
-          "kat": "Sedang",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-08-24",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-08-25",
-          "ada": true,
-          "ch": 5.0,
-          "kat": "Ringan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-08-26",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-08-27",
-          "ada": true,
-          "ch": 3.0,
-          "kat": "Sangat Ringan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-08-28",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-29",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-08-30",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-08-31",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-09-01",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-09-02",
-          "ada": true,
-          "ch": 8.0,
-          "kat": "Ringan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-09-03",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-09-04",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-09-05",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-09-06",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-09-07",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-09-08",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "SUSPECT"
-        }
-      ],
-      "riwayat_7hari": [
-        {
-          "tanggal": "2026-09-08",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-09-07",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-09-06",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-09-05",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-09-04",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-09-03",
-          "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
-          "status": "SUSPECT"
-        },
-        {
-          "tanggal": "2026-09-02",
-          "ada": true,
-          "ch": 8.0,
-          "kat": "Ringan",
-          "status": "SUSPECT"
-        }
-      ],
-      "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "",
-      "perlu_verifikasi_segera": false,
-      "raw_ekstrem_events": []
-    },
-    {
       "id_pos": "PH092",
       "nama_pos": "X Koto Singkarak",
       "latitude": -0.71,
@@ -647,8 +357,8 @@
       "status": "SUSPECT",
       "n_tetangga_dicek": 3,
       "n_tetangga_flag": 2,
-      "alasan": "Lubuk Sikarah (jarak 6.76km, korelasi=-0.11) ; AAWS Sumani (jarak 1.41km, korelasi=0.00)",
-      "flag_spatial": "SUSPECT: Lubuk Sikarah (jarak 6.76km, korelasi=-0.11) ; AAWS Sumani (jarak 1.41km, korelasi=0.00)",
+      "alasan": "Lubuk Sikarah (jarak 6.76km, korelasi=-0.11) ; AAWS Sumani (jarak 1.11km, korelasi=0.00)",
+      "flag_spatial": "SUSPECT: Lubuk Sikarah (jarak 6.76km, korelasi=-0.11) ; AAWS Sumani (jarak 1.11km, korelasi=0.00)",
       "window_mulai": "2026-06-01",
       "window_akhir": "2026-09-08",
       "curah_hujan_mm": 0.0,
@@ -1225,7 +935,7 @@
       "longitude": 100.55,
       "kabupaten": "Kab. Lima Puluh Kota",
       "status": "NORMAL",
-      "n_tetangga_dicek": 4,
+      "n_tetangga_dicek": 3,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
@@ -3875,7 +3585,7 @@
         }
       ],
       "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "16 Aug 2026: vs AWS Alahan Panjang (61mm vs 0mm, selisih 61mm, 8.43km) | 19 Jul 2026: vs AWS Alahan Panjang (15mm vs 74mm, selisih 59mm, 8.43km)",
+      "detail_verifikasi_segera": "16 Aug 2026: vs AWS Alahan Panjang (61mm vs 0mm, selisih 61mm, 8.89km) | 19 Jul 2026: vs AWS Alahan Panjang (15mm vs 74mm, selisih 59mm, 8.89km)",
       "perlu_verifikasi_segera": true,
       "raw_ekstrem_events": [
         {
@@ -3884,7 +3594,7 @@
           "ch_target": 61.0,
           "ch_tetangga": 0.2,
           "selisih": 60.8,
-          "jarak": 8.43
+          "jarak": 8.89
         },
         {
           "tanggal": "19 Jul 2026",
@@ -3892,7 +3602,7 @@
           "ch_target": 15.0,
           "ch_tetangga": 74.4,
           "selisih": 59.400000000000006,
-          "jarak": 8.43
+          "jarak": 8.89
         }
       ]
     },
@@ -4762,7 +4472,7 @@
         }
       ],
       "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "15 Aug 2026: vs ARG Linggo Sari Baganti (161mm vs 333mm, selisih 172mm, 2.03km) | 20 Jul 2026: vs ARG Linggo Sari Baganti (90mm vs 164mm, selisih 74mm, 2.03km)",
+      "detail_verifikasi_segera": "15 Aug 2026: vs ARG Linggo Sari Baganti (161mm vs 333mm, selisih 172mm, 1.57km) | 20 Jul 2026: vs ARG Linggo Sari Baganti (90mm vs 164mm, selisih 74mm, 1.57km)",
       "perlu_verifikasi_segera": true,
       "raw_ekstrem_events": [
         {
@@ -4771,7 +4481,7 @@
           "ch_target": 161.0,
           "ch_tetangga": 333.4,
           "selisih": 172.39999999999998,
-          "jarak": 2.03
+          "jarak": 1.57
         },
         {
           "tanggal": "20 Jul 2026",
@@ -4779,7 +4489,7 @@
           "ch_target": 90.0,
           "ch_tetangga": 164.0,
           "selisih": 74.0,
-          "jarak": 2.03
+          "jarak": 1.57
         }
       ]
     },
@@ -5359,7 +5069,7 @@
         }
       ],
       "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "22 Jul 2026: vs ARG Sijunjung (2mm vs 85mm, selisih 83mm, 7.74km)",
+      "detail_verifikasi_segera": "22 Jul 2026: vs ARG Sijunjung (2mm vs 85mm, selisih 83mm, 8.02km)",
       "perlu_verifikasi_segera": false,
       "raw_ekstrem_events": [
         {
@@ -5368,7 +5078,7 @@
           "ch_target": 2.0,
           "ch_tetangga": 85.4,
           "selisih": 83.4,
-          "jarak": 7.74
+          "jarak": 8.02
         }
       ]
     },
@@ -5379,7 +5089,7 @@
       "longitude": 100.64,
       "kabupaten": "Kab. Solok",
       "status": "NORMAL",
-      "n_tetangga_dicek": 1,
+      "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
@@ -9833,7 +9543,7 @@
         }
       ],
       "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "04 Aug 2026: vs Water Plan Semen Padang (188mm vs 3mm, selisih 186mm, 6.76km) | 04 Aug 2026: vs AWS Maritim Bungus (188mm vs 286mm, selisih 97mm, 9.24km) | 20 Aug 2026: vs Water Plan Semen Padang (24mm vs 121mm, selisih 97mm, 6.76km) | 03 Aug 2026: vs Nanggalo (15mm vs 75mm, selisih 60mm, 8.02km) | 04 Aug 2026: vs Nanggalo (188mm vs 248mm, selisih 60mm, 8.02km) | 15 Jul 2026: vs Muara Palam - Parak karakah (0mm vs 56mm, selisih 56mm, 4.58km) | 20 Jul 2026: vs Limau Manih-UNAND (21mm vs 75mm, selisih 54mm, 4.01km)",
+      "detail_verifikasi_segera": "04 Aug 2026: vs Water Plan Semen Padang (188mm vs 3mm, selisih 186mm, 6.76km) | 04 Aug 2026: vs AWS Maritim Bungus (188mm vs 286mm, selisih 97mm, 9.17km) | 20 Aug 2026: vs Water Plan Semen Padang (24mm vs 121mm, selisih 97mm, 6.76km) | 03 Aug 2026: vs Nanggalo (15mm vs 75mm, selisih 60mm, 8.02km) | 04 Aug 2026: vs Nanggalo (188mm vs 248mm, selisih 60mm, 8.02km) | 15 Jul 2026: vs Muara Palam - Parak karakah (0mm vs 56mm, selisih 56mm, 4.58km) | 20 Jul 2026: vs Limau Manih-UNAND (21mm vs 75mm, selisih 54mm, 4.01km)",
       "perlu_verifikasi_segera": true,
       "raw_ekstrem_events": [
         {
@@ -9850,7 +9560,7 @@
           "ch_target": 188.5,
           "ch_tetangga": 285.6,
           "selisih": 97.10000000000002,
-          "jarak": 9.24
+          "jarak": 9.17
         },
         {
           "tanggal": "20 Aug 2026",
@@ -10191,7 +9901,7 @@
       "longitude": 100.46,
       "kabupaten": "Kab. Tanah Datar",
       "status": "NORMAL",
-      "n_tetangga_dicek": 4,
+      "n_tetangga_dicek": 3,
       "n_tetangga_flag": 1,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
@@ -12514,6 +12224,296 @@
       "raw_ekstrem_events": []
     },
     {
+      "id_pos": "PH105",
+      "nama_pos": "Galo Gandang",
+      "latitude": -0.5,
+      "longitude": 100.55,
+      "kabupaten": "Kab. Tanah Datar",
+      "status": "NORMAL",
+      "n_tetangga_dicek": 3,
+      "n_tetangga_flag": 1,
+      "alasan": "",
+      "flag_spatial": "KONSISTEN",
+      "window_mulai": "2026-06-01",
+      "window_akhir": "2026-09-08",
+      "curah_hujan_mm": 0.0,
+      "kategori": "Tidak Hujan",
+      "warna": "#94a3b8",
+      "tanggal_terakhir": "2026-09-08",
+      "hari_terakhir_kirim": 0,
+      "label_kirim": "Hari ini",
+      "warna_kirim": "#22c55e",
+      "jumlah_lapor_30hari": 25,
+      "persen_aktif": 83.3,
+      "kalender_30hari": [
+        {
+          "tanggal": "2026-08-10",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-08-11",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-08-12",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-08-13",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-08-14",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-08-15",
+          "ada": true,
+          "ch": 13.0,
+          "kat": "Ringan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-08-16",
+          "ada": true,
+          "ch": 1.0,
+          "kat": "Sangat Ringan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-08-17",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-08-18",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-08-19",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-08-20",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-21",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-08-22",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-08-23",
+          "ada": true,
+          "ch": 26.0,
+          "kat": "Sedang",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-08-24",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-08-25",
+          "ada": true,
+          "ch": 5.0,
+          "kat": "Ringan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-08-26",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-08-27",
+          "ada": true,
+          "ch": 3.0,
+          "kat": "Sangat Ringan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-08-28",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-08-29",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-08-30",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-08-31",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-09-01",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-09-02",
+          "ada": true,
+          "ch": 8.0,
+          "kat": "Ringan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-09-03",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-09-04",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-09-05",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-09-06",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-09-07",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-09-08",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        }
+      ],
+      "riwayat_7hari": [
+        {
+          "tanggal": "2026-09-08",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-09-07",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-09-06",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-09-05",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-09-04",
+          "ada": false,
+          "ch": null,
+          "kat": null,
+          "status": null
+        },
+        {
+          "tanggal": "2026-09-03",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-09-02",
+          "ada": true,
+          "ch": 8.0,
+          "kat": "Ringan",
+          "status": "NORMAL"
+        }
+      ],
+      "status_ekstrem_30hari": "NORMAL",
+      "detail_verifikasi_segera": "",
+      "perlu_verifikasi_segera": false,
+      "raw_ekstrem_events": []
+    },
+    {
       "id_pos": "PH021",
       "nama_pos": "Guguak",
       "latitude": -0.16,
@@ -14249,7 +14249,7 @@
         }
       ],
       "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "28 Jul 2026: vs AAWS Staklim Padang Pariaman (76mm vs 0mm, selisih 76mm, 6.88km) | 29 Jul 2026: vs AAWS Staklim Padang Pariaman (126mm vs 55mm, selisih 71mm, 6.88km) | 03 Aug 2026: vs AAWS Staklim Padang Pariaman (1mm vs 72mm, selisih 71mm, 6.88km) | 28 Aug 2026: vs AAWS Staklim Padang Pariaman (64mm vs 0mm, selisih 64mm, 6.88km)",
+      "detail_verifikasi_segera": "28 Jul 2026: vs AAWS Staklim Padang Pariaman (76mm vs 0mm, selisih 76mm, 7.12km) | 29 Jul 2026: vs AAWS Staklim Padang Pariaman (126mm vs 55mm, selisih 71mm, 7.12km) | 03 Aug 2026: vs AAWS Staklim Padang Pariaman (1mm vs 72mm, selisih 71mm, 7.12km) | 28 Aug 2026: vs AAWS Staklim Padang Pariaman (64mm vs 0mm, selisih 64mm, 7.12km)",
       "perlu_verifikasi_segera": true,
       "raw_ekstrem_events": [
         {
@@ -14258,7 +14258,7 @@
           "ch_target": 76.0,
           "ch_tetangga": 0.0,
           "selisih": 76.0,
-          "jarak": 6.88
+          "jarak": 7.12
         },
         {
           "tanggal": "29 Jul 2026",
@@ -14266,7 +14266,7 @@
           "ch_target": 126.0,
           "ch_tetangga": 55.0,
           "selisih": 71.0,
-          "jarak": 6.88
+          "jarak": 7.12
         },
         {
           "tanggal": "03 Aug 2026",
@@ -14274,7 +14274,7 @@
           "ch_target": 1.0,
           "ch_tetangga": 71.6,
           "selisih": 70.6,
-          "jarak": 6.88
+          "jarak": 7.12
         },
         {
           "tanggal": "28 Aug 2026",
@@ -14282,7 +14282,7 @@
           "ch_target": 64.0,
           "ch_tetangga": 0.2,
           "selisih": 63.8,
-          "jarak": 6.88
+          "jarak": 7.12
         }
       ]
     },
@@ -15442,7 +15442,7 @@
         }
       ],
       "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "05 Aug 2026: vs AWS Bandara Minangkabau (177mm vs 16mm, selisih 162mm, 7.22km) | 04 Aug 2026: vs AWS Bandara Minangkabau (0mm vs 118mm, selisih 118mm, 7.22km) | 18 Jul 2026: vs AWS Bandara Minangkabau (0mm vs 91mm, selisih 91mm, 7.22km) | 15 Aug 2026: vs AWS Bandara Minangkabau (0mm vs 80mm, selisih 80mm, 7.22km) | 14 Aug 2026: vs AWS Bandara Minangkabau (102mm vs 22mm, selisih 80mm, 7.22km) | 03 Aug 2026: vs AWS Bandara Minangkabau (0mm vs 50mm, selisih 50mm, 7.22km)",
+      "detail_verifikasi_segera": "05 Aug 2026: vs AWS Bandara Minangkabau (177mm vs 16mm, selisih 162mm, 7.12km) | 04 Aug 2026: vs AWS Bandara Minangkabau (0mm vs 118mm, selisih 118mm, 7.12km) | 18 Jul 2026: vs AWS Bandara Minangkabau (0mm vs 91mm, selisih 91mm, 7.12km) | 15 Aug 2026: vs AWS Bandara Minangkabau (0mm vs 80mm, selisih 80mm, 7.12km) | 14 Aug 2026: vs AWS Bandara Minangkabau (102mm vs 22mm, selisih 80mm, 7.12km) | 03 Aug 2026: vs AWS Bandara Minangkabau (0mm vs 50mm, selisih 50mm, 7.12km)",
       "perlu_verifikasi_segera": true,
       "raw_ekstrem_events": [
         {
@@ -15451,7 +15451,7 @@
           "ch_target": 177.0,
           "ch_tetangga": 15.5,
           "selisih": 161.5,
-          "jarak": 7.22
+          "jarak": 7.12
         },
         {
           "tanggal": "04 Aug 2026",
@@ -15459,7 +15459,7 @@
           "ch_target": 0.0,
           "ch_tetangga": 118.0,
           "selisih": 118.0,
-          "jarak": 7.22
+          "jarak": 7.12
         },
         {
           "tanggal": "18 Jul 2026",
@@ -15467,7 +15467,7 @@
           "ch_target": 0.0,
           "ch_tetangga": 91.1,
           "selisih": 91.1,
-          "jarak": 7.22
+          "jarak": 7.12
         },
         {
           "tanggal": "15 Aug 2026",
@@ -15475,7 +15475,7 @@
           "ch_target": 0.0,
           "ch_tetangga": 80.5,
           "selisih": 80.5,
-          "jarak": 7.22
+          "jarak": 7.12
         },
         {
           "tanggal": "14 Aug 2026",
@@ -15483,7 +15483,7 @@
           "ch_target": 102.0,
           "ch_tetangga": 22.3,
           "selisih": 79.7,
-          "jarak": 7.22
+          "jarak": 7.12
         },
         {
           "tanggal": "03 Aug 2026",
@@ -15491,7 +15491,7 @@
           "ch_target": 0.0,
           "ch_tetangga": 50.2,
           "selisih": 50.2,
-          "jarak": 7.22
+          "jarak": 7.12
         }
       ]
     },
@@ -17006,7 +17006,7 @@
         }
       ],
       "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "15 Aug 2026: vs Pariaman (265mm vs 47mm, selisih 218mm, 8.96km) | 15 Aug 2026: vs Tandikat (265mm vs 75mm, selisih 190mm, 9.5km) | 15 Aug 2026: vs ARG Sungai Limau (265mm vs 90mm, selisih 175mm, 7.53km) | 04 Aug 2026: vs ARG Sungai Limau (1mm vs 114mm, selisih 113mm, 7.53km) | 19 Jul 2026: vs Pariaman (115mm vs 11mm, selisih 104mm, 8.96km) | 04 Aug 2026: vs Pariaman (1mm vs 102mm, selisih 101mm, 8.96km) | 18 Jul 2026: vs ARG Sungai Limau (24mm vs 121mm, selisih 97mm, 7.53km) | 23 Aug 2026: vs Tandikat (0mm vs 85mm, selisih 85mm, 9.5km) | 08 Sep 2026: vs ARG Sungai Limau (28mm vs 112mm, selisih 85mm, 7.53km) | 03 Aug 2026: vs Tandikat (102mm vs 27mm, selisih 76mm, 9.5km) | 14 Aug 2026: vs Pariaman (21mm vs 90mm, selisih 68mm, 8.96km)",
+      "detail_verifikasi_segera": "15 Aug 2026: vs Pariaman (265mm vs 47mm, selisih 218mm, 8.96km) | 15 Aug 2026: vs Tandikat (265mm vs 75mm, selisih 190mm, 9.5km) | 15 Aug 2026: vs ARG Sungai Limau (265mm vs 90mm, selisih 175mm, 7.78km) | 04 Aug 2026: vs ARG Sungai Limau (1mm vs 114mm, selisih 113mm, 7.78km) | 19 Jul 2026: vs Pariaman (115mm vs 11mm, selisih 104mm, 8.96km) | 04 Aug 2026: vs Pariaman (1mm vs 102mm, selisih 101mm, 8.96km) | 18 Jul 2026: vs ARG Sungai Limau (24mm vs 121mm, selisih 97mm, 7.78km) | 23 Aug 2026: vs Tandikat (0mm vs 85mm, selisih 85mm, 9.5km) | 08 Sep 2026: vs ARG Sungai Limau (28mm vs 112mm, selisih 85mm, 7.78km) | 03 Aug 2026: vs Tandikat (102mm vs 27mm, selisih 76mm, 9.5km) | 14 Aug 2026: vs Pariaman (21mm vs 90mm, selisih 68mm, 8.96km)",
       "perlu_verifikasi_segera": true,
       "raw_ekstrem_events": [
         {
@@ -17031,7 +17031,7 @@
           "ch_target": 265.0,
           "ch_tetangga": 90.0,
           "selisih": 175.0,
-          "jarak": 7.53
+          "jarak": 7.78
         },
         {
           "tanggal": "04 Aug 2026",
@@ -17039,7 +17039,7 @@
           "ch_target": 1.0,
           "ch_tetangga": 113.6,
           "selisih": 112.6,
-          "jarak": 7.53
+          "jarak": 7.78
         },
         {
           "tanggal": "19 Jul 2026",
@@ -17063,7 +17063,7 @@
           "ch_target": 24.0,
           "ch_tetangga": 121.0,
           "selisih": 97.0,
-          "jarak": 7.53
+          "jarak": 7.78
         },
         {
           "tanggal": "23 Aug 2026",
@@ -17079,7 +17079,7 @@
           "ch_target": 27.5,
           "ch_tetangga": 112.4,
           "selisih": 84.9,
-          "jarak": 7.53
+          "jarak": 7.78
         },
         {
           "tanggal": "03 Aug 2026",
@@ -24472,7 +24472,7 @@
       "longitude": 100.23,
       "kabupaten": "Kab. Agam",
       "status": "NORMAL",
-      "n_tetangga_dicek": 1,
+      "n_tetangga_dicek": 0,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
@@ -25331,7 +25331,7 @@
         }
       ],
       "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "08 Sep 2026: vs ARG Sungai Limau (0mm vs 112mm, selisih 112mm, 7.86km) | 18 Jul 2026: vs ARG Sungai Limau (42mm vs 121mm, selisih 79mm, 7.86km) | 19 Jul 2026: vs ARG Sungai Limau (11mm vs 72mm, selisih 61mm, 7.86km)",
+      "detail_verifikasi_segera": "08 Sep 2026: vs ARG Sungai Limau (0mm vs 112mm, selisih 112mm, 8.47km) | 18 Jul 2026: vs ARG Sungai Limau (42mm vs 121mm, selisih 79mm, 8.47km) | 19 Jul 2026: vs ARG Sungai Limau (11mm vs 72mm, selisih 61mm, 8.47km)",
       "perlu_verifikasi_segera": true,
       "raw_ekstrem_events": [
         {
@@ -25340,7 +25340,7 @@
           "ch_target": 0.0,
           "ch_tetangga": 112.4,
           "selisih": 112.4,
-          "jarak": 7.86
+          "jarak": 8.47
         },
         {
           "tanggal": "18 Jul 2026",
@@ -25348,7 +25348,7 @@
           "ch_target": 42.0,
           "ch_tetangga": 121.0,
           "selisih": 79.0,
-          "jarak": 7.86
+          "jarak": 8.47
         },
         {
           "tanggal": "19 Jul 2026",
@@ -25356,7 +25356,7 @@
           "ch_target": 11.0,
           "ch_tetangga": 72.0,
           "selisih": 61.0,
-          "jarak": 7.86
+          "jarak": 8.47
         }
       ]
     },
@@ -26806,7 +26806,7 @@
         }
       ],
       "status_ekstrem_30hari": "NORMAL",
-      "detail_verifikasi_segera": "26 Aug 2026: vs ARG Solok Selatan (77mm vs 14mm, selisih 63mm, 7.72km)",
+      "detail_verifikasi_segera": "26 Aug 2026: vs ARG Solok Selatan (77mm vs 14mm, selisih 63mm, 7.46km)",
       "perlu_verifikasi_segera": false,
       "raw_ekstrem_events": [
         {
@@ -26815,7 +26815,7 @@
           "ch_target": 77.0,
           "ch_tetangga": 13.8,
           "selisih": 63.2,
-          "jarak": 7.72
+          "jarak": 7.46
         }
       ]
     },
@@ -33793,7 +33793,7 @@
         }
       ],
       "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "23 Aug 2026: vs AAWS Staklim Padang Pariaman (85mm vs 22mm, selisih 63mm, 7.42km) | 19 Jul 2026: vs AAWS Staklim Padang Pariaman (79mm vs 28mm, selisih 51mm, 7.42km)",
+      "detail_verifikasi_segera": "23 Aug 2026: vs AAWS Staklim Padang Pariaman (85mm vs 22mm, selisih 63mm, 7.86km) | 19 Jul 2026: vs AAWS Staklim Padang Pariaman (79mm vs 28mm, selisih 51mm, 7.86km)",
       "perlu_verifikasi_segera": true,
       "raw_ekstrem_events": [
         {
@@ -33802,7 +33802,7 @@
           "ch_target": 85.0,
           "ch_tetangga": 21.6,
           "selisih": 63.4,
-          "jarak": 7.42
+          "jarak": 7.86
         },
         {
           "tanggal": "19 Jul 2026",
@@ -33810,7 +33810,7 @@
           "ch_target": 79.0,
           "ch_tetangga": 28.0,
           "selisih": 51.0,
-          "jarak": 7.42
+          "jarak": 7.86
         }
       ]
     },
