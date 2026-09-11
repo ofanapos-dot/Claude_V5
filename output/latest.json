@@ -1,7 +1,7 @@
 {
   "metadata": {
     "tanggal_analisis": "2026-09-08",
-    "waktu_generate": "2026-09-11 00:39:36",
+    "waktu_generate": "2026-09-11 00:50:58",
     "total_pos": 128,
     "pos_normal": 127,
     "pos_suspect": 1,
@@ -29,8 +29,8 @@
       "hari_terakhir_kirim": 40,
       "label_kirim": "40 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 160,
-      "persen_aktif": 533.3,
+      "jumlah_lapor_30hari": 0,
+      "persen_aktif": 0.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -1509,8 +1509,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 195,
-      "persen_aktif": 650.0,
+      "jumlah_lapor_30hari": 25,
+      "persen_aktif": 83.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -2989,8 +2989,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 199,
-      "persen_aktif": 663.3,
+      "jumlah_lapor_30hari": 29,
+      "persen_aktif": 96.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -4469,8 +4469,8 @@
       "hari_terakhir_kirim": 20,
       "label_kirim": "20 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 180,
-      "persen_aktif": 600.0,
+      "jumlah_lapor_30hari": 10,
+      "persen_aktif": 33.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -5949,8 +5949,8 @@
       "hari_terakhir_kirim": 20,
       "label_kirim": "20 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 170,
-      "persen_aktif": 566.7,
+      "jumlah_lapor_30hari": 10,
+      "persen_aktif": 33.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -7429,8 +7429,8 @@
       "hari_terakhir_kirim": 40,
       "label_kirim": "40 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 160,
-      "persen_aktif": 533.3,
+      "jumlah_lapor_30hari": 0,
+      "persen_aktif": 0.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -8909,8 +8909,8 @@
       "hari_terakhir_kirim": 3,
       "label_kirim": "3 hari lalu",
       "warna_kirim": "#f59e0b",
-      "jumlah_lapor_30hari": 191,
-      "persen_aktif": 636.7,
+      "jumlah_lapor_30hari": 21,
+      "persen_aktif": 70.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -10389,8 +10389,8 @@
       "hari_terakhir_kirim": 1,
       "label_kirim": "Kemarin",
       "warna_kirim": "#3b82f6",
-      "jumlah_lapor_30hari": 191,
-      "persen_aktif": 636.7,
+      "jumlah_lapor_30hari": 21,
+      "persen_aktif": 70.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -11878,8 +11878,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 188,
-      "persen_aktif": 626.7,
+      "jumlah_lapor_30hari": 18,
+      "persen_aktif": 60.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -13358,8 +13358,8 @@
       "hari_terakhir_kirim": 1,
       "label_kirim": "Kemarin",
       "warna_kirim": "#3b82f6",
-      "jumlah_lapor_30hari": 186,
-      "persen_aktif": 620.0,
+      "jumlah_lapor_30hari": 16,
+      "persen_aktif": 53.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -14838,8 +14838,8 @@
       "hari_terakhir_kirim": 20,
       "label_kirim": "20 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 180,
-      "persen_aktif": 600.0,
+      "jumlah_lapor_30hari": 10,
+      "persen_aktif": 33.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -16318,8 +16318,8 @@
       "hari_terakhir_kirim": 40,
       "label_kirim": "40 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 139,
-      "persen_aktif": 463.3,
+      "jumlah_lapor_30hari": 0,
+      "persen_aktif": 0.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -17798,8 +17798,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 196,
-      "persen_aktif": 653.3,
+      "jumlah_lapor_30hari": 26,
+      "persen_aktif": 86.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -19278,8 +19278,8 @@
       "hari_terakhir_kirim": 20,
       "label_kirim": "20 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 180,
-      "persen_aktif": 600.0,
+      "jumlah_lapor_30hari": 10,
+      "persen_aktif": 33.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -20799,8 +20799,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 199,
-      "persen_aktif": 663.3,
+      "jumlah_lapor_30hari": 29,
+      "persen_aktif": 96.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -22304,8 +22304,8 @@
       "hari_terakhir_kirim": 3,
       "label_kirim": "3 hari lalu",
       "warna_kirim": "#f59e0b",
-      "jumlah_lapor_30hari": 140,
-      "persen_aktif": 466.7,
+      "jumlah_lapor_30hari": 6,
+      "persen_aktif": 20.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -23784,8 +23784,8 @@
       "hari_terakhir_kirim": 8,
       "label_kirim": "8 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 182,
-      "persen_aktif": 606.7,
+      "jumlah_lapor_30hari": 12,
+      "persen_aktif": 40.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -25264,8 +25264,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 199,
-      "persen_aktif": 663.3,
+      "jumlah_lapor_30hari": 29,
+      "persen_aktif": 96.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -26744,8 +26744,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 185,
-      "persen_aktif": 616.7,
+      "jumlah_lapor_30hari": 15,
+      "persen_aktif": 50.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -28224,8 +28224,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 198,
-      "persen_aktif": 660.0,
+      "jumlah_lapor_30hari": 28,
+      "persen_aktif": 93.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -29704,8 +29704,8 @@
       "hari_terakhir_kirim": 1,
       "label_kirim": "Kemarin",
       "warna_kirim": "#3b82f6",
-      "jumlah_lapor_30hari": 189,
-      "persen_aktif": 630.0,
+      "jumlah_lapor_30hari": 19,
+      "persen_aktif": 63.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -31184,8 +31184,8 @@
       "hari_terakhir_kirim": 40,
       "label_kirim": "40 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 160,
-      "persen_aktif": 533.3,
+      "jumlah_lapor_30hari": 0,
+      "persen_aktif": 0.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -32664,8 +32664,8 @@
       "hari_terakhir_kirim": 8,
       "label_kirim": "8 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 182,
-      "persen_aktif": 606.7,
+      "jumlah_lapor_30hari": 12,
+      "persen_aktif": 40.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -34144,8 +34144,8 @@
       "hari_terakhir_kirim": 20,
       "label_kirim": "20 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 159,
-      "persen_aktif": 530.0,
+      "jumlah_lapor_30hari": 10,
+      "persen_aktif": 33.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -35624,8 +35624,8 @@
       "hari_terakhir_kirim": 71,
       "label_kirim": "71 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 129,
-      "persen_aktif": 430.0,
+      "jumlah_lapor_30hari": 0,
+      "persen_aktif": 0.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -37104,8 +37104,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 194,
-      "persen_aktif": 646.7,
+      "jumlah_lapor_30hari": 24,
+      "persen_aktif": 80.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -38584,8 +38584,8 @@
       "hari_terakhir_kirim": 8,
       "label_kirim": "8 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 185,
-      "persen_aktif": 616.7,
+      "jumlah_lapor_30hari": 15,
+      "persen_aktif": 50.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -40081,8 +40081,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 194,
-      "persen_aktif": 646.7,
+      "jumlah_lapor_30hari": 24,
+      "persen_aktif": 80.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -41561,8 +41561,8 @@
       "hari_terakhir_kirim": 8,
       "label_kirim": "8 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 183,
-      "persen_aktif": 610.0,
+      "jumlah_lapor_30hari": 13,
+      "persen_aktif": 43.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -43041,8 +43041,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 199,
-      "persen_aktif": 663.3,
+      "jumlah_lapor_30hari": 29,
+      "persen_aktif": 96.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -44521,8 +44521,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 197,
-      "persen_aktif": 656.7,
+      "jumlah_lapor_30hari": 27,
+      "persen_aktif": 90.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -46001,8 +46001,8 @@
       "hari_terakhir_kirim": 14,
       "label_kirim": "14 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 165,
-      "persen_aktif": 550.0,
+      "jumlah_lapor_30hari": 3,
+      "persen_aktif": 10.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -47498,8 +47498,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 199,
-      "persen_aktif": 663.3,
+      "jumlah_lapor_30hari": 29,
+      "persen_aktif": 96.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -48978,8 +48978,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 194,
-      "persen_aktif": 646.7,
+      "jumlah_lapor_30hari": 24,
+      "persen_aktif": 80.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -50458,8 +50458,8 @@
       "hari_terakhir_kirim": 1,
       "label_kirim": "Kemarin",
       "warna_kirim": "#3b82f6",
-      "jumlah_lapor_30hari": 199,
-      "persen_aktif": 663.3,
+      "jumlah_lapor_30hari": 29,
+      "persen_aktif": 96.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -51938,8 +51938,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 187,
-      "persen_aktif": 623.3,
+      "jumlah_lapor_30hari": 20,
+      "persen_aktif": 66.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -53418,8 +53418,8 @@
       "hari_terakhir_kirim": 20,
       "label_kirim": "20 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 180,
-      "persen_aktif": 600.0,
+      "jumlah_lapor_30hari": 10,
+      "persen_aktif": 33.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -54898,8 +54898,8 @@
       "hari_terakhir_kirim": 20,
       "label_kirim": "20 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 180,
-      "persen_aktif": 600.0,
+      "jumlah_lapor_30hari": 10,
+      "persen_aktif": 33.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -56378,8 +56378,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 196,
-      "persen_aktif": 653.3,
+      "jumlah_lapor_30hari": 26,
+      "persen_aktif": 86.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -57858,8 +57858,8 @@
       "hari_terakhir_kirim": 40,
       "label_kirim": "40 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 160,
-      "persen_aktif": 533.3,
+      "jumlah_lapor_30hari": 0,
+      "persen_aktif": 0.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -59338,8 +59338,8 @@
       "hari_terakhir_kirim": 71,
       "label_kirim": "71 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 129,
-      "persen_aktif": 430.0,
+      "jumlah_lapor_30hari": 0,
+      "persen_aktif": 0.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -60818,8 +60818,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 185,
-      "persen_aktif": 616.7,
+      "jumlah_lapor_30hari": 25,
+      "persen_aktif": 83.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -62298,8 +62298,8 @@
       "hari_terakhir_kirim": 14,
       "label_kirim": "14 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 181,
-      "persen_aktif": 603.3,
+      "jumlah_lapor_30hari": 11,
+      "persen_aktif": 36.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -63778,8 +63778,8 @@
       "hari_terakhir_kirim": 20,
       "label_kirim": "20 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 180,
-      "persen_aktif": 600.0,
+      "jumlah_lapor_30hari": 10,
+      "persen_aktif": 33.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -65258,8 +65258,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 199,
-      "persen_aktif": 663.3,
+      "jumlah_lapor_30hari": 29,
+      "persen_aktif": 96.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -66738,8 +66738,8 @@
       "hari_terakhir_kirim": 20,
       "label_kirim": "20 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 180,
-      "persen_aktif": 600.0,
+      "jumlah_lapor_30hari": 10,
+      "persen_aktif": 33.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -68218,8 +68218,8 @@
       "hari_terakhir_kirim": 20,
       "label_kirim": "20 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 180,
-      "persen_aktif": 600.0,
+      "jumlah_lapor_30hari": 10,
+      "persen_aktif": 33.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -69698,8 +69698,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 185,
-      "persen_aktif": 616.7,
+      "jumlah_lapor_30hari": 25,
+      "persen_aktif": 83.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -71178,8 +71178,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 190,
-      "persen_aktif": 633.3,
+      "jumlah_lapor_30hari": 20,
+      "persen_aktif": 66.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -72658,8 +72658,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 194,
-      "persen_aktif": 646.7,
+      "jumlah_lapor_30hari": 24,
+      "persen_aktif": 80.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -74138,8 +74138,8 @@
       "hari_terakhir_kirim": 20,
       "label_kirim": "20 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 180,
-      "persen_aktif": 600.0,
+      "jumlah_lapor_30hari": 10,
+      "persen_aktif": 33.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -75618,8 +75618,8 @@
       "hari_terakhir_kirim": 20,
       "label_kirim": "20 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 180,
-      "persen_aktif": 600.0,
+      "jumlah_lapor_30hari": 10,
+      "persen_aktif": 33.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -77115,8 +77115,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 189,
-      "persen_aktif": 630.0,
+      "jumlah_lapor_30hari": 19,
+      "persen_aktif": 63.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -78595,8 +78595,8 @@
       "hari_terakhir_kirim": 1,
       "label_kirim": "Kemarin",
       "warna_kirim": "#3b82f6",
-      "jumlah_lapor_30hari": 187,
-      "persen_aktif": 623.3,
+      "jumlah_lapor_30hari": 17,
+      "persen_aktif": 56.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -80075,8 +80075,8 @@
       "hari_terakhir_kirim": 4,
       "label_kirim": "4 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 184,
-      "persen_aktif": 613.3,
+      "jumlah_lapor_30hari": 14,
+      "persen_aktif": 46.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -81555,8 +81555,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 196,
-      "persen_aktif": 653.3,
+      "jumlah_lapor_30hari": 26,
+      "persen_aktif": 86.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -83060,8 +83060,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 193,
-      "persen_aktif": 643.3,
+      "jumlah_lapor_30hari": 23,
+      "persen_aktif": 76.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -84581,8 +84581,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 198,
-      "persen_aktif": 660.0,
+      "jumlah_lapor_30hari": 28,
+      "persen_aktif": 93.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -86061,8 +86061,8 @@
       "hari_terakhir_kirim": 71,
       "label_kirim": "71 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 129,
-      "persen_aktif": 430.0,
+      "jumlah_lapor_30hari": 0,
+      "persen_aktif": 0.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -87541,8 +87541,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 198,
-      "persen_aktif": 660.0,
+      "jumlah_lapor_30hari": 28,
+      "persen_aktif": 93.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -89030,8 +89030,8 @@
       "hari_terakhir_kirim": 40,
       "label_kirim": "40 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 160,
-      "persen_aktif": 533.3,
+      "jumlah_lapor_30hari": 0,
+      "persen_aktif": 0.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -90510,8 +90510,8 @@
       "hari_terakhir_kirim": 1,
       "label_kirim": "Kemarin",
       "warna_kirim": "#3b82f6",
-      "jumlah_lapor_30hari": 198,
-      "persen_aktif": 660.0,
+      "jumlah_lapor_30hari": 28,
+      "persen_aktif": 93.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -91990,8 +91990,8 @@
       "hari_terakhir_kirim": 1,
       "label_kirim": "Kemarin",
       "warna_kirim": "#3b82f6",
-      "jumlah_lapor_30hari": 192,
-      "persen_aktif": 640.0,
+      "jumlah_lapor_30hari": 22,
+      "persen_aktif": 73.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -93470,8 +93470,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 198,
-      "persen_aktif": 660.0,
+      "jumlah_lapor_30hari": 28,
+      "persen_aktif": 93.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -94950,8 +94950,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 200,
-      "persen_aktif": 666.7,
+      "jumlah_lapor_30hari": 30,
+      "persen_aktif": 100.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -96430,8 +96430,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 200,
-      "persen_aktif": 666.7,
+      "jumlah_lapor_30hari": 30,
+      "persen_aktif": 100.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -97910,8 +97910,8 @@
       "hari_terakhir_kirim": 1,
       "label_kirim": "Kemarin",
       "warna_kirim": "#3b82f6",
-      "jumlah_lapor_30hari": 192,
-      "persen_aktif": 640.0,
+      "jumlah_lapor_30hari": 22,
+      "persen_aktif": 73.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -99390,8 +99390,8 @@
       "hari_terakhir_kirim": 1,
       "label_kirim": "Kemarin",
       "warna_kirim": "#3b82f6",
-      "jumlah_lapor_30hari": 184,
-      "persen_aktif": 613.3,
+      "jumlah_lapor_30hari": 14,
+      "persen_aktif": 46.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -100870,8 +100870,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 199,
-      "persen_aktif": 663.3,
+      "jumlah_lapor_30hari": 29,
+      "persen_aktif": 96.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -102359,8 +102359,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 188,
-      "persen_aktif": 626.7,
+      "jumlah_lapor_30hari": 18,
+      "persen_aktif": 60.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -103839,8 +103839,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 200,
-      "persen_aktif": 666.7,
+      "jumlah_lapor_30hari": 30,
+      "persen_aktif": 100.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -105319,8 +105319,8 @@
       "hari_terakhir_kirim": 1,
       "label_kirim": "Kemarin",
       "warna_kirim": "#3b82f6",
-      "jumlah_lapor_30hari": 189,
-      "persen_aktif": 630.0,
+      "jumlah_lapor_30hari": 19,
+      "persen_aktif": 63.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -106799,8 +106799,8 @@
       "hari_terakhir_kirim": 8,
       "label_kirim": "8 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 182,
-      "persen_aktif": 606.7,
+      "jumlah_lapor_30hari": 12,
+      "persen_aktif": 40.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -108279,8 +108279,8 @@
       "hari_terakhir_kirim": 3,
       "label_kirim": "3 hari lalu",
       "warna_kirim": "#f59e0b",
-      "jumlah_lapor_30hari": 192,
-      "persen_aktif": 640.0,
+      "jumlah_lapor_30hari": 22,
+      "persen_aktif": 73.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -109759,8 +109759,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 197,
-      "persen_aktif": 656.7,
+      "jumlah_lapor_30hari": 27,
+      "persen_aktif": 90.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -111256,8 +111256,8 @@
       "hari_terakhir_kirim": 6,
       "label_kirim": "6 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 185,
-      "persen_aktif": 616.7,
+      "jumlah_lapor_30hari": 15,
+      "persen_aktif": 50.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -112736,8 +112736,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 194,
-      "persen_aktif": 646.7,
+      "jumlah_lapor_30hari": 24,
+      "persen_aktif": 80.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -114225,8 +114225,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 177,
-      "persen_aktif": 590.0,
+      "jumlah_lapor_30hari": 15,
+      "persen_aktif": 50.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -115705,8 +115705,8 @@
       "hari_terakhir_kirim": 20,
       "label_kirim": "20 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 180,
-      "persen_aktif": 600.0,
+      "jumlah_lapor_30hari": 10,
+      "persen_aktif": 33.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -117185,8 +117185,8 @@
       "hari_terakhir_kirim": 9,
       "label_kirim": "9 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 177,
-      "persen_aktif": 590.0,
+      "jumlah_lapor_30hari": 7,
+      "persen_aktif": 23.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -118674,8 +118674,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 198,
-      "persen_aktif": 660.0,
+      "jumlah_lapor_30hari": 28,
+      "persen_aktif": 93.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -120154,8 +120154,8 @@
       "hari_terakhir_kirim": 4,
       "label_kirim": "4 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 176,
-      "persen_aktif": 586.7,
+      "jumlah_lapor_30hari": 16,
+      "persen_aktif": 53.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -121634,8 +121634,8 @@
       "hari_terakhir_kirim": 40,
       "label_kirim": "40 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 153,
-      "persen_aktif": 510.0,
+      "jumlah_lapor_30hari": 0,
+      "persen_aktif": 0.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -123114,8 +123114,8 @@
       "hari_terakhir_kirim": 20,
       "label_kirim": "20 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 180,
-      "persen_aktif": 600.0,
+      "jumlah_lapor_30hari": 10,
+      "persen_aktif": 33.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -124594,8 +124594,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 199,
-      "persen_aktif": 663.3,
+      "jumlah_lapor_30hari": 29,
+      "persen_aktif": 96.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -126107,8 +126107,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 165,
-      "persen_aktif": 550.0,
+      "jumlah_lapor_30hari": 5,
+      "persen_aktif": 16.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -127587,8 +127587,8 @@
       "hari_terakhir_kirim": 2,
       "label_kirim": "2 hari lalu",
       "warna_kirim": "#f59e0b",
-      "jumlah_lapor_30hari": 191,
-      "persen_aktif": 636.7,
+      "jumlah_lapor_30hari": 21,
+      "persen_aktif": 70.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -129067,8 +129067,8 @@
       "hari_terakhir_kirim": 1,
       "label_kirim": "Kemarin",
       "warna_kirim": "#3b82f6",
-      "jumlah_lapor_30hari": 195,
-      "persen_aktif": 650.0,
+      "jumlah_lapor_30hari": 25,
+      "persen_aktif": 83.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -130547,8 +130547,8 @@
       "hari_terakhir_kirim": 10,
       "label_kirim": "10 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 164,
-      "persen_aktif": 546.7,
+      "jumlah_lapor_30hari": 4,
+      "persen_aktif": 13.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -132027,8 +132027,8 @@
       "hari_terakhir_kirim": 1,
       "label_kirim": "Kemarin",
       "warna_kirim": "#3b82f6",
-      "jumlah_lapor_30hari": 196,
-      "persen_aktif": 653.3,
+      "jumlah_lapor_30hari": 26,
+      "persen_aktif": 86.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -133507,8 +133507,8 @@
       "hari_terakhir_kirim": 1,
       "label_kirim": "Kemarin",
       "warna_kirim": "#3b82f6",
-      "jumlah_lapor_30hari": 188,
-      "persen_aktif": 626.7,
+      "jumlah_lapor_30hari": 18,
+      "persen_aktif": 60.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -134987,8 +134987,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 196,
-      "persen_aktif": 653.3,
+      "jumlah_lapor_30hari": 26,
+      "persen_aktif": 86.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -136467,8 +136467,8 @@
       "hari_terakhir_kirim": 160,
       "label_kirim": "160 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 1,
-      "persen_aktif": 3.3,
+      "jumlah_lapor_30hari": 0,
+      "persen_aktif": 0.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -137947,8 +137947,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 199,
-      "persen_aktif": 663.3,
+      "jumlah_lapor_30hari": 29,
+      "persen_aktif": 96.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -139427,8 +139427,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 195,
-      "persen_aktif": 650.0,
+      "jumlah_lapor_30hari": 25,
+      "persen_aktif": 83.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -140907,8 +140907,8 @@
       "hari_terakhir_kirim": 3,
       "label_kirim": "3 hari lalu",
       "warna_kirim": "#f59e0b",
-      "jumlah_lapor_30hari": 182,
-      "persen_aktif": 606.7,
+      "jumlah_lapor_30hari": 12,
+      "persen_aktif": 40.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -142387,8 +142387,8 @@
       "hari_terakhir_kirim": 20,
       "label_kirim": "20 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 180,
-      "persen_aktif": 600.0,
+      "jumlah_lapor_30hari": 10,
+      "persen_aktif": 33.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -143867,8 +143867,8 @@
       "hari_terakhir_kirim": 8,
       "label_kirim": "8 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 185,
-      "persen_aktif": 616.7,
+      "jumlah_lapor_30hari": 15,
+      "persen_aktif": 50.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -145347,8 +145347,8 @@
       "hari_terakhir_kirim": 131,
       "label_kirim": "131 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 1,
-      "persen_aktif": 3.3,
+      "jumlah_lapor_30hari": 0,
+      "persen_aktif": 0.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -146827,8 +146827,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 196,
-      "persen_aktif": 653.3,
+      "jumlah_lapor_30hari": 26,
+      "persen_aktif": 86.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -148307,8 +148307,8 @@
       "hari_terakhir_kirim": 19,
       "label_kirim": "19 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 181,
-      "persen_aktif": 603.3,
+      "jumlah_lapor_30hari": 11,
+      "persen_aktif": 36.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -149787,8 +149787,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 193,
-      "persen_aktif": 643.3,
+      "jumlah_lapor_30hari": 23,
+      "persen_aktif": 76.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -151267,8 +151267,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 163,
-      "persen_aktif": 543.3,
+      "jumlah_lapor_30hari": 5,
+      "persen_aktif": 16.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -152747,8 +152747,8 @@
       "hari_terakhir_kirim": 11,
       "label_kirim": "11 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 166,
-      "persen_aktif": 553.3,
+      "jumlah_lapor_30hari": 5,
+      "persen_aktif": 16.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -154227,8 +154227,8 @@
       "hari_terakhir_kirim": 2,
       "label_kirim": "2 hari lalu",
       "warna_kirim": "#f59e0b",
-      "jumlah_lapor_30hari": 191,
-      "persen_aktif": 636.7,
+      "jumlah_lapor_30hari": 21,
+      "persen_aktif": 70.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -155707,8 +155707,8 @@
       "hari_terakhir_kirim": 30,
       "label_kirim": "30 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 170,
-      "persen_aktif": 566.7,
+      "jumlah_lapor_30hari": 0,
+      "persen_aktif": 0.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -157187,8 +157187,8 @@
       "hari_terakhir_kirim": 40,
       "label_kirim": "40 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 160,
-      "persen_aktif": 533.3,
+      "jumlah_lapor_30hari": 0,
+      "persen_aktif": 0.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -158667,8 +158667,8 @@
       "hari_terakhir_kirim": 9,
       "label_kirim": "9 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 171,
-      "persen_aktif": 570.0,
+      "jumlah_lapor_30hari": 11,
+      "persen_aktif": 36.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -160147,8 +160147,8 @@
       "hari_terakhir_kirim": 1,
       "label_kirim": "Kemarin",
       "warna_kirim": "#3b82f6",
-      "jumlah_lapor_30hari": 137,
-      "persen_aktif": 456.7,
+      "jumlah_lapor_30hari": 8,
+      "persen_aktif": 26.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -161627,8 +161627,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 200,
-      "persen_aktif": 666.7,
+      "jumlah_lapor_30hari": 30,
+      "persen_aktif": 100.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -163107,8 +163107,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 200,
-      "persen_aktif": 666.7,
+      "jumlah_lapor_30hari": 30,
+      "persen_aktif": 100.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -164587,8 +164587,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 198,
-      "persen_aktif": 660.0,
+      "jumlah_lapor_30hari": 28,
+      "persen_aktif": 93.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -166076,8 +166076,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 28,
-      "persen_aktif": 93.3,
+      "jumlah_lapor_30hari": 21,
+      "persen_aktif": 70.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -167565,8 +167565,8 @@
       "hari_terakhir_kirim": 2,
       "label_kirim": "2 hari lalu",
       "warna_kirim": "#f59e0b",
-      "jumlah_lapor_30hari": 195,
-      "persen_aktif": 650.0,
+      "jumlah_lapor_30hari": 25,
+      "persen_aktif": 83.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -169045,8 +169045,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 196,
-      "persen_aktif": 653.3,
+      "jumlah_lapor_30hari": 26,
+      "persen_aktif": 86.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -170525,8 +170525,8 @@
       "hari_terakhir_kirim": 6,
       "label_kirim": "6 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 183,
-      "persen_aktif": 610.0,
+      "jumlah_lapor_30hari": 13,
+      "persen_aktif": 43.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -172005,8 +172005,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 190,
-      "persen_aktif": 633.3,
+      "jumlah_lapor_30hari": 20,
+      "persen_aktif": 66.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -173485,8 +173485,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 181,
-      "persen_aktif": 603.3,
+      "jumlah_lapor_30hari": 11,
+      "persen_aktif": 36.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -174974,8 +174974,8 @@
       "hari_terakhir_kirim": 40,
       "label_kirim": "40 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 160,
-      "persen_aktif": 533.3,
+      "jumlah_lapor_30hari": 0,
+      "persen_aktif": 0.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -176454,8 +176454,8 @@
       "hari_terakhir_kirim": 20,
       "label_kirim": "20 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 170,
-      "persen_aktif": 566.7,
+      "jumlah_lapor_30hari": 10,
+      "persen_aktif": 33.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -177934,8 +177934,8 @@
       "hari_terakhir_kirim": 2,
       "label_kirim": "2 hari lalu",
       "warna_kirim": "#f59e0b",
-      "jumlah_lapor_30hari": 186,
-      "persen_aktif": 620.0,
+      "jumlah_lapor_30hari": 16,
+      "persen_aktif": 53.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -179414,8 +179414,8 @@
       "hari_terakhir_kirim": 6,
       "label_kirim": "6 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 189,
-      "persen_aktif": 630.0,
+      "jumlah_lapor_30hari": 19,
+      "persen_aktif": 63.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -180894,8 +180894,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 198,
-      "persen_aktif": 660.0,
+      "jumlah_lapor_30hari": 28,
+      "persen_aktif": 93.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -182374,8 +182374,8 @@
       "hari_terakhir_kirim": 9,
       "label_kirim": "9 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 131,
-      "persen_aktif": 436.7,
+      "jumlah_lapor_30hari": 2,
+      "persen_aktif": 6.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -183854,8 +183854,8 @@
       "hari_terakhir_kirim": 4,
       "label_kirim": "4 hari lalu",
       "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 160,
-      "persen_aktif": 533.3,
+      "jumlah_lapor_30hari": 11,
+      "persen_aktif": 36.7,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -185334,8 +185334,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 15,
-      "persen_aktif": 50.0,
+      "jumlah_lapor_30hari": 10,
+      "persen_aktif": 33.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -186814,8 +186814,8 @@
       "hari_terakhir_kirim": 0,
       "label_kirim": "Hari ini",
       "warna_kirim": "#22c55e",
-      "jumlah_lapor_30hari": 200,
-      "persen_aktif": 666.7,
+      "jumlah_lapor_30hari": 30,
+      "persen_aktif": 100.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
@@ -188303,8 +188303,8 @@
       "hari_terakhir_kirim": 1,
       "label_kirim": "Kemarin",
       "warna_kirim": "#3b82f6",
-      "jumlah_lapor_30hari": 195,
-      "persen_aktif": 650.0,
+      "jumlah_lapor_30hari": 25,
+      "persen_aktif": 83.3,
       "kalender_30hari": [
         {
           "tanggal": "2026-02-21",
