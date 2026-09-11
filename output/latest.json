@@ -1,7 +1,7 @@
 {
   "metadata": {
     "tanggal_analisis": "2026-09-11",
-    "waktu_generate": "2026-09-11 12:16:45",
+    "waktu_generate": "2026-09-11 12:27:15",
     "total_pos": 128,
     "pos_normal": 127,
     "pos_suspect": 1,
@@ -16,10 +16,10 @@
       "longitude": 100.6,
       "kabupaten": "Kab. Solok",
       "status": "SUSPECT",
-      "n_tetangga_dicek": 4,
-      "n_tetangga_flag": 4,
-      "alasan": "Balitbu Aripan (jarak 1.11km, korelasi=0.07) ; Balitbu Sumani (jarak 1.11km, korelasi=0.05) ; Muaro Pingai (jarak 5.56km, korelasi=-0.01) ; AAWS Sumani (jarak 1.11km, korelasi=0.04)",
-      "flag_spatial": "SUSPECT: Balitbu Aripan (jarak 1.11km, korelasi=0.07) ; Balitbu Sumani (jarak 1.11km, korelasi=0.05) ; Muaro Pingai (jarak 5.56km, korelasi=-0.01) ; AAWS Sumani (jarak 1.11km, korelasi=0.04)",
+      "n_tetangga_dicek": 5,
+      "n_tetangga_flag": 5,
+      "alasan": "Balitbu Aripan (jarak 1.11km, korelasi=0.07) ; Balitbu Sumani (jarak 1.11km, korelasi=0.05) ; Muaro Pingai (jarak 5.56km, korelasi=-0.01) ; Lubuk Sikarah (jarak 6.76km, korelasi=0.15) ; AAWS Sumani (jarak 1.11km, korelasi=0.04)",
+      "flag_spatial": "SUSPECT: Balitbu Aripan (jarak 1.11km, korelasi=0.07) ; Balitbu Sumani (jarak 1.11km, korelasi=0.05) ; Muaro Pingai (jarak 5.56km, korelasi=-0.01) ; Lubuk Sikarah (jarak 6.76km, korelasi=0.15) ; AAWS Sumani (jarak 1.11km, korelasi=0.04)",
       "window_mulai": "2026-02-24",
       "window_akhir": "2026-09-11",
       "curah_hujan_mm": 0.0,
@@ -45938,7 +45938,7 @@
       "longitude": 100.42,
       "kabupaten": "Kota Padang",
       "status": "NORMAL",
-      "n_tetangga_dicek": 2,
+      "n_tetangga_dicek": 3,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
@@ -47407,7 +47407,7 @@
         }
       ],
       "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "04 Aug 2026: vs Limau Manih-UNAND (188mm vs 2mm, selisih 186mm, 4.01km) | 04 Aug 2026: vs Muara Palam - Parak karakah (188mm vs 3mm, selisih 186mm, 4.58km) | 03 Aug 2026: vs Muara Palam - Parak karakah (15mm vs 175mm, selisih 160mm, 4.58km) | 03 Aug 2026: vs Limau Manih-UNAND (15mm vs 164mm, selisih 149mm, 4.01km) | 15 Aug 2026: vs Limau Manih-UNAND (113mm vs 0mm, selisih 113mm, 4.01km) | 15 Aug 2026: vs Muara Palam - Parak karakah (113mm vs 0mm, selisih 113mm, 4.58km)",
+      "detail_verifikasi_segera": "04 Aug 2026: vs Limau Manih-UNAND (188mm vs 2mm, selisih 186mm, 4.01km) | 04 Aug 2026: vs Muara Palam - Parak karakah (188mm vs 3mm, selisih 186mm, 4.58km) | 04 Aug 2026: vs Water Plan Semen Padang (188mm vs 3mm, selisih 186mm, 6.76km) | 03 Aug 2026: vs Muara Palam - Parak karakah (15mm vs 175mm, selisih 160mm, 4.58km) | 03 Aug 2026: vs Limau Manih-UNAND (15mm vs 164mm, selisih 149mm, 4.01km) | 15 Aug 2026: vs Limau Manih-UNAND (113mm vs 0mm, selisih 113mm, 4.01km) | 15 Aug 2026: vs Muara Palam - Parak karakah (113mm vs 0mm, selisih 113mm, 4.58km)",
       "perlu_verifikasi_segera": true,
       "raw_ekstrem_events": [
         {
@@ -47425,6 +47425,14 @@
           "ch_tetangga": 3.0,
           "selisih": 185.5,
           "jarak": 4.58
+        },
+        {
+          "tanggal": "04 Aug 2026",
+          "tetangga": "Water Plan Semen Padang",
+          "ch_target": 188.5,
+          "ch_tetangga": 3.0,
+          "selisih": 185.5,
+          "jarak": 6.76
         },
         {
           "tanggal": "03 Aug 2026",
@@ -60787,7 +60795,7 @@
       "longitude": 100.55,
       "kabupaten": "Kab. Tanah Datar",
       "status": "NORMAL",
-      "n_tetangga_dicek": 2,
+      "n_tetangga_dicek": 3,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
@@ -74107,7 +74115,7 @@
       "longitude": 100.61,
       "kabupaten": "Kab. Solok",
       "status": "NORMAL",
-      "n_tetangga_dicek": 0,
+      "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
@@ -90436,8 +90444,8 @@
       "longitude": 100.61,
       "kabupaten": "Kota Solok",
       "status": "NORMAL",
-      "n_tetangga_dicek": 3,
-      "n_tetangga_flag": 0,
+      "n_tetangga_dicek": 5,
+      "n_tetangga_flag": 1,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
       "window_mulai": "2026-02-24",
@@ -111181,7 +111189,7 @@
       "longitude": 100.55,
       "kabupaten": "Kab. Tanah Datar",
       "status": "NORMAL",
-      "n_tetangga_dicek": 0,
+      "n_tetangga_dicek": 1,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
@@ -188158,7 +188166,7 @@
       "longitude": 100.48,
       "kabupaten": "Kota Padang",
       "status": "NORMAL",
-      "n_tetangga_dicek": 2,
+      "n_tetangga_dicek": 3,
       "n_tetangga_flag": 0,
       "alasan": "",
       "flag_spatial": "KONSISTEN",
@@ -189627,9 +189635,17 @@
         }
       ],
       "status_ekstrem_30hari": "SUSPECT",
-      "detail_verifikasi_segera": "14 Aug 2026: vs Tambang Semen Padang (0mm vs 126mm, selisih 126mm, 2.22km) | 15 Aug 2026: vs Limau Manih-UNAND (124mm vs 0mm, selisih 124mm, 6.29km) | 15 Aug 2026: vs Tambang Semen Padang (124mm vs 0mm, selisih 124mm, 2.22km) | 14 Aug 2026: vs Limau Manih-UNAND (0mm vs 107mm, selisih 107mm, 6.29km) | 20 Aug 2026: vs Limau Manih-UNAND (121mm vs 20mm, selisih 101mm, 6.29km)",
+      "detail_verifikasi_segera": "04 Aug 2026: vs Bandar Buat (3mm vs 188mm, selisih 186mm, 6.76km) | 14 Aug 2026: vs Tambang Semen Padang (0mm vs 126mm, selisih 126mm, 2.22km) | 15 Aug 2026: vs Limau Manih-UNAND (124mm vs 0mm, selisih 124mm, 6.29km) | 15 Aug 2026: vs Tambang Semen Padang (124mm vs 0mm, selisih 124mm, 2.22km) | 14 Aug 2026: vs Limau Manih-UNAND (0mm vs 107mm, selisih 107mm, 6.29km) | 20 Aug 2026: vs Limau Manih-UNAND (121mm vs 20mm, selisih 101mm, 6.29km)",
       "perlu_verifikasi_segera": true,
       "raw_ekstrem_events": [
+        {
+          "tanggal": "04 Aug 2026",
+          "tetangga": "Bandar Buat",
+          "ch_target": 3.0,
+          "ch_tetangga": 188.5,
+          "selisih": 185.5,
+          "jarak": 6.76
+        },
         {
           "tanggal": "14 Aug 2026",
           "tetangga": "Tambang Semen Padang",
