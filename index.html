@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Monitoring Pos Hujan Kerjasama</title>
+  <link rel="stylesheet" href="style.css"/>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+</head>
+<body>
+
+<div class="app" id="app">
+
+  <div id="map"></div>
+
+<!-- Identitas -->
+  <div class="brand-card">
+    <div class="brand-title">MONITORING POS HUJAN KERJASAMA</div>
+    <div class="brand-sub">Stasiun Klimatologi Kelas II Sumatera Barat</div>
+  </div>
+
+  <div class="sidebar-nav">
+    <button class="nav-btn active" data-tab="peta" onclick="ganti('peta')">🌍 Eksplorasi Peta</button>
+    <button class="nav-btn" data-tab="statistik" onclick="ganti('statistik')">📊 Statistik Data</button>
+    <button class="nav-btn" data-tab="suspect" onclick="ganti('suspect')">🚨 Pos Suspect</button>
+    <button class="nav-btn" data-tab="korelasi" onclick="ganti('korelasi')">🔗 Korelasi</button>
+  </div>
+
+  <div class="update-pill" id="update-pill">Data Terakhir: Memuat...</div>
+
+  <div class="map-search" id="mapSearch">
+    🔍 <input type="text" id="searchInput" placeholder="Cari stasiun atau kabupaten..." autocomplete="off"/>
+  </div>
+  <div class="map-search-results" id="searchResults"></div>
+
+  <div class="legenda" id="legenda">
+    <div class="legenda-judul">Intensitas Hujan (mm)</div>
+    <div class="legenda-item"><span class="dot" style="background:#94a3b8"></span>Tidak Hujan (0)</div>
+    <div class="legenda-item"><span class="dot" style="background:#bae6fd"></span>Sangat Ringan (&lt;5)</div>
+    <div class="legenda-item"><span class="dot" style="background:#60a5fa"></span>Ringan (5–20)</div>
+    <div class="legenda-item"><span class="dot" style="background:#3b82f6"></span>Sedang (20–50)</div>
+    <div class="legenda-item"><span class="dot" style="background:#f59e0b"></span>Lebat (50–100)</div>
+    <div class="legenda-item"><span class="dot" style="background:#ef4444"></span>Sangat Lebat (100–150)</div>
+    <div class="legenda-item"><span class="dot" style="background:#7f1d1d"></span>Ekstrem (&gt;150)</div>
+    <hr/>
+    <div class="legenda-item"><span class="dot" style="background:#f59e0b; border: 2px solid #fde68a; box-shadow: 0 0 0 2px #f59e0b;"></span>Pos Suspect</div>
+    <div class="legenda-item"><span class="dot" style="background:transparent; border: 2px solid #fbbf24;"></span>Deteksi Anomali</div>
+  </div>
+
+  <div class="content-panel" id="panel-statistik">
+    <div class="panel-banner">Ringkasan Statistik Keaktifan Pos</div>
+    <div class="panel-inner">
+      <div class="stat-grid" id="statGrid"></div>
+      
+      <div class="stat-layout">
+        <div>
+          <div class="panel-section-title">Status Pengiriman Data Terakhir</div>
+          <div class="tabel-wrap">
+            <table class="tabel-histori">
+              <thead><tr><th>ID Pos</th><th>Nama Stasiun</th><th>Kabupaten</th><th>Tgl Terakhir</th><th>Status</th><th>Keaktifan</th></tr></thead>
+              <tbody id="tbodyHistori"></tbody>
+            </table>
+          </div>
+
+          <div class="panel-section-title" style="margin-top:24px;">Tren Keaktifan 30 Hari Terakhir</div>
+          <div style="background:#fff; border:1px solid #e2e8f0; border-radius:12px; padding:16px; height: 280px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+            <canvas id="chartKeaktifan"></canvas>
+          </div>
+        </div>
+
+        <div>
+          <div class="panel-section-title">Pos Paling Aktif & Konsisten</div>
+          <div class="top-pos-card" id="topPosCard"></div>
+        </div>
+      </div>
+
+      <div id="detailPos" class="detail-pos" style="display:none">
+        <div class="detail-header">
+          <span id="detailJudul"></span>
+          <button onclick="tutupDetail()">✕</button>
+        </div>
+        <div class="panel-section-title">Kalender Laporan (30 Hari Terakhir)</div>
+        <div id="kalenderGrid" class="kalender-grid"></div>
+        <div class="panel-section-title">Log Data (7 Hari Terakhir)</div>
+        <table class="tabel-histori">
+          <thead><tr><th>Tanggal</th><th>Curah Hujan</th><th>Kategori</th><th>Status Sistem</th></tr></thead>
+          <tbody id="tbodyRiwayat"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="content-panel" id="panel-suspect">
+    <div class="panel-banner">🚨 Deteksi Anomali & Pos Suspect</div>
+    <div class="panel-inner">
+      <div class="panel-section-title">Kriteria 1: Korelasi Rendah & Selisih Rata-rata &gt; 15mm</div>
+      <div id="listKorelasi"></div>
+
+      <div class="panel-section-title" style="margin-top: 32px;">Kriteria 2: Kejadian Ekstrem (Beda &gt; 50mm dalam 1 Hari)</div>
+     <div class="tabel-wrap">
+        <table class="diff-table">
+          <thead>
+            <tr>
+              <th>Nama Pos Hujan</th>
+              <th>Rincian Kejadian Selisih Ekstrem</th>
+              <th style="width: 110px; text-align: center;">Aksi</th>
+            </tr>
+          </thead>
+          <tbody id="tbodyDiff"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="content-panel" id="panel-korelasi">
+    <div class="panel-banner">🔗 Eksplorasi Korelasi Antar Pos (Periode Bebas)</div>
+    <div class="panel-inner">
+      <div class="korelasi-controls">
+        <div class="korelasi-field">
+          <label for="korPosA">Pos 1</label>
+          <select id="korPosA"></select>
+        </div>
+        <div class="korelasi-field">
+          <label for="korPosB">Pos 2</label>
+          <select id="korPosB"></select>
+        </div>
+        <div class="korelasi-field">
+          <label for="korTglAwal">Dari tanggal</label>
+          <input type="date" id="korTglAwal"/>
+        </div>
+        <div class="korelasi-field">
+          <label for="korTglAkhir">Sampai tanggal</label>
+          <input type="date" id="korTglAkhir"/>
+        </div>
+        <div class="korelasi-field">
+          <label>Resolusi</label>
+          <div class="kor-mode-toggle" id="korModeToggle">
+            <label class="kor-mode-opt"><input type="radio" name="korMode" id="korModeHarian" value="harian" checked><span>Harian</span></label>
+            <label class="kor-mode-opt"><input type="radio" name="korMode" id="korModeBulanan" value="bulanan"><span>Bulanan</span></label>
+          </div>
+        </div>
+        <button class="korelasi-btn" onclick="hitungKorelasi()">Hitung</button>
+      </div>
+
+      <div id="korelasiHasil" class="korelasi-hasil" style="display:none">
+        <div class="stat-grid" id="korStatGrid"></div>
+
+        <div class="panel-section-title" style="margin-top:20px;" id="korTitleChart">Curah Hujan Harian (mm)</div>
+        <div style="background:#fff; border:1px solid #e2e8f0; border-radius:12px; padding:16px; height: 300px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+          <canvas id="chartKorLine"></canvas>
+        </div>
+
+        <div class="panel-section-title" style="margin-top:20px;">Scatter Plot (Pos 1 vs Pos 2)</div>
+        <div style="background:#fff; border:1px solid #e2e8f0; border-radius:12px; padding:16px; height: 300px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+          <canvas id="chartKorScatter"></canvas>
+        </div>
+
+        <div class="panel-section-title" style="margin-top:20px;" id="korTitleAnomali">Hari dengan Selisih &gt; 25mm</div>
+        <div class="tabel-wrap">
+          <table class="tabel-histori">
+            <thead><tr><th id="korThTanggal">Tanggal</th><th id="korThA">Pos 1</th><th id="korThB">Pos 2</th><th>Selisih (mm)</th></tr></thead>
+            <tbody id="tbodyKorAnomali"></tbody>
+          </table>
+        </div>
+      </div>
+      <div id="korelasiKosong" class="korelasi-hasil" style="display:none; text-align:center; color:#94a3b8; padding: 32px;">
+        <span id="korelasiKosongTeks">Data tidak cukup pada periode ini untuk menghitung korelasi (minimal 3 hari beririsan).</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div id="loading-overlay">
+  <div class="spin"></div>
+  <div>Menyinkronkan data SIMOPHI...</div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
