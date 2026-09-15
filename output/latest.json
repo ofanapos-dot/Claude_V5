@@ -1,7 +1,7 @@
 {
   "metadata": {
     "tanggal_analisis": "2026-09-11",
-    "waktu_generate": "2026-09-15 02:36:00",
+    "waktu_generate": "2026-09-15 02:40:10",
     "total_pos": 128,
     "pos_normal": 127,
     "pos_suspect": 1,
@@ -159603,22 +159603,22 @@
         {
           "tanggal": "2026-08-02",
           "ada": true,
-          "ch": 83.0,
-          "kat": "Lebat",
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
           "status": "NORMAL"
         },
         {
           "tanggal": "2026-08-03",
           "ada": true,
-          "ch": 56.0,
+          "ch": 83.0,
           "kat": "Lebat",
           "status": "NORMAL"
         },
         {
           "tanggal": "2026-08-04",
           "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
+          "ch": 56.0,
+          "kat": "Lebat",
           "status": "NORMAL"
         },
         {
