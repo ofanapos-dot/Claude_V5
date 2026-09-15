@@ -1,7 +1,7 @@
 {
   "metadata": {
     "tanggal_analisis": "2026-09-11",
-    "waktu_generate": "2026-09-15 02:55:16",
+    "waktu_generate": "2026-09-15 04:04:37",
     "total_pos": 128,
     "pos_normal": 127,
     "pos_suspect": 1,
@@ -184763,8 +184763,8 @@
         {
           "tanggal": "2026-08-02",
           "ada": true,
-          "ch": 375.0,
-          "kat": "Sangat Lebat",
+          "ch": 37.5,
+          "kat": "Sedang",
           "status": "NORMAL"
         },
         {
