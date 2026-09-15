@@ -1,7 +1,7 @@
 {
   "metadata": {
     "tanggal_analisis": "2026-09-11",
-    "waktu_generate": "2026-09-15 02:31:34",
+    "waktu_generate": "2026-09-15 02:36:00",
     "total_pos": 128,
     "pos_normal": 127,
     "pos_suspect": 1,
@@ -159589,72 +159589,72 @@
         {
           "tanggal": "2026-07-31",
           "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-08-01",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-08-02",
+          "ada": true,
+          "ch": 83.0,
+          "kat": "Lebat",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-08-03",
+          "ada": true,
+          "ch": 56.0,
+          "kat": "Lebat",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-08-04",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-08-05",
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
+        },
+        {
+          "tanggal": "2026-08-06",
+          "ada": true,
           "ch": 1.0,
           "kat": "Sangat Ringan",
           "status": "NORMAL"
         },
         {
-          "tanggal": "2026-08-01",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-02",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-03",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-04",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-05",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
-          "tanggal": "2026-08-06",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
-        },
-        {
           "tanggal": "2026-08-07",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-08-08",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-08-09",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-08-10",
