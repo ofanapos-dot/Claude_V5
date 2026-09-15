@@ -1,7 +1,7 @@
 {
   "metadata": {
     "tanggal_analisis": "2026-09-11",
-    "waktu_generate": "2026-09-15 02:40:10",
+    "waktu_generate": "2026-09-15 02:55:16",
     "total_pos": 128,
     "pos_normal": 127,
     "pos_suspect": 1,
@@ -159393,8 +159393,8 @@
         {
           "tanggal": "2026-07-03",
           "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
+          "ch": 0.2,
+          "kat": "Sangat Ringan",
           "status": "NORMAL"
         },
         {
@@ -159407,29 +159407,29 @@
         {
           "tanggal": "2026-07-05",
           "ada": true,
-          "ch": 17.0,
+          "ch": 14.0,
           "kat": "Ringan",
           "status": "NORMAL"
         },
         {
           "tanggal": "2026-07-06",
           "ada": true,
-          "ch": 71.0,
+          "ch": 62.6,
           "kat": "Lebat",
           "status": "NORMAL"
         },
         {
           "tanggal": "2026-07-07",
           "ada": true,
-          "ch": 23.0,
-          "kat": "Sedang",
+          "ch": 19.6,
+          "kat": "Ringan",
           "status": "NORMAL"
         },
         {
           "tanggal": "2026-07-08",
           "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
+          "ch": 0.6,
+          "kat": "Sangat Ringan",
           "status": "NORMAL"
         },
         {
@@ -159442,8 +159442,8 @@
         {
           "tanggal": "2026-07-10",
           "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
+          "ch": 0.2,
+          "kat": "Sangat Ringan",
           "status": "NORMAL"
         },
         {
@@ -159456,22 +159456,22 @@
         {
           "tanggal": "2026-07-12",
           "ada": true,
-          "ch": 1.0,
-          "kat": "Sangat Ringan",
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
           "status": "NORMAL"
         },
         {
           "tanggal": "2026-07-13",
           "ada": true,
-          "ch": 2.0,
-          "kat": "Sangat Ringan",
+          "ch": 8.0,
+          "kat": "Ringan",
           "status": "NORMAL"
         },
         {
           "tanggal": "2026-07-14",
           "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
+          "ch": 2.0,
+          "kat": "Sangat Ringan",
           "status": "NORMAL"
         },
         {
