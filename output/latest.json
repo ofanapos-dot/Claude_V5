@@ -1,7 +1,7 @@
 {
   "metadata": {
     "tanggal_analisis": "2026-10-31",
-    "waktu_generate": "2026-11-03 04:52:28",
+    "waktu_generate": "2026-11-03 04:58:50",
     "total_pos": 152,
     "pos_normal": 148,
     "pos_perlu_konfirmasi": 4,
@@ -7657,7 +7657,7 @@
       "k1_layer1_temuan": [],
       "k1_layer2_pembanding": [
         {
-          "nama": "Staklim Padang Pariaman",
+          "nama": "Staklim Sumatera Barat",
           "tipe": "BMKG",
           "jarak_km": 0.0,
           "beda_elevasi_m": 0.0,
@@ -196741,9 +196741,9 @@
     },
     {
       "sheet_data": "dataCH_pos",
-      "kolom_data": "Staklim Padang Pariaman",
+      "kolom_data": "Staklim Sumatera Barat",
       "id_pos": "PH037",
-      "nama_pos": "Staklim Padang Pariaman",
+      "nama_pos": "Staklim Sumatera Barat",
       "tipe_stasiun": "bmkg",
       "latitude": -0.55,
       "longitude": 100.3,
@@ -207273,7 +207273,7 @@
       "k1_layer1_temuan": [],
       "k1_layer2_pembanding": [
         {
-          "nama": "Staklim Padang Pariaman",
+          "nama": "Staklim Sumatera Barat",
           "tipe": "BMKG",
           "jarak_km": 7.86,
           "beda_elevasi_m": 81.0,
