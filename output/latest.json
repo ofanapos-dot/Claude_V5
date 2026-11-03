@@ -1,13 +1,13 @@
 {
   "metadata": {
     "tanggal_analisis": "2026-10-31",
-    "waktu_generate": "2026-11-03 05:10:27",
+    "waktu_generate": "2026-11-03 05:22:51",
     "total_pos": 152,
     "pos_normal": 148,
     "pos_perlu_konfirmasi": 4,
     "pos_perlu_konfirmasi_k2": 8,
-    "pos_aktif_hari_ini": 98,
-    "pos_terlambat": 27,
+    "pos_aktif_hari_ini": 99,
+    "pos_terlambat": 26,
     "parameter_qc": {
       "k1_window_hari": 100,
       "k1_ambang_korelasi": 0.2,
@@ -7662,8 +7662,8 @@
           "jarak_km": 0.0,
           "beda_elevasi_m": 0.0,
           "korelasi": 0.997,
-          "selisih_rata2_mm": 2.5,
-          "n_hari": 31,
+          "selisih_rata2_mm": 1.35,
+          "n_hari": 97,
           "masalah_korelasi": false,
           "masalah_selisih": false,
           "bermasalah": false,
@@ -196753,15 +196753,15 @@
       "window_mulai": "2026-07-24",
       "window_akhir": "2026-10-31",
       "window_hari": 100,
-      "curah_hujan_mm": 45.5,
-      "kategori": "Sedang",
-      "warna": "#3b82f6",
-      "tanggal_terakhir": "2026-10-11",
-      "hari_terakhir_kirim": 20,
-      "label_kirim": "20 hari lalu",
-      "warna_kirim": "#ef4444",
-      "jumlah_lapor_30hari": 2,
-      "persen_aktif": 6.7,
+      "curah_hujan_mm": 3.0,
+      "kategori": "Sangat Ringan",
+      "warna": "#bae6fd",
+      "tanggal_terakhir": "2026-10-31",
+      "hari_terakhir_kirim": 0,
+      "label_kirim": "Hari ini",
+      "warna_kirim": "#22c55e",
+      "jumlah_lapor_30hari": 30,
+      "persen_aktif": 100.0,
       "kalender_30hari": [
         {
           "tanggal": "2026-04-15",
@@ -197536,7 +197536,7 @@
         {
           "tanggal": "2026-08-03",
           "ada": true,
-          "ch": 83.0,
+          "ch": 85.0,
           "kat": "Lebat",
           "status": "NORMAL"
         },
@@ -197557,15 +197557,15 @@
         {
           "tanggal": "2026-08-06",
           "ada": true,
-          "ch": 1.0,
-          "kat": "Sangat Ringan",
+          "ch": 10.0,
+          "kat": "Ringan",
           "status": "NORMAL"
         },
         {
           "tanggal": "2026-08-07",
           "ada": true,
-          "ch": 0.0,
-          "kat": "Tidak Hujan",
+          "ch": 1.0,
+          "kat": "Sangat Ringan",
           "status": "NORMAL"
         },
         {
@@ -197661,558 +197661,558 @@
         },
         {
           "tanggal": "2026-08-21",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-08-22",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-08-23",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 23.0,
+          "kat": "Sedang",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-08-24",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 29.0,
+          "kat": "Sedang",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-08-25",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 35.0,
+          "kat": "Sedang",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-08-26",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 11.0,
+          "kat": "Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-08-27",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 7.0,
+          "kat": "Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-08-28",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-08-29",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-08-30",
           "ada": true,
-          "ch": 13.3,
+          "ch": 13.0,
           "kat": "Ringan",
           "status": "NORMAL"
         },
         {
           "tanggal": "2026-08-31",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 1.0,
+          "kat": "Sangat Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-01",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-02",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 26.0,
+          "kat": "Sedang",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-03",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 2.0,
+          "kat": "Sangat Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-04",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-05",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-06",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-07",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-08",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-09",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-10",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 6.0,
+          "kat": "Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-11",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 22.0,
+          "kat": "Sedang",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-12",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 13.0,
+          "kat": "Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-13",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-14",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-15",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-16",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-17",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 14.0,
+          "kat": "Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-18",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-19",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 62.0,
+          "kat": "Lebat",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-20",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 30.0,
+          "kat": "Sedang",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-21",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-22",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 3.0,
+          "kat": "Sangat Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-23",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-24",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-25",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 8.0,
+          "kat": "Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-26",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 15.0,
+          "kat": "Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-27",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 23.0,
+          "kat": "Sedang",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-28",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-29",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-09-30",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 9.0,
+          "kat": "Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-01",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 6.0,
+          "kat": "Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-02",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 16.0,
+          "kat": "Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-03",
           "ada": true,
-          "ch": 94.9,
+          "ch": 95.0,
           "kat": "Lebat",
           "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-04",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-05",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 55.0,
+          "kat": "Lebat",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-06",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 7.0,
+          "kat": "Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-07",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-08",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 14.0,
+          "kat": "Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-09",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 1.0,
+          "kat": "Sangat Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-10",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 35.0,
+          "kat": "Sedang",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-11",
           "ada": true,
-          "ch": 45.5,
+          "ch": 46.0,
           "kat": "Sedang",
           "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-12",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-13",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-14",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 4.0,
+          "kat": "Sangat Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-15",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-16",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-17",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-18",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-19",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 13.0,
+          "kat": "Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-20",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 51.0,
+          "kat": "Lebat",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-21",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 48.0,
+          "kat": "Sedang",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-22",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 5.0,
+          "kat": "Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-23",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-24",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 28.0,
+          "kat": "Sedang",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-25",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 8.0,
+          "kat": "Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-26",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 4.0,
+          "kat": "Sangat Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-27",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-28",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 11.0,
+          "kat": "Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-29",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 17.0,
+          "kat": "Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-30",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 6.0,
+          "kat": "Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-31",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 3.0,
+          "kat": "Sangat Ringan",
+          "status": "NORMAL"
         }
       ],
       "riwayat_7hari": [
         {
           "tanggal": "2026-10-31",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 3.0,
+          "kat": "Sangat Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-30",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 6.0,
+          "kat": "Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-29",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 17.0,
+          "kat": "Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-28",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 11.0,
+          "kat": "Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-27",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 0.0,
+          "kat": "Tidak Hujan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-26",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 4.0,
+          "kat": "Sangat Ringan",
+          "status": "NORMAL"
         },
         {
           "tanggal": "2026-10-25",
-          "ada": false,
-          "ch": null,
-          "kat": null,
-          "status": null
+          "ada": true,
+          "ch": 8.0,
+          "kat": "Ringan",
+          "status": "NORMAL"
         }
       ],
       "n_tetangga_dicek": 0,
@@ -207277,9 +207277,9 @@
           "tipe": "BMKG",
           "jarak_km": 7.86,
           "beda_elevasi_m": 81.0,
-          "korelasi": 0.594,
-          "selisih_rata2_mm": 10.87,
-          "n_hari": 31,
+          "korelasi": 0.39,
+          "selisih_rata2_mm": 12.12,
+          "n_hari": 100,
           "masalah_korelasi": false,
           "masalah_selisih": false,
           "bermasalah": false,
@@ -207315,9 +207315,18 @@
       "k1_info_tidak_terukur": 0,
       "k1_info_data_hilang": 0,
       "status_ekstrem_30hari": "PERLU_KONFIRMASI",
-      "detail_verifikasi_segera": "31 Oct 2026: vs Limau Purut (159mm vs 7mm, selisih 152mm, 9.5km) | 19 Sep 2026: vs Limau Purut (126mm vs 0mm, selisih 126mm, 9.5km)",
+      "detail_verifikasi_segera": "31 Oct 2026: vs Staklim Sumatera Barat (159mm vs 3mm, selisih 156mm, 7.86km) | 31 Oct 2026: vs Limau Purut (159mm vs 7mm, selisih 152mm, 9.5km) | 19 Sep 2026: vs Limau Purut (126mm vs 0mm, selisih 126mm, 9.5km)",
       "perlu_verifikasi_segera": true,
       "raw_ekstrem_events": [
+        {
+          "tanggal": "31 Oct 2026",
+          "tanggal_iso": "2026-10-31",
+          "tetangga": "Staklim Sumatera Barat",
+          "ch_target": 159.0,
+          "ch_tetangga": 3.0,
+          "selisih": 156.0,
+          "jarak": 7.86
+        },
         {
           "tanggal": "31 Oct 2026",
           "tanggal_iso": "2026-10-31",
